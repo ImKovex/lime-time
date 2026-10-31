@@ -1,0 +1,1446 @@
+{
+ "status": "DRAFT",
+ "note": "DRAFT — Chloe's master list replaces this when it arrives",
+ "categories": [
+  {
+   "id": "menu",
+   "name": "Menu",
+   "questions": [
+    {
+     "id": "q003",
+     "q": "Queso Blanco is available in which sizes?",
+     "choices": [
+      "Regular or large",
+      "Small or regular",
+      "One size only",
+      "Cup or bowl"
+     ],
+     "answer": 1,
+     "source": "menu.json (Local Lime menu data, Drive)"
+    },
+    {
+     "id": "q005",
+     "q": "Queso Flameado comes with a choice of which two styles?",
+     "choices": [
+      "Shrimp or Chorizo",
+      "Chorizo or Vegetarian",
+      "Chicken or Steak",
+      "Carnitas or Vegetarian"
+     ],
+     "answer": 1,
+     "source": "menu.json (Local Lime menu data, Drive)"
+    },
+    {
+     "id": "q006",
+     "q": "How many guests does the Queso Flameado serve?",
+     "choices": [
+      "4–6",
+      "6–8",
+      "2–4",
+      "1–2"
+     ],
+     "answer": 2,
+     "source": "menu.json (Local Lime menu data, Drive)"
+    },
+    {
+     "id": "q007",
+     "q": "The vegetarian Queso Flameado swaps in what tortilla?",
+     "choices": [
+      "Flour tortillas",
+      "Tortilla chips",
+      "Lettuce wraps",
+      "Corn tortillas"
+     ],
+     "answer": 3,
+     "source": "menu.json (Local Lime menu data, Drive)"
+    },
+    {
+     "id": "q008",
+     "q": "The Shrimp & Brie Quesadilla is served with which sauce?",
+     "choices": [
+      "Habanero crema",
+      "Chile-mango chutney",
+      "Curry crema",
+      "Chipotle salsa"
+     ],
+     "answer": 1,
+     "source": "menu.json (Local Lime menu data, Drive)"
+    },
+    {
+     "id": "q009",
+     "q": "Which cheeses are in the Local Nacho Bites?",
+     "choices": [
+      "Jack and cheddar",
+      "Brie and Jack",
+      "Jack and goat",
+      "Manchego and queso fresco"
+     ],
+     "answer": 2,
+     "source": "menu.json (Local Lime menu data, Drive)"
+    },
+    {
+     "id": "q010",
+     "q": "Which nacho item uses grilled ribeye and drunken pinto beans?",
+     "choices": [
+      "Local Nacho Bites",
+      "Local Fresco Bowl",
+      "Queso Flameado",
+      "Grilled Ribeye Nacho Bites"
+     ],
+     "answer": 3,
+     "source": "menu.json (Local Lime menu data, Drive)"
+    },
+    {
+     "id": "q011",
+     "q": "Which salsa contains sultana raisins and pineapple?",
+     "choices": [
+      "Zucchini",
+      "Chipotle",
+      "Caribbean Mango",
+      "Verde Tomatillo"
+     ],
+     "answer": 1,
+     "source": "menu.json (Local Lime menu data, Drive)"
+    },
+    {
+     "id": "q012",
+     "q": "Which salsa is made with pepita?",
+     "choices": [
+      "Chipotle",
+      "Tres Chiles",
+      "House Tomato",
+      "Zucchini"
+     ],
+     "answer": 3,
+     "source": "menu.json (Local Lime menu data, Drive)"
+    },
+    {
+     "id": "q013",
+     "q": "Which salsa includes queso fresco?",
+     "choices": [
+      "House Tomato",
+      "Caribbean Mango",
+      "Tres Chiles",
+      "Verde Tomatillo"
+     ],
+     "answer": 2,
+     "source": "menu.json (Local Lime menu data, Drive)"
+    },
+    {
+     "id": "q014",
+     "q": "Green habanero is in which salsa?",
+     "choices": [
+      "Chipotle",
+      "House Tomato",
+      "Verde Tomatillo",
+      "Zucchini"
+     ],
+     "answer": 2,
+     "source": "menu.json (Local Lime menu data, Drive)"
+    },
+    {
+     "id": "q015",
+     "q": "Caribbean Mango salsa includes mango, pineapple and what other fruit?",
+     "choices": [
+      "Grapefruit",
+      "Apple",
+      "Orange",
+      "Papaya"
+     ],
+     "answer": 3,
+     "source": "menu.json (Local Lime menu data, Drive)"
+    },
+    {
+     "id": "q016",
+     "q": "The Local Fresco Bowl is served with which dressing choices?",
+     "choices": [
+      "Jalapeño ranch or citrus vinaigrette",
+      "Chile-lime or Manchego peppercorn crema",
+      "Ranch or blue cheese",
+      "Citrus-soy crema or habanero crema"
+     ],
+     "answer": 0,
+     "source": "menu.json (Local Lime menu data, Drive)"
+    },
+    {
+     "id": "q017",
+     "q": "Which is NOT a listed protein add-on for the Local Fresco Bowl?",
+     "choices": [
+      "Carnitas",
+      "Grilled ribeye",
+      "Grilled shrimp",
+      "Salmon"
+     ],
+     "answer": 0,
+     "source": "menu.json (Local Lime menu data, Drive)"
+    },
+    {
+     "id": "q018",
+     "q": "What dressing comes on The Local Salad Plate?",
+     "choices": [
+      "Jalapeño ranch",
+      "Manchego peppercorn crema",
+      "Citrus vinaigrette",
+      "Chile-lime dressing"
+     ],
+     "answer": 1,
+     "source": "menu.json (Local Lime menu data, Drive)"
+    },
+    {
+     "id": "q019",
+     "q": "Which salad has grapefruit and orange?",
+     "choices": [
+      "Local Fresco Bowl",
+      "Coastal Citrus Salad Plate",
+      "The Local Salad Plate",
+      "Acapulco Spring Salad"
+     ],
+     "answer": 1,
+     "source": "menu.json (Local Lime menu data, Drive)"
+    },
+    {
+     "id": "q020",
+     "q": "The Acapulco Spring Salad features hearts of palm and which fruit?",
+     "choices": [
+      "Pineapple",
+      "Mango",
+      "Grapefruit",
+      "Papaya"
+     ],
+     "answer": 3,
+     "source": "menu.json (Local Lime menu data, Drive)"
+    },
+    {
+     "id": "q021",
+     "q": "Which protein add-on is listed for the Acapulco Spring Salad?",
+     "choices": [
+      "Grilled shrimp",
+      "Chicken",
+      "Salmon",
+      "Ribeye"
+     ],
+     "answer": 0,
+     "source": "menu.json (Local Lime menu data, Drive)"
+    },
+    {
+     "id": "q023",
+     "q": "Local Carnitas tacos are served on what tortilla?",
+     "choices": [
+      "Lettuce",
+      "House-made flour",
+      "Crispy corn",
+      "Stone-ground corn"
+     ],
+     "answer": 3,
+     "source": "menu.json (Local Lime menu data, Drive)"
+    },
+    {
+     "id": "q026",
+     "q": "Which taco comes with jalapeño ranch sauce?",
+     "choices": [
+      "Verde Veggie",
+      "Grilled Chicken",
+      "Curry Fried Shrimp",
+      "Fried Chicken"
+     ],
+     "answer": 3,
+     "source": "menu.json (Local Lime menu data, Drive)"
+    },
+    {
+     "id": "q027",
+     "q": "The Crispy Ahi Tuna taco is topped with which seeds?",
+     "choices": [
+      "Toasted sesame seeds",
+      "Pepitas",
+      "Sunflower seeds",
+      "Chia seeds"
+     ],
+     "answer": 0,
+     "source": "menu.json (Local Lime menu data, Drive)"
+    },
+    {
+     "id": "q035",
+     "q": "The Birria Quesadilla Plato is served with what broth?",
+     "choices": [
+      "Chile broth",
+      "Pozole verde",
+      "Caldo rojo",
+      "Chicken consommé"
+     ],
+     "answer": 2,
+     "source": "menu.json (Local Lime menu data, Drive)"
+    },
+    {
+     "id": "q036",
+     "q": "What sauce tops all three enchilada entrées?",
+     "choices": [
+      "Verde tomatillo sauce",
+      "Queso blanco",
+      "New Mexican red chile sauce",
+      "Mole"
+     ],
+     "answer": 2,
+     "source": "menu.json (Local Lime menu data, Drive)"
+    },
+    {
+     "id": "q039",
+     "q": "The Grilled Salmon Plate salmon is marinated in what?",
+     "choices": [
+      "Orange and achiote",
+      "Lime and chipotle",
+      "Soy and ginger",
+      "Tequila and garlic"
+     ],
+     "answer": 0,
+     "source": "menu.json (Local Lime menu data, Drive)"
+    },
+    {
+     "id": "q044",
+     "q": "Which kids side choice is listed?",
+     "choices": [
+      "Mac & cheese",
+      "Applesauce",
+      "Fresh fruit",
+      "French fries"
+     ],
+     "answer": 2,
+     "source": "menu.json (Local Lime menu data, Drive)"
+    },
+    {
+     "id": "q045",
+     "q": "Which drinks get free refills?",
+     "choices": [
+      "Fountain selections",
+      "Mexican Coca-Cola",
+      "Topo Chico",
+      "House-made lemonade"
+     ],
+     "answer": 0,
+     "source": "menu.json (Local Lime menu data, Drive)"
+    },
+    {
+     "id": "q046",
+     "q": "Which rims can a guest choose for The Local Margarita?",
+     "choices": [
+      "Chamoy or Tajín",
+      "Sugar or salt",
+      "No rim options",
+      "Tajín or salt"
+     ],
+     "answer": 3,
+     "source": "menu.json (Local Lime menu data, Drive)"
+    },
+    {
+     "id": "q047",
+     "q": "The Heirloom Primo Margarita is served how?",
+     "choices": [
+      "\"Up\" in a stemmed coupe",
+      "Frozen in a pint",
+      "In a copper mug",
+      "On the rocks in a rocks glass"
+     ],
+     "answer": 0,
+     "source": "menu.json (Local Lime menu data, Drive)"
+    },
+    {
+     "id": "q048",
+     "q": "The Texas Two-Step Margarita lets the guest choose which base?",
+     "choices": [
+      "Mezcal or gin",
+      "Reposado tequila or mezcal",
+      "Tequila or rum",
+      "Blanco or añejo tequila"
+     ],
+     "answer": 1,
+     "source": "menu.json (Local Lime menu data, Drive)"
+    },
+    {
+     "id": "q049",
+     "q": "What is the Local'Lite?",
+     "choices": [
+      "A skinny version of the Local Margarita",
+      "A light beer",
+      "A mocktail lemonade",
+      "A frozen piña colada"
+     ],
+     "answer": 0,
+     "source": "menu.json (Local Lime menu data, Drive)"
+    },
+    {
+     "id": "q050",
+     "q": "Which tequila in the Paloma Reserva was bottled exclusively for Local Lime?",
+     "choices": [
+      "Maestro Dobel Diamante",
+      "Gran Centenario Reposado",
+      "Lunazul Blanco",
+      "G4 Blanco"
+     ],
+     "answer": 0,
+     "source": "menu.json (Local Lime menu data, Drive)"
+    },
+    {
+     "id": "q051",
+     "q": "Which seasonal drink is non-alcoholic?",
+     "choices": [
+      "Agave Gold",
+      "Cherry Rosita",
+      "Odessa Ranch Water",
+      "Sassapple Fizz"
+     ],
+     "answer": 3,
+     "source": "menu.json (Local Lime menu data, Drive)"
+    },
+    {
+     "id": "q052",
+     "q": "How can a guest make the Mexican Hot Chocolate boozy?",
+     "choices": [
+      "Add Kahlúa",
+      "Add mezcal",
+      "Add spiced rum",
+      "Add Licor 43"
+     ],
+     "answer": 3,
+     "source": "menu.json (Local Lime menu data, Drive)"
+    },
+    {
+     "id": "q053",
+     "q": "When is happy hour?",
+     "choices": [
+      "Thursday–Friday, 3pm–6pm",
+      "Monday–Wednesday, 3pm–6pm",
+      "Monday–Friday, 2pm–5pm",
+      "Every day, 4pm–7pm"
+     ],
+     "answer": 1,
+     "source": "menu.json (Local Lime menu data, Drive)"
+    },
+    {
+     "id": "q054",
+     "q": "What is the happy hour margarita price?",
+     "choices": [
+      "$6",
+      "$7",
+      "$4",
+      "$5"
+     ],
+     "answer": 3,
+     "source": "menu.json (Local Lime menu data, Drive)"
+    }
+   ]
+  },
+  {
+   "id": "service",
+   "name": "Steps of Service",
+   "questions": [
+    {
+     "id": "q066",
+     "q": "When setting up a tray, where should the heaviest items go?",
+     "choices": [
+      "Anywhere, as long as it's full",
+      "In the center",
+      "On the far edge",
+      "On the edge nearest you"
+     ],
+     "answer": 1,
+     "source": "Local-Lime-Tray-Service-Evaluation.pdf"
+    },
+    {
+     "id": "q067",
+     "q": "How should you pivot while carrying a tray?",
+     "choices": [
+      "Twist at the waist",
+      "Keep it level and turn with your feet",
+      "Turn quickly with your shoulders",
+      "Lift the tray overhead"
+     ],
+     "answer": 1,
+     "source": "Local-Lime-Tray-Service-Evaluation.pdf"
+    },
+    {
+     "id": "q068",
+     "q": "What should you know before running food to a table?",
+     "choices": [
+      "The ticket and seat numbers",
+      "The guest's name",
+      "The table's check total",
+      "The cook who made it"
+     ],
+     "answer": 0,
+     "source": "Local-Lime-Tray-Service-Evaluation.pdf"
+    },
+    {
+     "id": "q069",
+     "q": "What is 'cattle calling' — and what's the standard?",
+     "choices": [
+      "Paging a manager; only when busy",
+      "Shouting dish names to the table; don't do it",
+      "Announcing specials; required",
+      "Calling the kitchen for food; always do it"
+     ],
+     "answer": 1,
+     "source": "Local-Lime-Tray-Service-Evaluation.pdf",
+     "flag": "Pending manager review"
+    },
+    {
+     "id": "q070",
+     "q": "What do you say when dropping food, per the scorecard?",
+     "choices": [
+      "\"Enjoy your meal\"",
+      "\"Don't forget to squeeze the lime\"",
+      "\"Anything else?\"",
+      "\"Careful, the plate is hot\""
+     ],
+     "answer": 1,
+     "source": "Local-Lime-Tray-Service-Evaluation.pdf"
+    },
+    {
+     "id": "q071",
+     "q": "What does 'full hands in / full hands out' mean?",
+     "choices": [
+      "Use both hands on every plate",
+      "Only run food with full trays",
+      "Never walk to or from the kitchen empty-handed",
+      "Always carry two trays"
+     ],
+     "answer": 2,
+     "source": "Local-Lime-Tray-Service-Evaluation.pdf",
+     "flag": "Pending manager review"
+    },
+    {
+     "id": "q072",
+     "q": "After delivering, what should you check?",
+     "choices": [
+      "Whether they want to-go boxes",
+      "Their reservation",
+      "Utensils / anything else the guest needs",
+      "The check total"
+     ],
+     "answer": 2,
+     "source": "Local-Lime-Tray-Service-Evaluation.pdf"
+    },
+    {
+     "id": "q073",
+     "q": "What body posture is expected at the table?",
+     "choices": [
+      "Arms crossed",
+      "Open body posture",
+      "Leaning on the table",
+      "Back to the guests"
+     ],
+     "answer": 1,
+     "source": "Local-Lime-Tray-Service-Evaluation.pdf"
+    },
+    {
+     "id": "q074",
+     "q": "What two results can a trainee get on the tray evaluation?",
+     "choices": [
+      "Gold, silver, bronze",
+      "1–10 score",
+      "A–F letter grade",
+      "Pass — signed off, or Needs retrain"
+     ],
+     "answer": 3,
+     "source": "Local-Lime-Tray-Service-Evaluation.pdf"
+    },
+    {
+     "id": "q075",
+     "q": "In Toast POS training, which course goes first?",
+     "choices": [
+      "Desserts with entrées",
+      "Entrées first",
+      "Apps first, always",
+      "Drinks last"
+     ],
+     "answer": 2,
+     "source": "Facilitator Hour-by-Hour Outline (FOH & Bar tabs)"
+    },
+    {
+     "id": "q076",
+     "q": "What strategy is taught for managing multiple tables?",
+     "choices": [
+      "Stop, Assess, Act + Red/Yellow/Green light",
+      "First come, first served",
+      "Busiest table first",
+      "Ask a manager every time"
+     ],
+     "answer": 0,
+     "source": "Facilitator Hour-by-Hour Outline (FOH & Bar tabs)"
+    },
+    {
+     "id": "q077",
+     "q": "Ticket writing protocol covers which two things?",
+     "choices": [
+      "Prices and taxes",
+      "Tip lines and totals",
+      "Seat numbers and abbreviations",
+      "Guest names and phones"
+     ],
+     "answer": 2,
+     "source": "Facilitator Hour-by-Hour Outline (FOH & Bar tabs)"
+    },
+    {
+     "id": "q078",
+     "q": "Which three running stations are trained?",
+     "choices": [
+      "Expo, grill, fry",
+      "Host, bus, bar",
+      "Phone, to-go, catering",
+      "Running apps, running bar drinks, running full trays"
+     ],
+     "answer": 3,
+     "source": "Facilitator Hour-by-Hour Outline (FOH & Bar tabs)"
+    }
+   ]
+  },
+  {
+   "id": "food-safety",
+   "name": "Food Safety",
+   "questions": [
+    {
+     "id": "q055",
+     "q": "What does the asterisk (*) on items like the Ahi Citrus Ceviche mean?",
+     "choices": [
+      "Spicy",
+      "Chef's favorite",
+      "Contains nuts",
+      "Raw or undercooked"
+     ],
+     "answer": 3,
+     "source": "menu.json (Local Lime menu data, Drive)"
+    },
+    {
+     "id": "q056",
+     "q": "How is the ahi tuna in the Ceviche and Crispy Ahi Tuna taco cooked?",
+     "choices": [
+      "Fried",
+      "Cured only",
+      "Fully cooked",
+      "Lightly seared with a raw center"
+     ],
+     "answer": 3,
+     "source": "menu.json (Local Lime menu data, Drive)"
+    },
+    {
+     "id": "q057",
+     "q": "Which cocktail is flagged as containing raw ingredients (egg white foam)?",
+     "choices": [
+      "Paloma Reserva",
+      "Cherry Rosita",
+      "Odessa Ranch Water",
+      "City Slicker NY Sour"
+     ],
+     "answer": 3,
+     "source": "menu.json (Local Lime menu data, Drive)"
+    },
+    {
+     "id": "q061",
+     "q": "Which taco lists sesame seeds in its description?",
+     "choices": [
+      "Crispy Ahi Tuna",
+      "Grilled Chicken",
+      "Local Carnitas",
+      "Verde Veggie"
+     ],
+     "answer": 0,
+     "source": "menu.json (Local Lime menu data, Drive)"
+    },
+    {
+     "id": "q062",
+     "q": "Which side is NOT tagged GF/V on the menu?",
+     "choices": [
+      "Cilantro lime rice",
+      "Drunken pinto beans",
+      "Black beans",
+      "Jicama-jalapeño slaw"
+     ],
+     "answer": 1,
+     "source": "menu.json (Local Lime menu data, Drive)"
+    },
+    {
+     "id": "q063",
+     "q": "Which taco is tagged gluten-free?",
+     "choices": [
+      "Fried Chicken",
+      "'Pacifico' Fried Fish",
+      "Local Carnitas",
+      "Grilled Chicken"
+     ],
+     "answer": 2,
+     "source": "menu.json (Local Lime menu data, Drive)"
+    },
+    {
+     "id": "q065",
+     "q": "Which is a vegan-tagged salsa?",
+     "choices": [
+      "Zucchini",
+      "Tres Chiles",
+      "Verde Tomatillo",
+      "House Tomato"
+     ],
+     "answer": 3,
+     "source": "menu.json (Local Lime menu data, Drive)"
+    },
+    {
+     "id": "q087",
+     "q": "What does an X mean on the Local Lime Allergen Reference Chart?",
+     "choices": [
+      "The dish is gluten-free",
+      "The allergen can be removed on request",
+      "The dish contains that allergen",
+      "The item is sold out"
+     ],
+     "answer": 2,
+     "source": "Local Lime Allergen Reference Chart (photo from Daniel, Oct 30)"
+    },
+    {
+     "id": "q088",
+     "q": "A guest tells you they have a severe allergy. Per the allergen chart, what must you always do?",
+     "choices": [
+      "Point them to the chart and let them choose",
+      "Suggest the salsa flight",
+      "Ask the guest to sign a waiver",
+      "Confirm with a manager"
+     ],
+     "answer": 3,
+     "source": "Local Lime Allergen Reference Chart (photo from Daniel, Oct 30)"
+    },
+    {
+     "id": "q089",
+     "q": "What does the Alpha-Gal column flag on the allergen chart?",
+     "choices": [
+      "Shellfish",
+      "Red meat (beef/pork)",
+      "Wheat flour",
+      "Tree nuts"
+     ],
+     "answer": 1,
+     "source": "Local Lime Allergen Reference Chart (photo from Daniel, Oct 30)"
+    },
+    {
+     "id": "q090",
+     "q": "Per the chart legend, what does italic red text in a cell mean?",
+     "choices": [
+      "The item is spicy",
+      "The item is seasonal",
+      "The allergen is conditional on how the dish is built",
+      "The allergen is always present"
+     ],
+     "answer": 2,
+     "source": "Local Lime Allergen Reference Chart (photo from Daniel, Oct 30)"
+    },
+    {
+     "id": "q091",
+     "q": "Why do so many items show Soy on the chart, even with no soy sauce?",
+     "choices": [
+      "All cheeses contain soy",
+      "The kitchen fries all chips and tortilla strips in soy oil",
+      "Every dish gets soy-based crema",
+      "The rice is cooked in soy milk"
+     ],
+     "answer": 1,
+     "source": "Local Lime Allergen Reference Chart (photo from Daniel, Oct 30)"
+    },
+    {
+     "id": "q092",
+     "q": "Which taco is the only one marked for Sesame?",
+     "choices": [
+      "Fried Fish",
+      "Verde Veggie",
+      "Crispy Ahi Tuna",
+      "Curry Fried Shrimp"
+     ],
+     "answer": 2,
+     "source": "Local Lime Allergen Reference Chart (photo from Daniel, Oct 30)"
+    },
+    {
+     "id": "q094",
+     "q": "Which starter is marked for Shellfish?",
+     "choices": [
+      "Local Guacamole",
+      "Shrimp & Brie Quesadilla",
+      "Queso Blanco",
+      "Ahi Citrus Ceviche"
+     ],
+     "answer": 1,
+     "source": "Local Lime Allergen Reference Chart (photo from Daniel, Oct 30)"
+    },
+    {
+     "id": "q095",
+     "q": "On the Queso Flameado, Pork and Alpha-Gal are conditional. On what?",
+     "choices": [
+      "If served with flour tortillas",
+      "If garnished",
+      "If chorizo is added",
+      "If made with ribeye"
+     ],
+     "answer": 2,
+     "source": "Local Lime Allergen Reference Chart (photo from Daniel, Oct 30)"
+    },
+    {
+     "id": "q096",
+     "q": "Tres Chiles Salsa has Dairy only 'if garnished.' What is the garnish?",
+     "choices": [
+      "Sour cream",
+      "Cotija crema",
+      "Butter",
+      "Queso fresco (Trio/Bowl presentation)"
+     ],
+     "answer": 3,
+     "source": "Local Lime Allergen Reference Chart (photo from Daniel, Oct 30)"
+    },
+    {
+     "id": "q097",
+     "q": "Why are the Drunken Pinto Beans marked Gluten, Pork and Alpha-Gal?",
+     "choices": [
+      "Fried in lard and beer batter",
+      "Made with Easy Tiger lager (wheat) and bacon (pork)",
+      "Cooked in flour roux with chorizo",
+      "Topped with ribeye"
+     ],
+     "answer": 1,
+     "source": "Local Lime Allergen Reference Chart (photo from Daniel, Oct 30)"
+    },
+    {
+     "id": "q101",
+     "q": "Which salad is listed with no allergens on the chart?",
+     "choices": [
+      "The Local Salad Plate",
+      "Acapulco Spring Salad",
+      "Local Fresco Bowl",
+      "Coastal Citrus Salad Plate"
+     ],
+     "answer": 3,
+     "source": "Local Lime Allergen Reference Chart (photo from Daniel, Oct 30)"
+    },
+    {
+     "id": "q102",
+     "q": "Why does the Crispy Ahi Tuna taco carry Egg but no Dairy?",
+     "choices": [
+      "Its habanero crema is mayo-based, not dairy",
+      "It's served without tortillas",
+      "It uses a buttermilk batter",
+      "Its crema is made from cashews"
+     ],
+     "answer": 0,
+     "source": "Local Lime Allergen Reference Chart (photo from Daniel, Oct 30)"
+    },
+    {
+     "id": "q103",
+     "q": "Which allergens are marked for the Grilled Salmon Plate?",
+     "choices": [
+      "Dairy and Fish",
+      "Soy and Fish",
+      "Fish only",
+      "Gluten, Dairy and Fish"
+     ],
+     "answer": 0,
+     "source": "Local Lime Allergen Reference Chart (photo from Daniel, Oct 30)"
+    },
+    {
+     "id": "q104",
+     "q": "Which taco is NOT marked for Gluten because it uses a corn tortilla?",
+     "choices": [
+      "The Local Chorizo",
+      "Local Carnitas",
+      "Grilled Chicken",
+      "Chargrilled Ribeye"
+     ],
+     "answer": 1,
+     "source": "Local Lime Allergen Reference Chart (photo from Daniel, Oct 30)"
+    },
+    {
+     "id": "q105",
+     "q": "Which entree carries Alpha-Gal because of its beef?",
+     "choices": [
+      "Grilled Salmon Plate",
+      "Birria Quesadilla Plato",
+      "Queso Cinco Enchiladas",
+      "Spinach Artichoke Enchiladas"
+     ],
+     "answer": 1,
+     "source": "Local Lime Allergen Reference Chart (photo from Daniel, Oct 30)"
+    },
+    {
+     "id": "q107",
+     "q": "Which side is listed with no allergens at all?",
+     "choices": [
+      "House-Pickled Vegetables",
+      "Drunken Pinto Beans",
+      "Cilantro-Lime Rice",
+      "Black Beans with garnish"
+     ],
+     "answer": 0,
+     "source": "Local Lime Allergen Reference Chart (photo from Daniel, Oct 30)"
+    },
+    {
+     "id": "q109",
+     "q": "Which item is marked for Pork on the chart?",
+     "choices": [
+      "Grilled Chicken",
+      "Chargrilled Ribeye",
+      "Birria Quesadilla Plato",
+      "Local Carnitas"
+     ],
+     "answer": 3,
+     "source": "Local Lime Allergen Reference Chart (photo from Daniel, Oct 30)"
+    },
+    {
+     "id": "q110",
+     "q": "Per the chart legend, can dairy items affect Alpha-Gal guests?",
+     "choices": [
+      "Only if the dairy is goat cheese",
+      "Yes - dairy carries a smaller amount and may affect highly sensitive guests",
+      "Only if fried in soy oil",
+      "No - Alpha-Gal is only red meat"
+     ],
+     "answer": 1,
+     "source": "Local Lime Allergen Reference Chart (photo from Daniel, Oct 30)"
+    },
+    {
+     "id": "q111",
+     "q": "Which allergen column has no X marks anywhere on the chart?",
+     "choices": [
+      "Tree Nuts",
+      "Peanuts",
+      "Sesame",
+      "Shellfish"
+     ],
+     "answer": 1,
+     "source": "Local Lime Allergen Reference Chart (photo from Daniel, Oct 30)"
+    }
+   ]
+  },
+  {
+   "id": "standards",
+   "name": "Local Lime Standards",
+   "questions": [
+    {
+     "id": "q079",
+     "q": "Which is one of the stated expectations on Day 1?",
+     "choices": [
+      "Phones on the floor",
+      "Sense of urgency",
+      "Clock in early for OT",
+      "Bring your own apron"
+     ],
+     "answer": 1,
+     "source": "Facilitator Hour-by-Hour Outline (FOH & Bar tabs)"
+    },
+    {
+     "id": "q080",
+     "q": "Which policies are covered in the Day 1 HR portion?",
+     "choices": [
+      "Tip pooling, drug testing, social media",
+      "Open Door, Harassment/Discrimination, PTO & Benefits, Service Animal",
+      "Dress code, parking, meals",
+      "Overtime, scheduling, swaps"
+     ],
+     "answer": 1,
+     "source": "Facilitator Hour-by-Hour Outline (FOH & Bar tabs)"
+    },
+    {
+     "id": "q081",
+     "q": "What cuisine is introduced in the Day 1 restaurant overview?",
+     "choices": [
+      "Baja California",
+      "Tex-Mex",
+      "Oaxacan",
+      "Yucatán"
+     ],
+     "answer": 0,
+     "source": "Facilitator Hour-by-Hour Outline (FOH & Bar tabs)"
+    },
+    {
+     "id": "q082",
+     "q": "What method is taught in silverware rolling training?",
+     "choices": [
+      "Napkin Fold Method",
+      "Pocket Fold",
+      "Triple Roll",
+      "Final Tuck Method"
+     ],
+     "answer": 3,
+     "source": "Facilitator Hour-by-Hour Outline (FOH & Bar tabs)"
+    },
+    {
+     "id": "q083",
+     "q": "Prebussing is expected when?",
+     "choices": [
+      "Only at your own tables",
+      "Always — your table, my table, all the tables",
+      "Only when slow",
+      "Only after guests leave"
+     ],
+     "answer": 1,
+     "source": "Facilitator Hour-by-Hour Outline (FOH & Bar tabs)"
+    },
+    {
+     "id": "q084",
+     "q": "What is the daily huddle called starting Day 6?",
+     "choices": [
+      "Pre-Game",
+      "Lime Lineup",
+      "Rocket Rundown",
+      "Morning Mix"
+     ],
+     "answer": 2,
+     "source": "Facilitator Hour-by-Hour Outline (FOH & Bar tabs)"
+    },
+    {
+     "id": "q085",
+     "q": "What does FOH Food Safety training (Day 5) cover?",
+     "choices": [
+      "Grill temps",
+      "Fryer oil filtering",
+      "ServSafe basics, cleaning vs sanitizing, knife safety",
+      "Catering volumes"
+     ],
+     "answer": 2,
+     "source": "Facilitator Hour-by-Hour Outline (FOH & Bar tabs)"
+    }
+   ]
+  },
+  {
+   "name": "Agave Stories",
+   "theme": "round-agave",
+   "icon": "assets/agave-icon.svg",
+   "questions": [
+    {
+     "id": "ag001",
+     "q": "What does the Nahuatl word 'mexcalli' (the root of 'mezcal') mean?",
+     "choices": [
+      "Cooked agave",
+      "Smoky water",
+      "Blue plant",
+      "Sacred drink"
+     ],
+     "answer": 0,
+     "source": "https://www.britannica.com/topic/mezcal",
+     "status": "DRAFT",
+     "story": "The word mezcal comes from the Nahuatl 'mexcalli,' which means cooked agave.",
+     "story_id": "st001"
+    },
+    {
+     "id": "ag002",
+     "q": "Which agave is the only one allowed for tequila?",
+     "choices": [
+      "Agave tequilana Weber blue variety",
+      "Agave espadín",
+      "Agave americana",
+      "Agave salmiana"
+     ],
+     "answer": 0,
+     "source": "https://www.crt.org.mx/en/our-tequila/",
+     "status": "DRAFT",
+     "story": "By law, tequila can be made from only one plant, Agave tequilana Weber blue variety, known as blue agave.",
+     "story_id": "st017"
+    },
+    {
+     "id": "ag003",
+     "q": "How many Mexican states are in the tequila Appellation of Origin?",
+     "choices": [
+      "Three",
+      "Five",
+      "Seven",
+      "Nine"
+     ],
+     "answer": 1,
+     "source": "https://www.crt.org.mx/en/appellation-of-origin/",
+     "status": "DRAFT",
+     "story": "Tequila can only be made in 181 municipalities across five states: Jalisco, Michoacán, Guanajuato, Nayarit and Tamaulipas.",
+     "story_id": "st020"
+    },
+    {
+     "id": "ag004",
+     "q": "Which state is NOT in the tequila Appellation of Origin?",
+     "choices": [
+      "Jalisco",
+      "Nayarit",
+      "Oaxaca",
+      "Tamaulipas"
+     ],
+     "answer": 2,
+     "source": "https://www.crt.org.mx/en/appellation-of-origin/",
+     "status": "DRAFT",
+     "story": "Tequila can only be made in 181 municipalities across five states: Jalisco, Michoacán, Guanajuato, Nayarit and Tamaulipas.",
+     "story_id": "st020"
+    },
+    {
+     "id": "ag005",
+     "q": "When was the tequila Appellation of Origin declaration published?",
+     "choices": [
+      "1936",
+      "1974",
+      "1994",
+      "2006"
+     ],
+     "answer": 1,
+     "source": "https://www.crt.org.mx/en/appellation-of-origin/",
+     "status": "DRAFT",
+     "story": "Tequila's Appellation of Origin was declared on December 9, 1974, and celebrated its 50th anniversary in 2024.",
+     "story_id": "st021"
+    },
+    {
+     "id": "ag006",
+     "q": "Since what year has mezcal had a Denomination of Origin?",
+     "choices": [
+      "1974",
+      "1985",
+      "1994",
+      "2016"
+     ],
+     "answer": 2,
+     "source": "https://comercam-dom.org.mx/denominacion-de-origen/",
+     "status": "DRAFT",
+     "story": "Mezcal has had its own Denomination of Origin since 1994. It covers all of Oaxaca, Guerrero, San Luis Potosí, Zacatecas and Durango, plus parts of Puebla, Michoacán, Tamaulipas and Guanajuato. A few newer additions, in Estado de México, Aguascalientes, Morelos and Sinaloa, are still under appeal.",
+     "story_id": "st024"
+    },
+    {
+     "id": "ag007",
+     "q": "Which of these states is fully covered by the mezcal Denomination of Origin?",
+     "choices": [
+      "Jalisco",
+      "Oaxaca",
+      "Nayarit",
+      "Sonora"
+     ],
+     "answer": 1,
+     "source": "https://comercam-dom.org.mx/denominacion-de-origen/",
+     "status": "DRAFT",
+     "story": "Mezcal has had its own Denomination of Origin since 1994. It covers all of Oaxaca, Guerrero, San Luis Potosí, Zacatecas and Durango, plus parts of Puebla, Michoacán, Tamaulipas and Guanajuato. A few newer additions, in Estado de México, Aguascalientes, Morelos and Sinaloa, are still under appeal.",
+     "story_id": "st024"
+    },
+    {
+     "id": "ag008",
+     "q": "What is the minimum aging for a reposado tequila?",
+     "choices": [
+      "2 weeks",
+      "2 months",
+      "1 year",
+      "3 years"
+     ],
+     "answer": 1,
+     "source": "https://www.crt.org.mx/en/our-tequila/",
+     "status": "DRAFT",
+     "story": "A reposado rests at least 2 months in oak. An añejo rests at least 1 year and an extra añejo at least 3 years, and both of those must use barrels of 600 liters or less.",
+     "story_id": "st022"
+    },
+    {
+     "id": "ag009",
+     "q": "What is the minimum aging for an extra añejo tequila?",
+     "choices": [
+      "6 months",
+      "1 year",
+      "2 years",
+      "3 years"
+     ],
+     "answer": 3,
+     "source": "https://www.crt.org.mx/en/our-tequila/",
+     "status": "DRAFT",
+     "story": "A reposado rests at least 2 months in oak. An añejo rests at least 1 year and an extra añejo at least 3 years, and both of those must use barrels of 600 liters or less.",
+     "story_id": "st022"
+    },
+    {
+     "id": "ag010",
+     "q": "What is the maximum barrel size for aging añejo tequila?",
+     "choices": [
+      "200 L",
+      "600 L",
+      "1,000 L",
+      "No limit"
+     ],
+     "answer": 1,
+     "source": "https://www.crt.org.mx/en/our-tequila/",
+     "status": "DRAFT",
+     "story": "A reposado rests at least 2 months in oak. An añejo rests at least 1 year and an extra añejo at least 3 years, and both of those must use barrels of 600 liters or less.",
+     "story_id": "st022"
+    },
+    {
+     "id": "ag011",
+     "q": "A tequila labeled just 'Tequila' (not 100% agave) needs at least what share of blue agave sugars?",
+     "choices": [
+      "25%",
+      "51%",
+      "75%",
+      "90%"
+     ],
+     "answer": 1,
+     "source": "https://www.crt.org.mx/en/our-tequila/",
+     "status": "DRAFT",
+     "story": "'100% agave' tequila has to be bottled in Mexico, inside the origin region. Plain 'tequila' only needs 51% blue agave sugars.",
+     "story_id": "st023"
+    },
+    {
+     "id": "ag012",
+     "q": "What is the harvest of the agave piña called?",
+     "choices": [
+      "Jima",
+      "Tahona",
+      "Palenque",
+      "Copita"
+     ],
+     "answer": 0,
+     "source": "https://www.crt.org.mx/en/our-tequila/",
+     "status": "DRAFT",
+     "story": "Harvesting the agave is called the jima: the piñas are cut once the plant is mature enough.",
+     "story_id": "st019"
+    },
+    {
+     "id": "ag013",
+     "q": "About how long does it take to make tequila, from field to finished bottle?",
+     "choices": [
+      "Under 1 year",
+      "1-2 years",
+      "5-8 years",
+      "15-20 years"
+     ],
+     "answer": 2,
+     "source": "https://www.crt.org.mx/en/our-tequila/",
+     "status": "DRAFT",
+     "story": "It can take 5 to 8 years to make tequila, counting from the field to the finished bottle.",
+     "story_id": "st018"
+    },
+    {
+     "id": "ag014",
+     "q": "What is a mezcal distillery traditionally called?",
+     "choices": [
+      "Hacienda",
+      "Palenque",
+      "Cantina",
+      "Bodega"
+     ],
+     "answer": 1,
+     "source": "https://www.britannica.com/topic/mezcal",
+     "status": "DRAFT",
+     "story": "A mezcal distillery is called a palenque, and the person making it is a mezcalero.",
+     "story_id": "st006"
+    },
+    {
+     "id": "ag015",
+     "q": "What is the large stone wheel used to crush cooked agave called?",
+     "choices": [
+      "Tahona",
+      "Jícara",
+      "Alambique",
+      "Molcajete"
+     ],
+     "answer": 0,
+     "source": "https://www.britannica.com/topic/mezcal",
+     "status": "DRAFT",
+     "story": "Traditionally the cooked agave is crushed by a big stone wheel called a tahona, pulled by an ox or donkey.",
+     "story_id": "st009"
+    },
+    {
+     "id": "ag016",
+     "q": "Where does mezcal's signature smoky flavor come from?",
+     "choices": [
+      "Charred barrels",
+      "Roasting piñas in earthen pits",
+      "Added smoke flavoring",
+      "Mesquite filters"
+     ],
+     "answer": 1,
+     "source": "https://www.britannica.com/topic/mezcal",
+     "status": "DRAFT",
+     "story": "That smoky flavor in mezcal comes from roasting the piñas for days over hot rocks in earthen pits.",
+     "story_id": "st008"
+    },
+    {
+     "id": "ag017",
+     "q": "Which state produces the most mezcal?",
+     "choices": [
+      "Jalisco",
+      "Oaxaca",
+      "Zacatecas",
+      "Durango"
+     ],
+     "answer": 1,
+     "source": "https://www.britannica.com/topic/mezcal",
+     "status": "DRAFT",
+     "story": "Oaxaca makes more mezcal than any other state in Mexico.",
+     "story_id": "st011"
+    },
+    {
+     "id": "ag018",
+     "q": "What fermented agave drink did the Aztecs make?",
+     "choices": [
+      "Pulque",
+      "Sotol",
+      "Tepache",
+      "Raicilla"
+     ],
+     "answer": 0,
+     "source": "https://www.britannica.com/topic/mezcal",
+     "status": "DRAFT",
+     "story": "The Aztecs considered agave sacred and fermented its juice into pulque long before anyone distilled it.",
+     "story_id": "st003"
+    },
+    {
+     "id": "ag019",
+     "q": "Which of these is NOT one of the three official mezcal categories?",
+     "choices": [
+      "Mezcal Artesanal",
+      "Mezcal Ancestral",
+      "Mezcal Reserva",
+      "Mezcal"
+     ],
+     "answer": 2,
+     "source": "https://sidof.segob.gob.mx/notas/docFuente/5472787",
+     "status": "DRAFT",
+     "story": "Mexican law sorts mezcal into three categories: Mezcal, Mezcal Artesanal and Mezcal Ancestral, the most traditional of which is distilled over direct fire in clay pots.",
+     "story_id": "st025"
+    },
+    {
+     "id": "ag020",
+     "q": "Which mezcal class is rested in glass for more than 12 months?",
+     "choices": [
+      "Madurado en Vidrio",
+      "Reposado",
+      "Abocado",
+      "Joven"
+     ],
+     "answer": 0,
+     "source": "https://sidof.segob.gob.mx/notas/docFuente/5472787",
+     "status": "DRAFT",
+     "story": "Mezcal has a class tequila doesn't: 'Madurado en Vidrio,' rested in glass for more than 12 months, sometimes underground.",
+     "story_id": "st026"
+    },
+    {
+     "id": "ag021",
+     "q": "What year was the Tequila agave landscape named a UNESCO World Heritage Site?",
+     "choices": [
+      "1994",
+      "2001",
+      "2006",
+      "2014"
+     ],
+     "answer": 2,
+     "source": "https://whc.unesco.org/en/list/1209/",
+     "status": "DRAFT",
+     "story": "The agave fields around Tequila are a UNESCO World Heritage Site, inscribed in 2006 and covering about 35,000 hectares between the Tequila Volcano and the Rio Grande valley.",
+     "story_id": "st013"
+    },
+    {
+     "id": "ag022",
+     "q": "The 'tequila bat' is a common name for which species?",
+     "choices": [
+      "Lesser long-nosed bat",
+      "Common vampire bat",
+      "Mexican free-tailed bat",
+      "Spectral bat"
+     ],
+     "answer": 0,
+     "source": "https://www.science.org/content/article/mexican-biologist-fighting-preserve-countrys-biodiversity-legacy",
+     "status": "DRAFT",
+     "story": "The 'tequila bat,' the lesser long-nosed bat, pollinates agave flowers and can fly up to 100 km in one night.",
+     "story_id": "st027"
+    },
+    {
+     "id": "ag023",
+     "q": "The tequila bat became the first bat ever removed from which list?",
+     "choices": [
+      "The US endangered species list",
+      "The IUCN Red List",
+      "CITES Appendix I",
+      "Mexico's list of protected pollinators"
+     ],
+     "answer": 0,
+     "source": "https://www.nationalgeographic.com/animals/mammals/facts/lesser-long-nosed-bat",
+     "status": "DRAFT",
+     "story": "Mexico took the tequila bat off its endangered species list in 2015, and it later became the first bat ever removed from the US endangered species list.",
+     "story_id": "st028"
+    },
+    {
+     "id": "ag024",
+     "q": "What share of agave must be allowed to flower for Bat Friendly labeling?",
+     "choices": [
+      "1%",
+      "5%",
+      "20%",
+      "50%"
+     ],
+     "answer": 1,
+     "source": "https://www.tequilainterchangeproject.org/bat-friendly",
+     "status": "DRAFT",
+     "story": "Bat Friendly tequila and mezcal comes from fields where producers let 5% of their agave flower for the bats, and more than 300,000 bottles have been released.",
+     "story_id": "st029"
+    },
+    {
+     "id": "ag025",
+     "q": "Which Spanish king granted the first license to produce tequila, in 1795?",
+     "choices": [
+      "Carlos IV",
+      "Felipe II",
+      "Fernando VII",
+      "Carlos III"
+     ],
+     "answer": 0,
+     "source": "https://global.cuervo.com/history-of-jose-cuervo/",
+     "status": "DRAFT",
+     "story": "In 1795 King Carlos IV of Spain granted José María Guadalupe Cuervo the first license to produce and distribute tequila.",
+     "story_id": "st030"
+    },
+    {
+     "id": "ag026",
+     "q": "According to Casa Sauza, who bought La Antigua Cruz in 1873 and first called mezcal wine 'tequila'?",
+     "choices": [
+      "Don Cenobio Sauza",
+      "José Cuervo",
+      "Don Julio González",
+      "Francisco Javier Sauza"
+     ],
+     "answer": 0,
+     "source": "https://www.casasauza.com/en/history-sauza-making-tequila-since-1873",
+     "status": "DRAFT",
+     "story": "In 1873 Don Cenobio Sauza bought La Antigua Cruz, one of the oldest distilleries in Tequila. Sauza says he was the first to call 'mezcal wine' by the name tequila.",
+     "story_id": "st031"
+    },
+    {
+     "id": "ag027",
+     "q": "What date does Mexico now officially celebrate as National Tequila Day?",
+     "choices": [
+      "May 5",
+      "July 24",
+      "September 16",
+      "Third Saturday of March"
+     ],
+     "answer": 1,
+     "source": "https://sidof.segob.gob.mx/notas/docFuente/5788820",
+     "status": "DRAFT",
+     "story": "Mexico now celebrates National Tequila Day every July 24, by a federal decree that replaced the old third-Saturday-of-March date.",
+     "story_id": "st032"
+    },
+    {
+     "id": "ag028",
+     "q": "What is traditionally served alongside mezcal for sipping?",
+     "choices": [
+      "Lime and salt",
+      "Orange slices and sal de gusano",
+      "Pineapple and chili",
+      "Nothing, it's always a shot"
+     ],
+     "answer": 1,
+     "source": "https://www.infobae.com/mexico/2023/07/03/cata-de-mezcal-el-paso-a-paso-de-como-tomar-esta-bebida-ancestral/",
+     "status": "DRAFT",
+     "story": "Mezcal is traditionally sipped in small 'besitos,' or kisses, often with orange slices and sal de gusano, a worm salt.",
+     "story_id": "st033"
+    },
+    {
+     "id": "ag029",
+     "q": "What does the CRT certify?",
+     "choices": [
+      "Mezcal",
+      "Tequila",
+      "Pulque",
+      "Sotol"
+     ],
+     "answer": 1,
+     "source": "https://www.crt.org.mx/index.php/en/",
+     "status": "DRAFT",
+     "story": "The Consejo Regulador del Tequila, a non-profit founded on May 17, 1994, certifies every tequila and protects its Appellation of Origin.",
+     "story_id": "st034"
+    }
+   ]
+  }
+ ]
+}
