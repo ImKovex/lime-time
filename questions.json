@@ -498,12 +498,11 @@
      "choices": [
       "Use both hands on every plate",
       "Only run food with full trays",
-      "Never walk to or from the kitchen empty-handed",
+      "Never walk empty-handed: always run food, and help bus or pre-bus tables",
       "Always carry two trays"
      ],
      "answer": 2,
-     "source": "Local-Lime-Tray-Service-Evaluation.pdf",
-     "flag": "Pending manager review"
+     "source": "Local-Lime-Tray-Service-Evaluation.pdf"
     },
     {
      "id": "q072",
