@@ -164,15 +164,15 @@
     },
     {
      "id": "q017",
-     "q": "Which protein can NOT be added to the Local Fresco Bowl?",
+     "q": "A guest with an alpha-gal allergy wants protein on their Local Fresco Bowl. Which of these add-ons needs a heads-up?",
      "choices": [
-      "Grilled ribeye",
       "Grilled shrimp",
-      "Salmon",
-      "Carnitas"
+      "Chicken",
+      "Carnitas",
+      "Salmon"
      ],
-     "answer": 3,
-     "source": "menu.json (Local Lime menu data, Drive)"
+     "answer": 2,
+     "source": "Allergen chart (Pork and Alpha-Gal if carnitas); Daniel confirmed carnitas add-on, Oct 31"
     },
     {
      "id": "q018",

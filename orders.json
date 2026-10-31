@@ -201,6 +201,7 @@
     "Dressing: Citrus vinaigrette",
     "Add chicken",
     "Add grilled shrimp",
+    "Add carnitas",
     "Add salmon*",
     "Add grilled ribeye*",
     "Add fajita vegetables"
@@ -209,7 +210,10 @@
     "Dairy",
     "Soy"
    ],
-   "conditional": {},
+   "conditional": {
+    "Pork": "if carnitas",
+    "Alpha-Gal": "if carnitas"
+   },
    "allergenStatus": "verified"
   },
   {
