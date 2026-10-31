@@ -8,14 +8,14 @@
    "questions": [
     {
      "id": "q003",
-     "q": "Queso Blanco comes in which sizes?",
+     "q": "How many sizes does Queso Blanco come in here in Leawood?",
      "choices": [
       "Small or regular",
       "Cup or bowl",
       "One size only",
       "Regular or large"
      ],
-     "answer": 0,
+     "answer": 2,
      "source": "menu.json (Local Lime menu data, Drive)"
     },
     {
@@ -379,30 +379,6 @@
      "source": "menu.json (Local Lime menu data, Drive)"
     },
     {
-     "id": "q051",
-     "q": "Which seasonal drink is non-alcoholic?",
-     "choices": [
-      "Cherry Rosita",
-      "Odessa Ranch Water",
-      "Agave Gold",
-      "Sassapple Fizz"
-     ],
-     "answer": 3,
-     "source": "menu.json (Local Lime menu data, Drive)"
-    },
-    {
-     "id": "q052",
-     "q": "How can a guest make the Mexican Hot Chocolate boozy?",
-     "choices": [
-      "Add Licor 43",
-      "Add spiced rum",
-      "Add Kahlúa",
-      "Add mezcal"
-     ],
-     "answer": 0,
-     "source": "menu.json (Local Lime menu data, Drive)"
-    },
-    {
      "id": "q053",
      "q": "When is happy hour?",
      "choices": [
@@ -607,18 +583,6 @@
      "source": "menu.json (Local Lime menu data, Drive)"
     },
     {
-     "id": "q057",
-     "q": "Which cocktail contains raw egg white foam?",
-     "choices": [
-      "Cherry Rosita",
-      "Odessa Ranch Water",
-      "City Slicker NY Sour",
-      "Paloma Reserva"
-     ],
-     "answer": 2,
-     "source": "menu.json (Local Lime menu data, Drive)"
-    },
-    {
      "id": "q061",
      "q": "Which taco has sesame seeds in its description?",
      "choices": [
@@ -708,7 +672,7 @@
      "choices": [
       "It depends on how the dish is built",
       "The item is spicy",
-      "The item is seasonal",
+      "The item is new",
       "The allergen is always present"
      ],
      "answer": 0,

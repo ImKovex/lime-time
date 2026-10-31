@@ -36,10 +36,7 @@
   {
    "name": "Queso Blanco",
    "category": "Starters",
-   "modifiers": [
-    "Size: Small",
-    "Size: Regular"
-   ],
+   "modifiers": [],
    "allergens": [
     "Dairy",
     "Soy"
@@ -61,7 +58,7 @@
    "allergenStatus": "unverified"
   },
   {
-   "name": "Queso Flameado Serves 2\u20134",
+   "name": "Queso Flameado Serves 2–4",
    "category": "Starters",
    "modifiers": [
     "Style: Chorizo",
@@ -200,7 +197,7 @@
    "name": "Local Fresco Bowl",
    "category": "Salads & Bowls",
    "modifiers": [
-    "Dressing: Jalape\u00f1o ranch",
+    "Dressing: Jalapeño ranch",
     "Dressing: Citrus vinaigrette",
     "Add chicken",
     "Add grilled shrimp",
@@ -390,7 +387,7 @@
    "allergenStatus": "unverified"
   },
   {
-   "name": "Jicama-jalape\u00f1o slaw",
+   "name": "Jicama-jalapeño slaw",
    "category": "Sides",
    "modifiers": [],
    "allergens": [],
@@ -699,78 +696,12 @@
    "allergenStatus": "unverified"
   },
   {
-   "name": "Odessa Ranch Water",
-   "category": "Seasonal Cocktails & Mocktails (Fall & Winter)",
-   "modifiers": [],
-   "allergens": [],
-   "conditional": {},
-   "allergenStatus": "unverified"
-  },
-  {
-   "name": "City Slicker NY Sour",
-   "category": "Seasonal Cocktails & Mocktails (Fall & Winter)",
-   "modifiers": [],
-   "allergens": [],
-   "conditional": {},
-   "allergenStatus": "unverified"
-  },
-  {
-   "name": "Cherry Rosita",
-   "category": "Seasonal Cocktails & Mocktails (Fall & Winter)",
-   "modifiers": [],
-   "allergens": [],
-   "conditional": {},
-   "allergenStatus": "unverified"
-  },
-  {
-   "name": "Agave Gold",
-   "category": "Seasonal Cocktails & Mocktails (Fall & Winter)",
-   "modifiers": [],
-   "allergens": [],
-   "conditional": {},
-   "allergenStatus": "unverified"
-  },
-  {
-   "name": "Sangria Noir Frozen",
-   "category": "Seasonal Cocktails & Mocktails (Fall & Winter)",
-   "modifiers": [],
-   "allergens": [],
-   "conditional": {},
-   "allergenStatus": "unverified"
-  },
-  {
-   "name": "Sassapple Fizz",
-   "category": "Seasonal Cocktails & Mocktails (Fall & Winter)",
-   "modifiers": [],
-   "allergens": [],
-   "conditional": {},
-   "allergenStatus": "unverified"
-  },
-  {
-   "name": "Maple Pumpkin 'Spresso",
-   "category": "Seasonal Cocktails & Mocktails (Fall & Winter)",
-   "modifiers": [],
-   "allergens": [],
-   "conditional": {},
-   "allergenStatus": "unverified"
-  },
-  {
-   "name": "Mexican Hot Chocolate",
-   "category": "Seasonal Cocktails & Mocktails (Fall & Winter)",
-   "modifiers": [
-    "Make it boozy: add Licor 43"
-   ],
-   "allergens": [],
-   "conditional": {},
-   "allergenStatus": "unverified"
-  },
-  {
    "name": "The Local Margarita",
    "category": "Signature Cocktails",
    "modifiers": [
     "Frozen",
     "On the rocks",
-    "Rim: Taj\u00edn",
+    "Rim: Tajín",
     "Rim: Salt"
    ],
    "allergens": [],
@@ -813,7 +744,7 @@
    "allergenStatus": "unverified"
   },
   {
-   "name": "Pi\u00f1a Colada Frozen",
+   "name": "Piña Colada Frozen",
    "category": "Signature Cocktails",
    "modifiers": [],
    "allergens": [],
@@ -855,7 +786,7 @@
  ],
  "orders": [
   {
-   "ticket": "Seat 4: The Local Salad Plate \u00b7 fire with entrees \u00b7 guest has a soy allergy",
+   "ticket": "Seat 4: The Local Salad Plate · fire with entrees · guest has a soy allergy",
    "seat": 4,
    "item": "The Local Salad Plate",
    "mods": [],
@@ -863,7 +794,7 @@
    "allergy": "Soy"
   },
   {
-   "ticket": "Seat 2: Drunken pinto beans \u00b7 hold",
+   "ticket": "Seat 2: Drunken pinto beans · hold",
    "seat": 2,
    "item": "Drunken pinto beans",
    "mods": [],
@@ -871,7 +802,7 @@
    "allergy": "None"
   },
   {
-   "ticket": "Seat 4: Grilled Ribeye Nacho Bites* \u00b7 apps first \u00b7 guest has a gluten allergy",
+   "ticket": "Seat 4: Grilled Ribeye Nacho Bites* · apps first · guest has a gluten allergy",
    "seat": 4,
    "item": "Grilled Ribeye Nacho Bites*",
    "mods": [],
@@ -879,7 +810,7 @@
    "allergy": "Gluten"
   },
   {
-   "ticket": "Seat 2: Birria Quesadilla Plato \u00b7 hold",
+   "ticket": "Seat 2: Birria Quesadilla Plato · hold",
    "seat": 2,
    "item": "Birria Quesadilla Plato",
    "mods": [],
@@ -887,7 +818,7 @@
    "allergy": "None"
   },
   {
-   "ticket": "Seat 3: Shrimp & Brie Quesadilla \u00b7 apps first \u00b7 guest has a dairy allergy",
+   "ticket": "Seat 3: Shrimp & Brie Quesadilla · apps first · guest has a dairy allergy",
    "seat": 3,
    "item": "Shrimp & Brie Quesadilla",
    "mods": [],
@@ -895,7 +826,7 @@
    "allergy": "Dairy"
   },
   {
-   "ticket": "Seat 1: Zucchini \u00b7 apps first",
+   "ticket": "Seat 1: Zucchini · apps first",
    "seat": 1,
    "item": "Zucchini",
    "mods": [],
@@ -903,7 +834,7 @@
    "allergy": "None"
   },
   {
-   "ticket": "Seat 1: Grilled Chicken \u00b7 hold \u00b7 guest has a dairy allergy",
+   "ticket": "Seat 1: Grilled Chicken · hold · guest has a dairy allergy",
    "seat": 1,
    "item": "Grilled Chicken",
    "mods": [],
@@ -911,7 +842,7 @@
    "allergy": "Dairy"
   },
   {
-   "ticket": "Seat 2: Combo (choose 2) \u00b7 fire with entrees",
+   "ticket": "Seat 2: Combo (choose 2) · fire with entrees",
    "seat": 2,
    "item": "Combo (choose 2)",
    "mods": [],
@@ -919,7 +850,7 @@
    "allergy": "None"
   },
   {
-   "ticket": "Seat 1: Fried Chicken \u00b7 hold \u00b7 guest has a gluten allergy",
+   "ticket": "Seat 1: Fried Chicken · hold · guest has a gluten allergy",
    "seat": 1,
    "item": "Fried Chicken",
    "mods": [],
@@ -927,9 +858,9 @@
    "allergy": "Gluten"
   },
   {
-   "ticket": "Seat 1: Queso Flameado Serves 2\u20134, Style: Chorizo \u00b7 apps first",
+   "ticket": "Seat 1: Queso Flameado Serves 2–4, Style: Chorizo · apps first",
    "seat": 1,
-   "item": "Queso Flameado Serves 2\u20134",
+   "item": "Queso Flameado Serves 2–4",
    "mods": [
     "Style: Chorizo"
    ],
@@ -937,7 +868,7 @@
    "allergy": "None"
   },
   {
-   "ticket": "Seat 4: Birria Quesadilla Plato \u00b7 fire with entrees \u00b7 guest has a tree nuts allergy",
+   "ticket": "Seat 4: Birria Quesadilla Plato · fire with entrees · guest has a tree nuts allergy",
    "seat": 4,
    "item": "Birria Quesadilla Plato",
    "mods": [],
@@ -945,7 +876,7 @@
    "allergy": "Tree Nuts"
   },
   {
-   "ticket": "Seat 2: Ribeye* \u00b7 hold",
+   "ticket": "Seat 2: Ribeye* · hold",
    "seat": 2,
    "item": "Ribeye*",
    "mods": [],
@@ -953,7 +884,7 @@
    "allergy": "None"
   },
   {
-   "ticket": "Seat 1: Crispy Ahi Tuna* \u00b7 fire with entrees \u00b7 guest has a fish allergy",
+   "ticket": "Seat 1: Crispy Ahi Tuna* · fire with entrees · guest has a fish allergy",
    "seat": 1,
    "item": "Crispy Ahi Tuna*",
    "mods": [],
@@ -961,7 +892,7 @@
    "allergy": "Fish"
   },
   {
-   "ticket": "Seat 4: Spinach Artichoke Enchiladas \u00b7 fire with entrees",
+   "ticket": "Seat 4: Spinach Artichoke Enchiladas · fire with entrees",
    "seat": 4,
    "item": "Spinach Artichoke Enchiladas",
    "mods": [],
@@ -969,7 +900,7 @@
    "allergy": "None"
   },
   {
-   "ticket": "Seat 1: Crispy Ahi Tuna* \u00b7 fire with entrees \u00b7 guest has a sesame allergy",
+   "ticket": "Seat 1: Crispy Ahi Tuna* · fire with entrees · guest has a sesame allergy",
    "seat": 1,
    "item": "Crispy Ahi Tuna*",
    "mods": [],
@@ -977,7 +908,7 @@
    "allergy": "Sesame"
   },
   {
-   "ticket": "Seat 3: Mexican Caramel Apple Crisp Skillet \u00b7 fire with entrees",
+   "ticket": "Seat 3: Mexican Caramel Apple Crisp Skillet · fire with entrees",
    "seat": 3,
    "item": "Mexican Caramel Apple Crisp Skillet",
    "mods": [],
@@ -985,7 +916,7 @@
    "allergy": "None"
   },
   {
-   "ticket": "Seat 3: Birria Quesadilla Plato \u00b7 hold \u00b7 guest has a dairy allergy",
+   "ticket": "Seat 3: Birria Quesadilla Plato · hold · guest has a dairy allergy",
    "seat": 3,
    "item": "Birria Quesadilla Plato",
    "mods": [],
@@ -993,17 +924,15 @@
    "allergy": "Dairy"
   },
   {
-   "ticket": "Seat 4: Queso Blanco, Size: Small \u00b7 apps first",
+   "ticket": "Seat 4: Queso Blanco · apps first",
    "seat": 4,
    "item": "Queso Blanco",
-   "mods": [
-    "Size: Small"
-   ],
+   "mods": [],
    "course": "Apps first",
    "allergy": "None"
   },
   {
-   "ticket": "Seat 4: Shrimp & Brie Quesadilla \u00b7 apps first \u00b7 guest has a sesame allergy",
+   "ticket": "Seat 4: Shrimp & Brie Quesadilla · apps first · guest has a sesame allergy",
    "seat": 4,
    "item": "Shrimp & Brie Quesadilla",
    "mods": [],
@@ -1011,7 +940,7 @@
    "allergy": "Sesame"
   },
   {
-   "ticket": "Seat 1: Ahi Citrus Ceviche* \u00b7 apps first",
+   "ticket": "Seat 1: Ahi Citrus Ceviche* · apps first",
    "seat": 1,
    "item": "Ahi Citrus Ceviche*",
    "mods": [],
@@ -1019,7 +948,7 @@
    "allergy": "None"
   },
   {
-   "ticket": "Seat 2: Kids Chicken Tacos \u00b7 fire with entrees \u00b7 guest has a soy allergy",
+   "ticket": "Seat 2: Kids Chicken Tacos · fire with entrees · guest has a soy allergy",
    "seat": 2,
    "item": "Kids Chicken Tacos",
    "mods": [],
@@ -1027,7 +956,7 @@
    "allergy": "Soy"
   },
   {
-   "ticket": "Seat 1: House Tomato \u00b7 apps first",
+   "ticket": "Seat 1: House Tomato · apps first",
    "seat": 1,
    "item": "House Tomato",
    "mods": [],
@@ -1035,7 +964,7 @@
    "allergy": "None"
   },
   {
-   "ticket": "Seat 4: Coastal Citrus Salad Plate \u00b7 fire with entrees \u00b7 guest has a tree nuts allergy",
+   "ticket": "Seat 4: Coastal Citrus Salad Plate · fire with entrees · guest has a tree nuts allergy",
    "seat": 4,
    "item": "Coastal Citrus Salad Plate",
    "mods": [],
@@ -1043,7 +972,7 @@
    "allergy": "Tree Nuts"
   },
   {
-   "ticket": "Seat 2: Ahi Citrus Ceviche* \u00b7 apps first",
+   "ticket": "Seat 2: Ahi Citrus Ceviche* · apps first",
    "seat": 2,
    "item": "Ahi Citrus Ceviche*",
    "mods": [],
@@ -1051,7 +980,7 @@
    "allergy": "None"
   },
   {
-   "ticket": "Seat 1: Birria Quesadilla Plato \u00b7 fire with entrees \u00b7 guest has a soy allergy",
+   "ticket": "Seat 1: Birria Quesadilla Plato · fire with entrees · guest has a soy allergy",
    "seat": 1,
    "item": "Birria Quesadilla Plato",
    "mods": [],
@@ -1059,7 +988,7 @@
    "allergy": "Soy"
   },
   {
-   "ticket": "Seat 1: Rustic Tortilla Soup \u00b7 fire with entrees",
+   "ticket": "Seat 1: Rustic Tortilla Soup · fire with entrees",
    "seat": 1,
    "item": "Rustic Tortilla Soup",
    "mods": [],
@@ -1067,7 +996,7 @@
    "allergy": "None"
   },
   {
-   "ticket": "Seat 1: Local Fresco Bowl, Add grilled ribeye* \u00b7 fire with entrees \u00b7 guest has a peanuts allergy",
+   "ticket": "Seat 1: Local Fresco Bowl, Add grilled ribeye* · fire with entrees · guest has a peanuts allergy",
    "seat": 1,
    "item": "Local Fresco Bowl",
    "mods": [
@@ -1077,9 +1006,9 @@
    "allergy": "Peanuts"
   },
   {
-   "ticket": "Seat 2: Queso Flameado Serves 2\u20134, Style: Vegetarian (corn tortillas, roasted zucchini & corn) \u00b7 apps first",
+   "ticket": "Seat 2: Queso Flameado Serves 2–4, Style: Vegetarian (corn tortillas, roasted zucchini & corn) · apps first",
    "seat": 2,
-   "item": "Queso Flameado Serves 2\u20134",
+   "item": "Queso Flameado Serves 2–4",
    "mods": [
     "Style: Vegetarian (corn tortillas, roasted zucchini & corn)"
    ],
@@ -1087,7 +1016,7 @@
    "allergy": "None"
   },
   {
-   "ticket": "Seat 2: Chargrilled Ribeye* \u00b7 fire with entrees \u00b7 guest has a dairy allergy",
+   "ticket": "Seat 2: Chargrilled Ribeye* · fire with entrees · guest has a dairy allergy",
    "seat": 2,
    "item": "Chargrilled Ribeye*",
    "mods": [],
@@ -1095,7 +1024,7 @@
    "allergy": "Dairy"
   },
   {
-   "ticket": "Seat 4: The Local Key Lime Cheesecake \u00b7 fire with entrees",
+   "ticket": "Seat 4: The Local Key Lime Cheesecake · fire with entrees",
    "seat": 4,
    "item": "The Local Key Lime Cheesecake",
    "mods": [],
