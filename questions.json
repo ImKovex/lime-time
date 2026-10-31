@@ -473,13 +473,12 @@
      "q": "What is 'cattle calling' — and what's the standard?",
      "choices": [
       "Paging a manager; only when busy",
-      "Shouting dish names to the table; don't do it",
+      "Calling out food at random instead of delivering by table number; don't do it",
       "Announcing specials; required",
       "Calling the kitchen for food; always do it"
      ],
      "answer": 1,
-     "source": "Local-Lime-Tray-Service-Evaluation.pdf",
-     "flag": "Pending manager review"
+     "source": "Local-Lime-Tray-Service-Evaluation.pdf"
     },
     {
      "id": "q070",
