@@ -7,7 +7,7 @@ const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',
 const board=()=>JSON.parse(localStorage.getItem('lq_board')||'[]');
 const draft='<p class="muted small" style="text-align:center">DRAFT content · Chloe\'s master list replaces this</p>';
 function save(mode,score){const b=board();b.push({name:player,mode,score});b.sort((a,b)=>b.score-a.score);localStorage.setItem('lq_board',JSON.stringify(b.slice(0,25)))}
-async function init(){[Q,O]=await Promise.all([fetch('questions.json').then(r=>r.json()),fetch('orders.json').then(r=>r.json())]);player&&localStorage.getItem('lq_code')===TEAM_CODE?home():nameScreen()}
+async function init(){[Q,O]=await Promise.all([fetch('questions.json',{cache:'no-store'}).then(r=>r.json()),fetch('orders.json',{cache:'no-store'}).then(r=>r.json())]);player&&localStorage.getItem('lq_code')===TEAM_CODE?home():nameScreen()}
 function nameScreen(){app.innerHTML=`<div style="text-align:center;padding-top:24px"><img src="assets/logo-wordmark.svg" alt="Lime Time" style="width:100%;max-width:320px"></div>
 <div class="card"><p class="eyebrow">FOH Training Game</p><h2>Pick a nickname</h2><p class="muted small">No sign-in. Scores stay on this device.</p></div>
 <input class="input" id="nm" maxlength="20" placeholder="e.g. SalsaQueen">${localStorage.getItem('lq_code')===TEAM_CODE?'':'<input class="input" id="code" placeholder="Team code" autocapitalize="characters">'}<p class="banner no" id="err" hidden></p><div class="grow"></div><button class="btn btn-primary" id="go">Let's play</button>${draft}`;
@@ -68,3 +68,6 @@ function lb(){const b=board();app.innerHTML=`<div class="topbar"><h1>Leaderboard
 <div class="board">${b.map((r,k)=>`<div class="row ${k===0?'is-first':''} ${r.name===player?'is-me':''}"><span class="rank">${k+1}</span><span class="name">${esc(r.name)}<small>${esc(r.mode)}</small></span><span class="pts">${r.score}</span></div>`).join('')||'<p class="muted">No scores yet</p>'}</div>
 <button class="btn btn-primary" id="h">Home</button>`;$('#h').onclick=home}
 init();
+
+async function lqRefresh(){try{const[a,b]=await Promise.all([fetch('questions.json',{cache:'no-store'}).then(r=>r.json()),fetch('orders.json',{cache:'no-store'}).then(r=>r.json())]);Q=a;O=b}catch(e){}}
+document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible')lqRefresh()});setInterval(lqRefresh,300000);
