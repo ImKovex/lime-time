@@ -481,18 +481,6 @@
      "source": "Local-Lime-Tray-Service-Evaluation.pdf"
     },
     {
-     "id": "q070",
-     "q": "What do you say when dropping food, per the scorecard?",
-     "choices": [
-      "\"Enjoy your meal\"",
-      "\"Don't forget to squeeze the lime\"",
-      "\"Anything else?\"",
-      "\"Careful, the plate is hot\""
-     ],
-     "answer": 1,
-     "source": "Local-Lime-Tray-Service-Evaluation.pdf"
-    },
-    {
      "id": "q071",
      "q": "What does 'full hands in / full hands out' mean?",
      "choices": [
