@@ -212,7 +212,7 @@
    ],
    "conditional": {
     "Pork": "if carnitas",
-    "Alpha-Gal": "if carnitas"
+    "Alpha-Gal": "if carnitas or ribeye"
    },
    "allergenStatus": "verified"
   },
