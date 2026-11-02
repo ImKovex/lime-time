@@ -211,6 +211,8 @@
     "Soy"
    ],
    "conditional": {
+    "Shellfish": "if shrimp",
+    "Fish": "if salmon",
     "Pork": "if carnitas",
     "Alpha-Gal": "if carnitas or ribeye"
    },
@@ -244,12 +246,22 @@
    "name": "Acapulco Spring Salad",
    "category": "Salads & Bowls",
    "modifiers": [
-    "Add grilled shrimp"
+    "Add chicken",
+    "Add grilled shrimp",
+    "Add carnitas",
+    "Add salmon*",
+    "Add grilled ribeye*",
+    "Add fajita vegetables"
    ],
    "allergens": [
     "Soy"
    ],
-   "conditional": {},
+   "conditional": {
+    "Shellfish": "if shrimp",
+    "Fish": "if salmon",
+    "Pork": "if carnitas",
+    "Alpha-Gal": "if carnitas or ribeye"
+   },
    "allergenStatus": "verified"
   },
   {

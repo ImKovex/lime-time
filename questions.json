@@ -212,15 +212,15 @@
     },
     {
      "id": "q021",
-     "q": "Which protein can be added to the Acapulco Spring Salad?",
+     "q": "A guest wants protein on the Acapulco Spring Salad. What can they add?",
      "choices": [
-      "Grilled shrimp",
-      "Ribeye",
-      "Chicken",
-      "Salmon"
+      "Only grilled shrimp",
+      "Any of our protein add-ons",
+      "Only chicken",
+      "No proteins on this salad"
      ],
-     "answer": 0,
-     "source": "menu.json (Local Lime menu data, Drive)"
+     "answer": 1,
+     "source": "Daniel (Leawood), Nov 2"
     },
     {
      "id": "q023",
