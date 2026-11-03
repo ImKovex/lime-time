@@ -404,7 +404,7 @@
         },
         {
           "id": "bb01",
-          "q": "What tequila goes in our House Margarita batch?",
+          "q": "Which of these tequilas is listed for our House Margarita batch?",
           "choices": [
             "Lunazul Blanco",
             "Rancho Alegre Reposado",
