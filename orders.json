@@ -1,1051 +1,1071 @@
 {
- "status": "DRAFT",
- "allergyNote": "Allergen info is a training draft; always confirm with a manager.",
- "allergyOptions": [
-  "None",
-  "Gluten",
-  "Dairy",
-  "Egg",
-  "Soy",
-  "Fish",
-  "Shellfish",
-  "Tree Nuts",
-  "Sesame",
-  "Peanuts",
-  "Pork",
-  "Alpha-Gal"
- ],
- "courses": [
-  "Apps first",
-  "Fire with entrees",
-  "Hold"
- ],
- "menu": [
-  {
-   "name": "Market Corn (2 pieces)",
-   "category": "Starters",
-   "modifiers": [],
-   "allergens": [
-    "Dairy",
-    "Egg",
-    "Soy"
-   ],
-   "conditional": {},
-   "allergenStatus": "unverified"
-  },
-  {
-   "name": "Queso Blanco",
-   "category": "Starters",
-   "modifiers": [],
-   "allergens": [
-    "Dairy",
-    "Soy"
-   ],
-   "conditional": {},
-   "allergenStatus": "verified"
-  },
-  {
-   "name": "Local Guacamole",
-   "category": "Starters",
-   "modifiers": [
-    "Chips: Corn tortilla chips",
-    "Chips: Watermelon radish crudo chips (lighter)"
-   ],
-   "allergens": [
-    "Soy"
-   ],
-   "conditional": {},
-   "allergenStatus": "unverified"
-  },
-  {
-   "name": "Queso Flameado Serves 2–4",
-   "category": "Starters",
-   "modifiers": [
-    "Style: Chorizo",
-    "Style: Vegetarian (corn tortillas, roasted zucchini & corn)"
-   ],
-   "allergens": [
+  "status": "DRAFT",
+  "allergyNote": "Allergen info is a training draft; always confirm with a manager.",
+  "allergyOptions": [
+    "None",
     "Gluten",
     "Dairy",
-    "Soy"
-   ],
-   "conditional": {
-    "Pork": "if chorizo",
-    "Alpha-Gal": "if chorizo"
-   },
-   "allergenStatus": "verified"
-  },
-  {
-   "name": "Ahi Citrus Ceviche*",
-   "category": "Starters",
-   "modifiers": [],
-   "allergens": [
-    "Dairy",
-    "Egg",
-    "Soy",
-    "Fish"
-   ],
-   "conditional": {},
-   "allergenStatus": "verified"
-  },
-  {
-   "name": "Shrimp & Brie Quesadilla",
-   "category": "Starters",
-   "modifiers": [],
-   "allergens": [
-    "Gluten",
-    "Dairy",
-    "Shellfish"
-   ],
-   "conditional": {},
-   "allergenStatus": "verified"
-  },
-  {
-   "name": "Chicken & Roasted Poblano Quesadilla",
-   "category": "Starters",
-   "modifiers": [],
-   "allergens": [
-    "Gluten",
-    "Dairy",
-    "Soy"
-   ],
-   "conditional": {},
-   "allergenStatus": "verified"
-  },
-  {
-   "name": "Grilled Ribeye Nacho Bites*",
-   "category": "Starters",
-   "modifiers": [],
-   "allergens": [
-    "Gluten",
-    "Dairy",
-    "Soy",
-    "Pork",
-    "Alpha-Gal"
-   ],
-   "conditional": {},
-   "allergenStatus": "verified"
-  },
-  {
-   "name": "Local Nacho Bites",
-   "category": "Starters",
-   "modifiers": [
-    "Add chicken"
-   ],
-   "allergens": [
-    "Dairy",
-    "Soy"
-   ],
-   "conditional": {},
-   "allergenStatus": "verified"
-  },
-  {
-   "name": "Zucchini",
-   "category": "Salsas",
-   "modifiers": [],
-   "allergens": [
-    "Dairy"
-   ],
-   "conditional": {},
-   "allergenStatus": "verified"
-  },
-  {
-   "name": "Verde Tomatillo",
-   "category": "Salsas",
-   "modifiers": [],
-   "allergens": [
-    "Dairy"
-   ],
-   "conditional": {},
-   "allergenStatus": "verified"
-  },
-  {
-   "name": "Chipotle",
-   "category": "Salsas",
-   "modifiers": [],
-   "allergens": [],
-   "conditional": {},
-   "allergenStatus": "verified"
-  },
-  {
-   "name": "Caribbean Mango",
-   "category": "Salsas",
-   "modifiers": [],
-   "allergens": [],
-   "conditional": {},
-   "allergenStatus": "verified"
-  },
-  {
-   "name": "House Tomato",
-   "category": "Salsas",
-   "modifiers": [],
-   "allergens": [],
-   "conditional": {},
-   "allergenStatus": "verified"
-  },
-  {
-   "name": "Tres Chiles",
-   "category": "Salsas",
-   "modifiers": [],
-   "allergens": [],
-   "conditional": {
-    "Dairy": "if garnished"
-   },
-   "allergenStatus": "verified"
-  },
-  {
-   "name": "Local Fresco Bowl",
-   "category": "Salads & Bowls",
-   "modifiers": [
-    "Dressing: Jalapeño ranch",
-    "Dressing: Citrus vinaigrette",
-    "Add chicken",
-    "Add grilled shrimp",
-    "Add carnitas",
-    "Add salmon*",
-    "Add grilled ribeye*",
-    "Add fajita vegetables"
-   ],
-   "allergens": [
-    "Dairy",
-    "Soy"
-   ],
-   "conditional": {
-    "Shellfish": "if shrimp",
-    "Fish": "if salmon",
-    "Pork": "if carnitas",
-    "Alpha-Gal": "if carnitas or ribeye"
-   },
-   "allergenStatus": "verified"
-  },
-  {
-   "name": "The Local Salad Plate",
-   "category": "Salads & Bowls",
-   "modifiers": [
-    "Add chicken"
-   ],
-   "allergens": [
-    "Dairy",
-    "Egg",
-    "Soy"
-   ],
-   "conditional": {},
-   "allergenStatus": "verified"
-  },
-  {
-   "name": "Coastal Citrus Salad Plate",
-   "category": "Salads & Bowls",
-   "modifiers": [
-    "Add salmon*"
-   ],
-   "allergens": [],
-   "conditional": {},
-   "allergenStatus": "verified"
-  },
-  {
-   "name": "Acapulco Spring Salad",
-   "category": "Salads & Bowls",
-   "modifiers": [
-    "Add chicken",
-    "Add grilled shrimp",
-    "Add carnitas",
-    "Add salmon*",
-    "Add grilled ribeye*",
-    "Add fajita vegetables"
-   ],
-   "allergens": [
-    "Soy"
-   ],
-   "conditional": {
-    "Shellfish": "if shrimp",
-    "Fish": "if salmon",
-    "Pork": "if carnitas",
-    "Alpha-Gal": "if carnitas or ribeye"
-   },
-   "allergenStatus": "verified"
-  },
-  {
-   "name": "Rustic Tortilla Soup",
-   "category": "Salads & Bowls",
-   "modifiers": [],
-   "allergens": [
-    "Dairy",
-    "Soy"
-   ],
-   "conditional": {},
-   "allergenStatus": "unverified"
-  },
-  {
-   "name": "Grilled Chicken",
-   "category": "Tacos",
-   "modifiers": [],
-   "allergens": [
-    "Gluten",
-    "Dairy",
-    "Soy"
-   ],
-   "conditional": {},
-   "allergenStatus": "verified"
-  },
-  {
-   "name": "Local Carnitas",
-   "category": "Tacos",
-   "modifiers": [],
-   "allergens": [
-    "Dairy",
-    "Soy",
-    "Pork",
-    "Alpha-Gal"
-   ],
-   "conditional": {},
-   "allergenStatus": "verified"
-  },
-  {
-   "name": "'Pacifico' Fried Fish",
-   "category": "Tacos",
-   "modifiers": [],
-   "allergens": [
-    "Gluten",
-    "Dairy",
-    "Egg",
-    "Soy",
-    "Fish"
-   ],
-   "conditional": {},
-   "allergenStatus": "unverified"
-  },
-  {
-   "name": "Fried Chicken",
-   "category": "Tacos",
-   "modifiers": [],
-   "allergens": [
-    "Gluten",
-    "Dairy",
-    "Egg",
-    "Soy"
-   ],
-   "conditional": {},
-   "allergenStatus": "verified"
-  },
-  {
-   "name": "Verde Veggie",
-   "category": "Tacos",
-   "modifiers": [],
-   "allergens": [
-    "Dairy",
-    "Egg",
-    "Soy"
-   ],
-   "conditional": {},
-   "allergenStatus": "unverified"
-  },
-  {
-   "name": "Crispy Ahi Tuna*",
-   "category": "Tacos",
-   "modifiers": [],
-   "allergens": [
     "Egg",
     "Soy",
     "Fish",
-    "Sesame"
-   ],
-   "conditional": {},
-   "allergenStatus": "verified"
-  },
-  {
-   "name": "Curry Fried Shrimp",
-   "category": "Tacos",
-   "modifiers": [],
-   "allergens": [
-    "Gluten",
-    "Dairy",
-    "Egg",
-    "Soy",
-    "Shellfish"
-   ],
-   "conditional": {},
-   "allergenStatus": "unverified"
-  },
-  {
-   "name": "Chargrilled Ribeye*",
-   "category": "Tacos",
-   "modifiers": [],
-   "allergens": [
-    "Gluten",
-    "Dairy",
-    "Soy",
-    "Alpha-Gal"
-   ],
-   "conditional": {},
-   "allergenStatus": "verified"
-  },
-  {
-   "name": "The Local Chorizo",
-   "category": "Tacos",
-   "modifiers": [],
-   "allergens": [
-    "Gluten",
-    "Dairy",
+    "Shellfish",
+    "Tree Nuts",
+    "Sesame",
+    "Peanuts",
     "Pork",
     "Alpha-Gal"
-   ],
-   "conditional": {},
-   "allergenStatus": "unverified"
-  },
-  {
-   "name": "Cilantro lime rice",
-   "category": "Sides",
-   "modifiers": [],
-   "allergens": [
-    "Dairy"
-   ],
-   "conditional": {},
-   "allergenStatus": "unverified"
-  },
-  {
-   "name": "Jicama-jalapeño slaw",
-   "category": "Sides",
-   "modifiers": [],
-   "allergens": [],
-   "conditional": {},
-   "allergenStatus": "unverified"
-  },
-  {
-   "name": "Black beans",
-   "category": "Sides",
-   "modifiers": [],
-   "allergens": [],
-   "conditional": {
-    "Dairy": "if garnished"
-   },
-   "allergenStatus": "unverified"
-  },
-  {
-   "name": "Drunken pinto beans",
-   "category": "Sides",
-   "modifiers": [],
-   "allergens": [
-    "Gluten",
-    "Pork",
-    "Alpha-Gal"
-   ],
-   "conditional": {},
-   "allergenStatus": "verified"
-  },
-  {
-   "name": "House-pickled vegetables",
-   "category": "Sides",
-   "modifiers": [],
-   "allergens": [],
-   "conditional": {},
-   "allergenStatus": "verified"
-  },
-  {
-   "name": "Veggie",
-   "category": "Fajitas",
-   "modifiers": [
-    "Tortilla: corn (gluten-free)"
-   ],
-   "allergens": [
-    "Dairy"
-   ],
-   "conditional": {},
-   "allergenStatus": "unverified"
-  },
-  {
-   "name": "Chicken",
-   "category": "Fajitas",
-   "modifiers": [
-    "Tortilla: corn (gluten-free)"
-   ],
-   "allergens": [
-    "Dairy",
-    "Soy"
-   ],
-   "conditional": {},
-   "allergenStatus": "unverified"
-  },
-  {
-   "name": "Shrimp",
-   "category": "Fajitas",
-   "modifiers": [
-    "Tortilla: corn (gluten-free)"
-   ],
-   "allergens": [
-    "Dairy",
-    "Shellfish"
-   ],
-   "conditional": {},
-   "allergenStatus": "unverified"
-  },
-  {
-   "name": "Ribeye*",
-   "category": "Fajitas",
-   "modifiers": [
-    "Tortilla: corn (gluten-free)"
-   ],
-   "allergens": [
-    "Dairy",
-    "Soy",
-    "Alpha-Gal"
-   ],
-   "conditional": {},
-   "allergenStatus": "unverified"
-  },
-  {
-   "name": "Combo (choose 2)",
-   "category": "Fajitas",
-   "modifiers": [
-    "Choose 2 proteins: Veggie / Chicken / Shrimp / Ribeye*",
-    "Tortilla: corn (gluten-free)"
-   ],
-   "allergens": [
-    "Dairy"
-   ],
-   "conditional": {},
-   "allergenStatus": "unverified"
-  },
-  {
-   "name": "Salmon Vera Cruz Skillet*",
-   "category": "Entrees",
-   "modifiers": [],
-   "allergens": [
-    "Dairy",
-    "Fish"
-   ],
-   "conditional": {},
-   "allergenStatus": "unverified"
-  },
-  {
-   "name": "Birria Quesadilla Plato",
-   "category": "Entrees",
-   "modifiers": [],
-   "allergens": [
-    "Gluten",
-    "Dairy",
-    "Soy",
-    "Alpha-Gal"
-   ],
-   "conditional": {},
-   "allergenStatus": "verified"
-  },
-  {
-   "name": "Queso Cinco Enchiladas",
-   "category": "Entrees",
-   "modifiers": [],
-   "allergens": [
-    "Gluten",
-    "Dairy"
-   ],
-   "conditional": {},
-   "allergenStatus": "unverified"
-  },
-  {
-   "name": "Spinach Artichoke Enchiladas",
-   "category": "Entrees",
-   "modifiers": [],
-   "allergens": [
-    "Gluten",
-    "Dairy"
-   ],
-   "conditional": {},
-   "allergenStatus": "verified"
-  },
-  {
-   "name": "Dixon Chicken Enchiladas",
-   "category": "Entrees",
-   "modifiers": [],
-   "allergens": [
-    "Gluten",
-    "Dairy"
-   ],
-   "conditional": {},
-   "allergenStatus": "unverified"
-  },
-  {
-   "name": "Grilled Salmon Plate*",
-   "category": "Entrees",
-   "modifiers": [],
-   "allergens": [
-    "Dairy",
-    "Fish"
-   ],
-   "conditional": {},
-   "allergenStatus": "verified"
-  },
-  {
-   "name": "Mexican Caramel Apple Crisp Skillet",
-   "category": "Desserts",
-   "modifiers": [],
-   "allergens": [
-    "Gluten",
-    "Dairy",
-    "Soy",
-    "Tree Nuts"
-   ],
-   "conditional": {},
-   "allergenStatus": "unverified"
-  },
-  {
-   "name": "The Local Key Lime Cheesecake",
-   "category": "Desserts",
-   "modifiers": [],
-   "allergens": [
-    "Gluten",
-    "Dairy",
-    "Egg"
-   ],
-   "conditional": {},
-   "allergenStatus": "unverified"
-  },
-  {
-   "name": "Tres-Rum Spiked Tres Leches",
-   "category": "Desserts",
-   "modifiers": [],
-   "allergens": [
-    "Gluten",
-    "Dairy",
-    "Egg"
-   ],
-   "conditional": {},
-   "allergenStatus": "unverified"
-  },
-  {
-   "name": "Mini 'Dillas",
-   "category": "Kids Menu",
-   "modifiers": [
-    "Jack cheese",
-    "Chicken & Jack cheese"
-   ],
-   "allergens": [
-    "Gluten",
-    "Dairy"
-   ],
-   "conditional": {
-    "Soy": "if chicken version"
-   },
-   "allergenStatus": "unverified"
-  },
-  {
-   "name": "Kids Chicken Tacos",
-   "category": "Kids Menu",
-   "modifiers": [],
-   "allergens": [
-    "Gluten",
-    "Dairy",
-    "Soy"
-   ],
-   "conditional": {},
-   "allergenStatus": "verified"
-  },
-  {
-   "name": "Hand-Breaded Fried Chicken Tenders",
-   "category": "Kids Menu",
-   "modifiers": [],
-   "allergens": [
-    "Gluten",
-    "Dairy",
-    "Egg",
-    "Soy"
-   ],
-   "conditional": {},
-   "allergenStatus": "unverified"
-  },
-  {
-   "name": "Kids Sides",
-   "category": "Kids Menu",
-   "modifiers": [
-    "Cheese dip & tortilla chips",
-    "Fresh fruit",
-    "Cilantro lime rice",
-    "Beans",
-    "Fountain drink choice"
-   ],
-   "allergens": [],
-   "conditional": {},
-   "allergenStatus": "unverified"
-  },
-  {
-   "name": "Fountain Selections",
-   "category": "Beverages",
-   "modifiers": [
-    "Coke",
-    "Diet Coke",
-    "Coke Zero Sugar",
-    "Sprite",
-    "Dr. Pepper",
-    "Diet Dr. Pepper",
-    "Sweet Tea",
-    "Unsweet Tea",
-    "Barq's Root Beer"
-   ],
-   "allergens": [],
-   "conditional": {},
-   "allergenStatus": "unverified"
-  },
-  {
-   "name": "House-made & Fresh",
-   "category": "Beverages",
-   "modifiers": [
-    "Lemonade",
-    "Limeade",
-    "Ginger-Lime Soda"
-   ],
-   "allergens": [],
-   "conditional": {},
-   "allergenStatus": "unverified"
-  },
-  {
-   "name": "Mexican Coca-Cola",
-   "category": "Beverages",
-   "modifiers": [],
-   "allergens": [],
-   "conditional": {},
-   "allergenStatus": "unverified"
-  },
-  {
-   "name": "Topo Chico Sparkling Water",
-   "category": "Beverages",
-   "modifiers": [],
-   "allergens": [],
-   "conditional": {},
-   "allergenStatus": "unverified"
-  },
-  {
-   "name": "The Local Margarita",
-   "category": "Signature Cocktails",
-   "modifiers": [
-    "Frozen",
-    "On the rocks",
-    "Rim: Tajín",
-    "Rim: Salt"
-   ],
-   "allergens": [],
-   "conditional": {},
-   "allergenStatus": "unverified"
-  },
-  {
-   "name": "Heirloom Primo Margarita",
-   "category": "Signature Cocktails",
-   "modifiers": [],
-   "allergens": [],
-   "conditional": {},
-   "allergenStatus": "unverified"
-  },
-  {
-   "name": "Texas Two-Step Margarita",
-   "category": "Signature Cocktails",
-   "modifiers": [
-    "Base: Reposado tequila",
-    "Base: Mezcal"
-   ],
-   "allergens": [],
-   "conditional": {},
-   "allergenStatus": "unverified"
-  },
-  {
-   "name": "Mezcal Negroni",
-   "category": "Signature Cocktails",
-   "modifiers": [],
-   "allergens": [],
-   "conditional": {},
-   "allergenStatus": "unverified"
-  },
-  {
-   "name": "Chilean Pisco Sour",
-   "category": "Signature Cocktails",
-   "modifiers": [],
-   "allergens": [],
-   "conditional": {},
-   "allergenStatus": "unverified"
-  },
-  {
-   "name": "Piña Colada Frozen",
-   "category": "Signature Cocktails",
-   "modifiers": [],
-   "allergens": [],
-   "conditional": {},
-   "allergenStatus": "unverified"
-  },
-  {
-   "name": "Paloma Reserva",
-   "category": "Signature Cocktails",
-   "modifiers": [],
-   "allergens": [],
-   "conditional": {},
-   "allergenStatus": "unverified"
-  },
-  {
-   "name": "Local'Lite",
-   "category": "Signature Cocktails",
-   "modifiers": [],
-   "allergens": [],
-   "conditional": {},
-   "allergenStatus": "unverified"
-  },
-  {
-   "name": "$5 Margaritas",
-   "category": "Happy Hour",
-   "modifiers": [],
-   "allergens": [],
-   "conditional": {},
-   "allergenStatus": "unverified"
-  },
-  {
-   "name": "$2 Off Draft Beer",
-   "category": "Happy Hour",
-   "modifiers": [],
-   "allergens": [],
-   "conditional": {},
-   "allergenStatus": "unverified"
-  }
- ],
- "orders": [
-  {
-   "ticket": "Seat 4: The Local Salad Plate · fire with entrees · guest has a soy allergy",
-   "seat": 4,
-   "item": "The Local Salad Plate",
-   "mods": [],
-   "course": "Fire with entrees",
-   "allergy": "Soy"
-  },
-  {
-   "ticket": "Seat 2: Drunken pinto beans · hold",
-   "seat": 2,
-   "item": "Drunken pinto beans",
-   "mods": [],
-   "course": "Hold",
-   "allergy": "None"
-  },
-  {
-   "ticket": "Seat 4: Grilled Ribeye Nacho Bites* · apps first · guest has a gluten allergy",
-   "seat": 4,
-   "item": "Grilled Ribeye Nacho Bites*",
-   "mods": [],
-   "course": "Apps first",
-   "allergy": "Gluten"
-  },
-  {
-   "ticket": "Seat 2: Birria Quesadilla Plato · hold",
-   "seat": 2,
-   "item": "Birria Quesadilla Plato",
-   "mods": [],
-   "course": "Hold",
-   "allergy": "None"
-  },
-  {
-   "ticket": "Seat 3: Shrimp & Brie Quesadilla · apps first · guest has a dairy allergy",
-   "seat": 3,
-   "item": "Shrimp & Brie Quesadilla",
-   "mods": [],
-   "course": "Apps first",
-   "allergy": "Dairy"
-  },
-  {
-   "ticket": "Seat 1: Zucchini · apps first",
-   "seat": 1,
-   "item": "Zucchini",
-   "mods": [],
-   "course": "Apps first",
-   "allergy": "None"
-  },
-  {
-   "ticket": "Seat 1: Grilled Chicken · hold · guest has a dairy allergy",
-   "seat": 1,
-   "item": "Grilled Chicken",
-   "mods": [],
-   "course": "Hold",
-   "allergy": "Dairy"
-  },
-  {
-   "ticket": "Seat 2: Combo (choose 2) · fire with entrees",
-   "seat": 2,
-   "item": "Combo (choose 2)",
-   "mods": [],
-   "course": "Fire with entrees",
-   "allergy": "None"
-  },
-  {
-   "ticket": "Seat 1: Fried Chicken · hold · guest has a gluten allergy",
-   "seat": 1,
-   "item": "Fried Chicken",
-   "mods": [],
-   "course": "Hold",
-   "allergy": "Gluten"
-  },
-  {
-   "ticket": "Seat 1: Queso Flameado Serves 2–4, Style: Chorizo · apps first",
-   "seat": 1,
-   "item": "Queso Flameado Serves 2–4",
-   "mods": [
-    "Style: Chorizo"
-   ],
-   "course": "Apps first",
-   "allergy": "None"
-  },
-  {
-   "ticket": "Seat 4: Birria Quesadilla Plato · fire with entrees · guest has a tree nuts allergy",
-   "seat": 4,
-   "item": "Birria Quesadilla Plato",
-   "mods": [],
-   "course": "Fire with entrees",
-   "allergy": "Tree Nuts"
-  },
-  {
-   "ticket": "Seat 2: Ribeye* · hold",
-   "seat": 2,
-   "item": "Ribeye*",
-   "mods": [],
-   "course": "Hold",
-   "allergy": "None"
-  },
-  {
-   "ticket": "Seat 1: Crispy Ahi Tuna* · fire with entrees · guest has a fish allergy",
-   "seat": 1,
-   "item": "Crispy Ahi Tuna*",
-   "mods": [],
-   "course": "Fire with entrees",
-   "allergy": "Fish"
-  },
-  {
-   "ticket": "Seat 4: Spinach Artichoke Enchiladas · fire with entrees",
-   "seat": 4,
-   "item": "Spinach Artichoke Enchiladas",
-   "mods": [],
-   "course": "Fire with entrees",
-   "allergy": "None"
-  },
-  {
-   "ticket": "Seat 1: Crispy Ahi Tuna* · fire with entrees · guest has a sesame allergy",
-   "seat": 1,
-   "item": "Crispy Ahi Tuna*",
-   "mods": [],
-   "course": "Fire with entrees",
-   "allergy": "Sesame"
-  },
-  {
-   "ticket": "Seat 3: Mexican Caramel Apple Crisp Skillet · fire with entrees",
-   "seat": 3,
-   "item": "Mexican Caramel Apple Crisp Skillet",
-   "mods": [],
-   "course": "Fire with entrees",
-   "allergy": "None"
-  },
-  {
-   "ticket": "Seat 3: Birria Quesadilla Plato · hold · guest has a dairy allergy",
-   "seat": 3,
-   "item": "Birria Quesadilla Plato",
-   "mods": [],
-   "course": "Hold",
-   "allergy": "Dairy"
-  },
-  {
-   "ticket": "Seat 4: Queso Blanco · apps first",
-   "seat": 4,
-   "item": "Queso Blanco",
-   "mods": [],
-   "course": "Apps first",
-   "allergy": "None"
-  },
-  {
-   "ticket": "Seat 4: Shrimp & Brie Quesadilla · apps first · guest has a sesame allergy",
-   "seat": 4,
-   "item": "Shrimp & Brie Quesadilla",
-   "mods": [],
-   "course": "Apps first",
-   "allergy": "Sesame"
-  },
-  {
-   "ticket": "Seat 1: Ahi Citrus Ceviche* · apps first",
-   "seat": 1,
-   "item": "Ahi Citrus Ceviche*",
-   "mods": [],
-   "course": "Apps first",
-   "allergy": "None"
-  },
-  {
-   "ticket": "Seat 2: Kids Chicken Tacos · fire with entrees · guest has a soy allergy",
-   "seat": 2,
-   "item": "Kids Chicken Tacos",
-   "mods": [],
-   "course": "Fire with entrees",
-   "allergy": "Soy"
-  },
-  {
-   "ticket": "Seat 1: House Tomato · apps first",
-   "seat": 1,
-   "item": "House Tomato",
-   "mods": [],
-   "course": "Apps first",
-   "allergy": "None"
-  },
-  {
-   "ticket": "Seat 4: Coastal Citrus Salad Plate · fire with entrees · guest has a tree nuts allergy",
-   "seat": 4,
-   "item": "Coastal Citrus Salad Plate",
-   "mods": [],
-   "course": "Fire with entrees",
-   "allergy": "Tree Nuts"
-  },
-  {
-   "ticket": "Seat 2: Ahi Citrus Ceviche* · apps first",
-   "seat": 2,
-   "item": "Ahi Citrus Ceviche*",
-   "mods": [],
-   "course": "Apps first",
-   "allergy": "None"
-  },
-  {
-   "ticket": "Seat 1: Birria Quesadilla Plato · fire with entrees · guest has a soy allergy",
-   "seat": 1,
-   "item": "Birria Quesadilla Plato",
-   "mods": [],
-   "course": "Fire with entrees",
-   "allergy": "Soy"
-  },
-  {
-   "ticket": "Seat 1: Rustic Tortilla Soup · fire with entrees",
-   "seat": 1,
-   "item": "Rustic Tortilla Soup",
-   "mods": [],
-   "course": "Fire with entrees",
-   "allergy": "None"
-  },
-  {
-   "ticket": "Seat 1: Local Fresco Bowl, Add grilled ribeye* · fire with entrees · guest has a peanuts allergy",
-   "seat": 1,
-   "item": "Local Fresco Bowl",
-   "mods": [
-    "Add grilled ribeye*"
-   ],
-   "course": "Fire with entrees",
-   "allergy": "Peanuts"
-  },
-  {
-   "ticket": "Seat 2: Queso Flameado Serves 2–4, Style: Vegetarian (corn tortillas, roasted zucchini & corn) · apps first",
-   "seat": 2,
-   "item": "Queso Flameado Serves 2–4",
-   "mods": [
-    "Style: Vegetarian (corn tortillas, roasted zucchini & corn)"
-   ],
-   "course": "Apps first",
-   "allergy": "None"
-  },
-  {
-   "ticket": "Seat 2: Chargrilled Ribeye* · fire with entrees · guest has a dairy allergy",
-   "seat": 2,
-   "item": "Chargrilled Ribeye*",
-   "mods": [],
-   "course": "Fire with entrees",
-   "allergy": "Dairy"
-  },
-  {
-   "ticket": "Seat 4: The Local Key Lime Cheesecake · fire with entrees",
-   "seat": 4,
-   "item": "The Local Key Lime Cheesecake",
-   "mods": [],
-   "course": "Fire with entrees",
-   "allergy": "None"
-  }
- ]
+  ],
+  "courses": [
+    "Apps first",
+    "Fire with entrees",
+    "Hold"
+  ],
+  "menu": [
+    {
+      "name": "Market Corn (2 pieces)",
+      "category": "Starters",
+      "modifiers": [],
+      "allergens": [
+        "Dairy",
+        "Egg",
+        "Soy"
+      ],
+      "conditional": {},
+      "allergenStatus": "unverified"
+    },
+    {
+      "name": "Queso Blanco",
+      "category": "Starters",
+      "modifiers": [],
+      "allergens": [
+        "Dairy",
+        "Soy"
+      ],
+      "conditional": {},
+      "allergenStatus": "verified"
+    },
+    {
+      "name": "Local Guacamole",
+      "category": "Starters",
+      "modifiers": [
+        "Chips: Corn tortilla chips",
+        "Chips: Watermelon radish crudo chips (lighter)"
+      ],
+      "allergens": [
+        "Soy"
+      ],
+      "conditional": {},
+      "allergenStatus": "unverified"
+    },
+    {
+      "name": "Queso Flameado Serves 2–4",
+      "category": "Starters",
+      "modifiers": [
+        "Style: Chorizo",
+        "Style: Vegetarian (corn tortillas, roasted zucchini & corn)"
+      ],
+      "allergens": [
+        "Gluten",
+        "Dairy",
+        "Soy"
+      ],
+      "conditional": {
+        "Pork": "if chorizo",
+        "Alpha-Gal": "if chorizo"
+      },
+      "allergenStatus": "verified"
+    },
+    {
+      "name": "Ahi Citrus Ceviche*",
+      "category": "Starters",
+      "modifiers": [],
+      "allergens": [
+        "Dairy",
+        "Egg",
+        "Soy",
+        "Fish"
+      ],
+      "conditional": {},
+      "allergenStatus": "verified"
+    },
+    {
+      "name": "Shrimp & Brie Quesadilla",
+      "category": "Starters",
+      "modifiers": [],
+      "allergens": [
+        "Gluten",
+        "Dairy",
+        "Shellfish"
+      ],
+      "conditional": {},
+      "allergenStatus": "verified"
+    },
+    {
+      "name": "Chicken & Roasted Poblano Quesadilla",
+      "category": "Starters",
+      "modifiers": [],
+      "allergens": [
+        "Gluten",
+        "Dairy",
+        "Soy"
+      ],
+      "conditional": {},
+      "allergenStatus": "verified"
+    },
+    {
+      "name": "Grilled Ribeye Nacho Bites*",
+      "category": "Starters",
+      "modifiers": [],
+      "allergens": [
+        "Gluten",
+        "Dairy",
+        "Soy",
+        "Pork",
+        "Alpha-Gal"
+      ],
+      "conditional": {},
+      "allergenStatus": "verified"
+    },
+    {
+      "name": "Local Nacho Bites",
+      "category": "Starters",
+      "modifiers": [
+        "Add chicken"
+      ],
+      "allergens": [
+        "Dairy",
+        "Soy"
+      ],
+      "conditional": {},
+      "allergenStatus": "verified"
+    },
+    {
+      "name": "Zucchini",
+      "category": "Salsas",
+      "modifiers": [],
+      "allergens": [
+        "Dairy"
+      ],
+      "conditional": {},
+      "allergenStatus": "verified"
+    },
+    {
+      "name": "Verde Tomatillo",
+      "category": "Salsas",
+      "modifiers": [],
+      "allergens": [
+        "Dairy"
+      ],
+      "conditional": {},
+      "allergenStatus": "verified"
+    },
+    {
+      "name": "Chipotle",
+      "category": "Salsas",
+      "modifiers": [],
+      "allergens": [],
+      "conditional": {},
+      "allergenStatus": "verified"
+    },
+    {
+      "name": "Caribbean Mango",
+      "category": "Salsas",
+      "modifiers": [],
+      "allergens": [],
+      "conditional": {},
+      "allergenStatus": "verified"
+    },
+    {
+      "name": "House Tomato",
+      "category": "Salsas",
+      "modifiers": [],
+      "allergens": [],
+      "conditional": {},
+      "allergenStatus": "verified"
+    },
+    {
+      "name": "Tres Chiles",
+      "category": "Salsas",
+      "modifiers": [],
+      "allergens": [],
+      "conditional": {
+        "Dairy": "if garnished"
+      },
+      "allergenStatus": "verified"
+    },
+    {
+      "name": "Local Fresco Bowl",
+      "category": "Salads & Bowls",
+      "modifiers": [
+        "Dressing: Jalapeño ranch",
+        "Dressing: Citrus vinaigrette",
+        "Add chicken",
+        "Add grilled shrimp",
+        "Add carnitas",
+        "Add salmon*",
+        "Add grilled ribeye*",
+        "Add fajita vegetables"
+      ],
+      "allergens": [
+        "Dairy",
+        "Soy"
+      ],
+      "conditional": {
+        "Shellfish": "if shrimp",
+        "Fish": "if salmon",
+        "Pork": "if carnitas",
+        "Alpha-Gal": "if carnitas or ribeye"
+      },
+      "allergenStatus": "verified"
+    },
+    {
+      "name": "The Local Salad Plate",
+      "category": "Salads & Bowls",
+      "modifiers": [
+        "Add chicken",
+        "Add grilled shrimp",
+        "Add carnitas",
+        "Add salmon*",
+        "Add grilled ribeye*",
+        "Add fajita vegetables"
+      ],
+      "allergens": [
+        "Dairy",
+        "Egg",
+        "Soy"
+      ],
+      "conditional": {
+        "Shellfish": "if shrimp",
+        "Fish": "if salmon",
+        "Pork": "if carnitas",
+        "Alpha-Gal": "if carnitas or ribeye"
+      },
+      "allergenStatus": "verified"
+    },
+    {
+      "name": "Coastal Citrus Salad Plate",
+      "category": "Salads & Bowls",
+      "modifiers": [
+        "Add chicken",
+        "Add grilled shrimp",
+        "Add carnitas",
+        "Add salmon*",
+        "Add grilled ribeye*",
+        "Add fajita vegetables"
+      ],
+      "allergens": [],
+      "conditional": {
+        "Shellfish": "if shrimp",
+        "Fish": "if salmon",
+        "Pork": "if carnitas",
+        "Alpha-Gal": "if carnitas or ribeye"
+      },
+      "allergenStatus": "verified"
+    },
+    {
+      "name": "Acapulco Spring Salad",
+      "category": "Salads & Bowls",
+      "modifiers": [
+        "Add chicken",
+        "Add grilled shrimp",
+        "Add carnitas",
+        "Add salmon*",
+        "Add grilled ribeye*",
+        "Add fajita vegetables"
+      ],
+      "allergens": [
+        "Soy"
+      ],
+      "conditional": {
+        "Shellfish": "if shrimp",
+        "Fish": "if salmon",
+        "Pork": "if carnitas",
+        "Alpha-Gal": "if carnitas or ribeye"
+      },
+      "allergenStatus": "verified"
+    },
+    {
+      "name": "Rustic Tortilla Soup",
+      "category": "Salads & Bowls",
+      "modifiers": [],
+      "allergens": [
+        "Dairy",
+        "Soy"
+      ],
+      "conditional": {},
+      "allergenStatus": "unverified"
+    },
+    {
+      "name": "Grilled Chicken",
+      "category": "Tacos",
+      "modifiers": [],
+      "allergens": [
+        "Gluten",
+        "Dairy",
+        "Soy"
+      ],
+      "conditional": {},
+      "allergenStatus": "verified"
+    },
+    {
+      "name": "Local Carnitas",
+      "category": "Tacos",
+      "modifiers": [],
+      "allergens": [
+        "Dairy",
+        "Soy",
+        "Pork",
+        "Alpha-Gal"
+      ],
+      "conditional": {},
+      "allergenStatus": "verified"
+    },
+    {
+      "name": "'Pacifico' Fried Fish",
+      "category": "Tacos",
+      "modifiers": [],
+      "allergens": [
+        "Gluten",
+        "Dairy",
+        "Egg",
+        "Soy",
+        "Fish"
+      ],
+      "conditional": {},
+      "allergenStatus": "unverified"
+    },
+    {
+      "name": "Fried Chicken",
+      "category": "Tacos",
+      "modifiers": [],
+      "allergens": [
+        "Gluten",
+        "Dairy",
+        "Egg",
+        "Soy"
+      ],
+      "conditional": {},
+      "allergenStatus": "verified"
+    },
+    {
+      "name": "Verde Veggie",
+      "category": "Tacos",
+      "modifiers": [],
+      "allergens": [
+        "Dairy",
+        "Egg",
+        "Soy"
+      ],
+      "conditional": {},
+      "allergenStatus": "unverified"
+    },
+    {
+      "name": "Crispy Ahi Tuna*",
+      "category": "Tacos",
+      "modifiers": [],
+      "allergens": [
+        "Egg",
+        "Soy",
+        "Fish",
+        "Sesame"
+      ],
+      "conditional": {},
+      "allergenStatus": "verified"
+    },
+    {
+      "name": "Curry Fried Shrimp",
+      "category": "Tacos",
+      "modifiers": [],
+      "allergens": [
+        "Gluten",
+        "Dairy",
+        "Egg",
+        "Soy",
+        "Shellfish"
+      ],
+      "conditional": {},
+      "allergenStatus": "unverified"
+    },
+    {
+      "name": "Chargrilled Ribeye*",
+      "category": "Tacos",
+      "modifiers": [],
+      "allergens": [
+        "Gluten",
+        "Dairy",
+        "Soy",
+        "Alpha-Gal"
+      ],
+      "conditional": {},
+      "allergenStatus": "verified"
+    },
+    {
+      "name": "The Local Chorizo",
+      "category": "Tacos",
+      "modifiers": [],
+      "allergens": [
+        "Gluten",
+        "Dairy",
+        "Pork",
+        "Alpha-Gal"
+      ],
+      "conditional": {},
+      "allergenStatus": "unverified"
+    },
+    {
+      "name": "Cilantro lime rice",
+      "category": "Sides",
+      "modifiers": [],
+      "allergens": [
+        "Dairy"
+      ],
+      "conditional": {},
+      "allergenStatus": "unverified"
+    },
+    {
+      "name": "Jicama-jalapeño slaw",
+      "category": "Sides",
+      "modifiers": [],
+      "allergens": [],
+      "conditional": {},
+      "allergenStatus": "unverified"
+    },
+    {
+      "name": "Black beans",
+      "category": "Sides",
+      "modifiers": [],
+      "allergens": [],
+      "conditional": {
+        "Dairy": "if garnished"
+      },
+      "allergenStatus": "unverified"
+    },
+    {
+      "name": "Drunken pinto beans",
+      "category": "Sides",
+      "modifiers": [],
+      "allergens": [
+        "Gluten",
+        "Pork",
+        "Alpha-Gal"
+      ],
+      "conditional": {},
+      "allergenStatus": "verified"
+    },
+    {
+      "name": "House-pickled vegetables",
+      "category": "Sides",
+      "modifiers": [],
+      "allergens": [],
+      "conditional": {},
+      "allergenStatus": "verified"
+    },
+    {
+      "name": "Veggie",
+      "category": "Fajitas",
+      "modifiers": [
+        "Tortilla: corn (gluten-free)"
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "conditional": {},
+      "allergenStatus": "unverified"
+    },
+    {
+      "name": "Chicken",
+      "category": "Fajitas",
+      "modifiers": [
+        "Tortilla: corn (gluten-free)"
+      ],
+      "allergens": [
+        "Dairy",
+        "Soy"
+      ],
+      "conditional": {},
+      "allergenStatus": "unverified"
+    },
+    {
+      "name": "Shrimp",
+      "category": "Fajitas",
+      "modifiers": [
+        "Tortilla: corn (gluten-free)"
+      ],
+      "allergens": [
+        "Dairy",
+        "Shellfish"
+      ],
+      "conditional": {},
+      "allergenStatus": "unverified"
+    },
+    {
+      "name": "Ribeye*",
+      "category": "Fajitas",
+      "modifiers": [
+        "Tortilla: corn (gluten-free)"
+      ],
+      "allergens": [
+        "Dairy",
+        "Soy",
+        "Alpha-Gal"
+      ],
+      "conditional": {},
+      "allergenStatus": "unverified"
+    },
+    {
+      "name": "Combo (choose 2)",
+      "category": "Fajitas",
+      "modifiers": [
+        "Choose 2 proteins: Veggie / Chicken / Shrimp / Ribeye*",
+        "Tortilla: corn (gluten-free)"
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "conditional": {},
+      "allergenStatus": "unverified"
+    },
+    {
+      "name": "Salmon Vera Cruz Skillet*",
+      "category": "Entrees",
+      "modifiers": [],
+      "allergens": [
+        "Dairy",
+        "Fish"
+      ],
+      "conditional": {},
+      "allergenStatus": "unverified"
+    },
+    {
+      "name": "Birria Quesadilla Plato",
+      "category": "Entrees",
+      "modifiers": [],
+      "allergens": [
+        "Gluten",
+        "Dairy",
+        "Soy",
+        "Alpha-Gal"
+      ],
+      "conditional": {},
+      "allergenStatus": "verified"
+    },
+    {
+      "name": "Queso Cinco Enchiladas",
+      "category": "Entrees",
+      "modifiers": [],
+      "allergens": [
+        "Gluten",
+        "Dairy"
+      ],
+      "conditional": {},
+      "allergenStatus": "unverified"
+    },
+    {
+      "name": "Spinach Artichoke Enchiladas",
+      "category": "Entrees",
+      "modifiers": [],
+      "allergens": [
+        "Gluten",
+        "Dairy"
+      ],
+      "conditional": {},
+      "allergenStatus": "verified"
+    },
+    {
+      "name": "Dixon Chicken Enchiladas",
+      "category": "Entrees",
+      "modifiers": [],
+      "allergens": [
+        "Gluten",
+        "Dairy"
+      ],
+      "conditional": {},
+      "allergenStatus": "unverified"
+    },
+    {
+      "name": "Grilled Salmon Plate*",
+      "category": "Entrees",
+      "modifiers": [],
+      "allergens": [
+        "Dairy",
+        "Fish"
+      ],
+      "conditional": {},
+      "allergenStatus": "verified"
+    },
+    {
+      "name": "Mexican Caramel Apple Crisp Skillet",
+      "category": "Desserts",
+      "modifiers": [],
+      "allergens": [
+        "Gluten",
+        "Dairy",
+        "Soy",
+        "Tree Nuts"
+      ],
+      "conditional": {},
+      "allergenStatus": "unverified"
+    },
+    {
+      "name": "The Local Key Lime Cheesecake",
+      "category": "Desserts",
+      "modifiers": [],
+      "allergens": [
+        "Gluten",
+        "Dairy",
+        "Egg"
+      ],
+      "conditional": {},
+      "allergenStatus": "unverified"
+    },
+    {
+      "name": "Tres-Rum Spiked Tres Leches",
+      "category": "Desserts",
+      "modifiers": [],
+      "allergens": [
+        "Gluten",
+        "Dairy",
+        "Egg"
+      ],
+      "conditional": {},
+      "allergenStatus": "unverified"
+    },
+    {
+      "name": "Mini 'Dillas",
+      "category": "Kids Menu",
+      "modifiers": [
+        "Jack cheese",
+        "Chicken & Jack cheese"
+      ],
+      "allergens": [
+        "Gluten",
+        "Dairy"
+      ],
+      "conditional": {
+        "Soy": "if chicken version"
+      },
+      "allergenStatus": "unverified"
+    },
+    {
+      "name": "Kids Chicken Tacos",
+      "category": "Kids Menu",
+      "modifiers": [],
+      "allergens": [
+        "Gluten",
+        "Dairy",
+        "Soy"
+      ],
+      "conditional": {},
+      "allergenStatus": "verified"
+    },
+    {
+      "name": "Hand-Breaded Fried Chicken Tenders",
+      "category": "Kids Menu",
+      "modifiers": [],
+      "allergens": [
+        "Gluten",
+        "Dairy",
+        "Egg",
+        "Soy"
+      ],
+      "conditional": {},
+      "allergenStatus": "unverified"
+    },
+    {
+      "name": "Kids Sides",
+      "category": "Kids Menu",
+      "modifiers": [
+        "Cheese dip & tortilla chips",
+        "Fresh fruit",
+        "Cilantro lime rice",
+        "Beans",
+        "Fountain drink choice"
+      ],
+      "allergens": [],
+      "conditional": {},
+      "allergenStatus": "unverified"
+    },
+    {
+      "name": "Fountain Selections",
+      "category": "Beverages",
+      "modifiers": [
+        "Coke",
+        "Diet Coke",
+        "Coke Zero Sugar",
+        "Sprite",
+        "Dr. Pepper",
+        "Diet Dr. Pepper",
+        "Sweet Tea",
+        "Unsweet Tea",
+        "Barq's Root Beer"
+      ],
+      "allergens": [],
+      "conditional": {},
+      "allergenStatus": "unverified"
+    },
+    {
+      "name": "House-made & Fresh",
+      "category": "Beverages",
+      "modifiers": [
+        "Lemonade",
+        "Limeade",
+        "Ginger-Lime Soda"
+      ],
+      "allergens": [],
+      "conditional": {},
+      "allergenStatus": "unverified"
+    },
+    {
+      "name": "Mexican Coca-Cola",
+      "category": "Beverages",
+      "modifiers": [],
+      "allergens": [],
+      "conditional": {},
+      "allergenStatus": "unverified"
+    },
+    {
+      "name": "Topo Chico Sparkling Water",
+      "category": "Beverages",
+      "modifiers": [],
+      "allergens": [],
+      "conditional": {},
+      "allergenStatus": "unverified"
+    },
+    {
+      "name": "The Local Margarita",
+      "category": "Signature Cocktails",
+      "modifiers": [
+        "Frozen",
+        "On the rocks",
+        "Rim: Tajín",
+        "Rim: Salt"
+      ],
+      "allergens": [],
+      "conditional": {},
+      "allergenStatus": "unverified"
+    },
+    {
+      "name": "Heirloom Primo Margarita",
+      "category": "Signature Cocktails",
+      "modifiers": [],
+      "allergens": [],
+      "conditional": {},
+      "allergenStatus": "unverified"
+    },
+    {
+      "name": "Texas Two-Step Margarita",
+      "category": "Signature Cocktails",
+      "modifiers": [
+        "Base: Reposado tequila",
+        "Base: Mezcal"
+      ],
+      "allergens": [],
+      "conditional": {},
+      "allergenStatus": "unverified"
+    },
+    {
+      "name": "Mezcal Negroni",
+      "category": "Signature Cocktails",
+      "modifiers": [],
+      "allergens": [],
+      "conditional": {},
+      "allergenStatus": "unverified"
+    },
+    {
+      "name": "Chilean Pisco Sour",
+      "category": "Signature Cocktails",
+      "modifiers": [],
+      "allergens": [],
+      "conditional": {},
+      "allergenStatus": "unverified"
+    },
+    {
+      "name": "Piña Colada Frozen",
+      "category": "Signature Cocktails",
+      "modifiers": [],
+      "allergens": [],
+      "conditional": {},
+      "allergenStatus": "unverified"
+    },
+    {
+      "name": "Paloma Reserva",
+      "category": "Signature Cocktails",
+      "modifiers": [],
+      "allergens": [],
+      "conditional": {},
+      "allergenStatus": "unverified"
+    },
+    {
+      "name": "Local'Lite",
+      "category": "Signature Cocktails",
+      "modifiers": [],
+      "allergens": [],
+      "conditional": {},
+      "allergenStatus": "unverified"
+    },
+    {
+      "name": "$5 Margaritas",
+      "category": "Happy Hour",
+      "modifiers": [],
+      "allergens": [],
+      "conditional": {},
+      "allergenStatus": "unverified"
+    },
+    {
+      "name": "$2 Off Draft Beer",
+      "category": "Happy Hour",
+      "modifiers": [],
+      "allergens": [],
+      "conditional": {},
+      "allergenStatus": "unverified"
+    }
+  ],
+  "orders": [
+    {
+      "ticket": "Seat 4: The Local Salad Plate · fire with entrees · guest has a soy allergy",
+      "seat": 4,
+      "item": "The Local Salad Plate",
+      "mods": [],
+      "course": "Fire with entrees",
+      "allergy": "Soy"
+    },
+    {
+      "ticket": "Seat 2: Drunken pinto beans · hold",
+      "seat": 2,
+      "item": "Drunken pinto beans",
+      "mods": [],
+      "course": "Hold",
+      "allergy": "None"
+    },
+    {
+      "ticket": "Seat 4: Grilled Ribeye Nacho Bites* · apps first · guest has a gluten allergy",
+      "seat": 4,
+      "item": "Grilled Ribeye Nacho Bites*",
+      "mods": [],
+      "course": "Apps first",
+      "allergy": "Gluten"
+    },
+    {
+      "ticket": "Seat 2: Birria Quesadilla Plato · hold",
+      "seat": 2,
+      "item": "Birria Quesadilla Plato",
+      "mods": [],
+      "course": "Hold",
+      "allergy": "None"
+    },
+    {
+      "ticket": "Seat 3: Shrimp & Brie Quesadilla · apps first · guest has a dairy allergy",
+      "seat": 3,
+      "item": "Shrimp & Brie Quesadilla",
+      "mods": [],
+      "course": "Apps first",
+      "allergy": "Dairy"
+    },
+    {
+      "ticket": "Seat 1: Zucchini · apps first",
+      "seat": 1,
+      "item": "Zucchini",
+      "mods": [],
+      "course": "Apps first",
+      "allergy": "None"
+    },
+    {
+      "ticket": "Seat 1: Grilled Chicken · hold · guest has a dairy allergy",
+      "seat": 1,
+      "item": "Grilled Chicken",
+      "mods": [],
+      "course": "Hold",
+      "allergy": "Dairy"
+    },
+    {
+      "ticket": "Seat 2: Combo (choose 2) · fire with entrees",
+      "seat": 2,
+      "item": "Combo (choose 2)",
+      "mods": [],
+      "course": "Fire with entrees",
+      "allergy": "None"
+    },
+    {
+      "ticket": "Seat 1: Fried Chicken · hold · guest has a gluten allergy",
+      "seat": 1,
+      "item": "Fried Chicken",
+      "mods": [],
+      "course": "Hold",
+      "allergy": "Gluten"
+    },
+    {
+      "ticket": "Seat 1: Queso Flameado Serves 2–4, Style: Chorizo · apps first",
+      "seat": 1,
+      "item": "Queso Flameado Serves 2–4",
+      "mods": [
+        "Style: Chorizo"
+      ],
+      "course": "Apps first",
+      "allergy": "None"
+    },
+    {
+      "ticket": "Seat 4: Birria Quesadilla Plato · fire with entrees · guest has a tree nuts allergy",
+      "seat": 4,
+      "item": "Birria Quesadilla Plato",
+      "mods": [],
+      "course": "Fire with entrees",
+      "allergy": "Tree Nuts"
+    },
+    {
+      "ticket": "Seat 2: Ribeye* · hold",
+      "seat": 2,
+      "item": "Ribeye*",
+      "mods": [],
+      "course": "Hold",
+      "allergy": "None"
+    },
+    {
+      "ticket": "Seat 1: Crispy Ahi Tuna* · fire with entrees · guest has a fish allergy",
+      "seat": 1,
+      "item": "Crispy Ahi Tuna*",
+      "mods": [],
+      "course": "Fire with entrees",
+      "allergy": "Fish"
+    },
+    {
+      "ticket": "Seat 4: Spinach Artichoke Enchiladas · fire with entrees",
+      "seat": 4,
+      "item": "Spinach Artichoke Enchiladas",
+      "mods": [],
+      "course": "Fire with entrees",
+      "allergy": "None"
+    },
+    {
+      "ticket": "Seat 1: Crispy Ahi Tuna* · fire with entrees · guest has a sesame allergy",
+      "seat": 1,
+      "item": "Crispy Ahi Tuna*",
+      "mods": [],
+      "course": "Fire with entrees",
+      "allergy": "Sesame"
+    },
+    {
+      "ticket": "Seat 3: Mexican Caramel Apple Crisp Skillet · fire with entrees",
+      "seat": 3,
+      "item": "Mexican Caramel Apple Crisp Skillet",
+      "mods": [],
+      "course": "Fire with entrees",
+      "allergy": "None"
+    },
+    {
+      "ticket": "Seat 3: Birria Quesadilla Plato · hold · guest has a dairy allergy",
+      "seat": 3,
+      "item": "Birria Quesadilla Plato",
+      "mods": [],
+      "course": "Hold",
+      "allergy": "Dairy"
+    },
+    {
+      "ticket": "Seat 4: Queso Blanco · apps first",
+      "seat": 4,
+      "item": "Queso Blanco",
+      "mods": [],
+      "course": "Apps first",
+      "allergy": "None"
+    },
+    {
+      "ticket": "Seat 4: Shrimp & Brie Quesadilla · apps first · guest has a sesame allergy",
+      "seat": 4,
+      "item": "Shrimp & Brie Quesadilla",
+      "mods": [],
+      "course": "Apps first",
+      "allergy": "Sesame"
+    },
+    {
+      "ticket": "Seat 1: Ahi Citrus Ceviche* · apps first",
+      "seat": 1,
+      "item": "Ahi Citrus Ceviche*",
+      "mods": [],
+      "course": "Apps first",
+      "allergy": "None"
+    },
+    {
+      "ticket": "Seat 2: Kids Chicken Tacos · fire with entrees · guest has a soy allergy",
+      "seat": 2,
+      "item": "Kids Chicken Tacos",
+      "mods": [],
+      "course": "Fire with entrees",
+      "allergy": "Soy"
+    },
+    {
+      "ticket": "Seat 1: House Tomato · apps first",
+      "seat": 1,
+      "item": "House Tomato",
+      "mods": [],
+      "course": "Apps first",
+      "allergy": "None"
+    },
+    {
+      "ticket": "Seat 4: Coastal Citrus Salad Plate · fire with entrees · guest has a tree nuts allergy",
+      "seat": 4,
+      "item": "Coastal Citrus Salad Plate",
+      "mods": [],
+      "course": "Fire with entrees",
+      "allergy": "Tree Nuts"
+    },
+    {
+      "ticket": "Seat 2: Ahi Citrus Ceviche* · apps first",
+      "seat": 2,
+      "item": "Ahi Citrus Ceviche*",
+      "mods": [],
+      "course": "Apps first",
+      "allergy": "None"
+    },
+    {
+      "ticket": "Seat 1: Birria Quesadilla Plato · fire with entrees · guest has a soy allergy",
+      "seat": 1,
+      "item": "Birria Quesadilla Plato",
+      "mods": [],
+      "course": "Fire with entrees",
+      "allergy": "Soy"
+    },
+    {
+      "ticket": "Seat 1: Rustic Tortilla Soup · fire with entrees",
+      "seat": 1,
+      "item": "Rustic Tortilla Soup",
+      "mods": [],
+      "course": "Fire with entrees",
+      "allergy": "None"
+    },
+    {
+      "ticket": "Seat 1: Local Fresco Bowl, Add grilled ribeye* · fire with entrees · guest has a peanuts allergy",
+      "seat": 1,
+      "item": "Local Fresco Bowl",
+      "mods": [
+        "Add grilled ribeye*"
+      ],
+      "course": "Fire with entrees",
+      "allergy": "Peanuts"
+    },
+    {
+      "ticket": "Seat 2: Queso Flameado Serves 2–4, Style: Vegetarian (corn tortillas, roasted zucchini & corn) · apps first",
+      "seat": 2,
+      "item": "Queso Flameado Serves 2–4",
+      "mods": [
+        "Style: Vegetarian (corn tortillas, roasted zucchini & corn)"
+      ],
+      "course": "Apps first",
+      "allergy": "None"
+    },
+    {
+      "ticket": "Seat 2: Chargrilled Ribeye* · fire with entrees · guest has a dairy allergy",
+      "seat": 2,
+      "item": "Chargrilled Ribeye*",
+      "mods": [],
+      "course": "Fire with entrees",
+      "allergy": "Dairy"
+    },
+    {
+      "ticket": "Seat 4: The Local Key Lime Cheesecake · fire with entrees",
+      "seat": 4,
+      "item": "The Local Key Lime Cheesecake",
+      "mods": [],
+      "course": "Fire with entrees",
+      "allergy": "None"
+    }
+  ]
 }
