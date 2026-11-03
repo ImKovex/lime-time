@@ -89,3 +89,24 @@ h2,.h2{font-size:clamp(20px,6vw,24px);font-weight:800;line-height:1.2}
 .tag{display:inline-block;padding:2px 8px;border-radius:6px;background:var(--card-2);color:var(--muted);font-size:12px;font-weight:800}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 [hidden]{display:none!important}
+/* Redesign pass (Artis, Nov 3). Palette variables only; no layout changes. */
+html{-webkit-tap-highlight-color:transparent}
+body{background:radial-gradient(120% 45% at 50% 0,var(--card) 0,var(--page) 65%) fixed}
+h1,.h1{letter-spacing:-.01em}
+.card{border-color:var(--card-2);box-shadow:0 6px 0 var(--shade)}
+.tile{transition:transform .08s,background .15s,border-color .15s}
+.tile:active{transform:scale(.98)}
+.tile .key{border:2px solid var(--outline)}
+.tile.is-correct .key{border-color:var(--ink)}
+.tile.is-wrong .key{border-color:var(--red)}
+.banner{box-shadow:var(--shadow)}
+.banner.ok::before,.banner.no::before{flex:0 0 32px;height:32px;border-radius:50%;display:grid;place-items:center;font-size:20px;font-weight:1000}
+.banner.ok::before{content:"✓";background:var(--ink);color:var(--lime)}
+.banner.no::before{content:"!";background:var(--on-red);color:var(--red)}
+.progress{height:12px;border:2px solid var(--card-2)}
+.row{border-left:4px solid var(--outline)}.row.is-first,.row.is-me{border-left-width:4px}
+.item,.seat,.chip{transition:background .15s,border-color .15s}
+.item:active,.seat:active,.chip:active{transform:scale(.97)}
+.ticket{box-shadow:0 4px 0 var(--shade)}
+.eyebrow{display:inline-flex;align-items:center;gap:6px}
+.eyebrow::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--lime)}
