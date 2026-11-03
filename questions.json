@@ -401,6 +401,90 @@
           ],
           "answer": 3,
           "source": "menu.json (Local Lime menu data, Drive)"
+        },
+        {
+          "id": "bb01",
+          "q": "What tequila goes in our House Margarita batch?",
+          "choices": [
+            "Lunazul Blanco",
+            "Rancho Alegre Reposado",
+            "G4 Blanco",
+            "Maestro Dobel Diamante"
+          ],
+          "answer": 1,
+          "source": "Bar Bible photos, Daniel, Nov 3"
+        },
+        {
+          "id": "bb02",
+          "q": "What is the standard wine pour?",
+          "choices": [
+            "4 oz",
+            "6 oz",
+            "5 oz",
+            "8 oz"
+          ],
+          "answer": 2,
+          "source": "Bar Bible photos, Daniel, Nov 3"
+        },
+        {
+          "id": "bb03",
+          "q": "How long can an opened bottle of wine be served?",
+          "choices": [
+            "Up to 3 days",
+            "Up to 7 days",
+            "Same day only",
+            "Until it runs out"
+          ],
+          "answer": 0,
+          "source": "Bar Bible photos, Daniel, Nov 3"
+        },
+        {
+          "id": "bb04",
+          "q": "The Martini Café Tamarindo is a 0% mocktail. Which allergen does it carry?",
+          "choices": [
+            "Dairy",
+            "Tree nuts",
+            "Egg, from the egg white",
+            "None"
+          ],
+          "answer": 2,
+          "source": "Bar Bible photos, Daniel, Nov 3"
+        },
+        {
+          "id": "bb05",
+          "q": "How much of each tequila or mezcal goes into a flight?",
+          "choices": [
+            "0.5 oz",
+            "1 oz",
+            "1.5 oz",
+            "0.75 oz"
+          ],
+          "answer": 3,
+          "source": "Bar Bible photos, Daniel, Nov 3"
+        },
+        {
+          "id": "bb06",
+          "q": "What comes with a flight besides the agave?",
+          "choices": [
+            "Sangrita, orange wedges with cinnamon, and lime wedges with salt and Tajín",
+            "A beer back",
+            "Chips and salsa",
+            "A sugar rim"
+          ],
+          "answer": 0,
+          "source": "Bar Bible photos, Daniel, Nov 3"
+        },
+        {
+          "id": "bb07",
+          "q": "What do you always do with a newly opened wine bottle?",
+          "choices": [
+            "Chill it overnight",
+            "Date it",
+            "Pour a taste for the manager",
+            "Recork it with foil"
+          ],
+          "answer": 1,
+          "source": "Bar Bible photos, Daniel, Nov 3"
         }
       ]
     },
