@@ -1,0 +1,376 @@
+{
+  "drinks": [
+    {
+      "name": "House Margarita",
+      "type": "Rocks|Frozen",
+      "ingredients": [
+        "11.5 oz Rocks Margarita (pour 11.5 oz from prepared Margarita batch)",
+        "OR 9 oz Frozen Margarita (pour 9 oz from prepared Frozen Margarita batch)"
+      ],
+      "garnish": [
+        "1 lime wedge"
+      ],
+      "glass": "Frozen: Rocks Glass; Rocks: Tall Colins",
+      "method": [
+        "Salt rim",
+        "Pour the margarita in the glass",
+        "Fill the rocks glass two-thirds full",
+        "Finish off by garnishing with a lime wedge"
+      ]
+    },
+    {
+      "name": "Heirloom Margarita",
+      "ingredients": [
+        "1.5 oz Espolòn Reposado Tequila",
+        ".75 oz Cointreau",
+        ".75 oz lime juice",
+        ".5 oz simple syrup"
+      ],
+      "garnish": [
+        "1 lime wheel & spritz of Grand Marnier"
+      ],
+      "glass": "Salted Coupe",
+      "ice": "None",
+      "tools": "Fine Mesh Strainer, Hawthorne Strainer",
+      "method": [
+        "Measure all ingredients into a shaker tin",
+        "Add ice to the shaker",
+        "Shake vigorously until well chilled",
+        "Double strain into a chilled coupe glass",
+        "Garnish accordingly with a lime wedge & spritz of Grand Marnier",
+        "Serve immediately"
+      ]
+    },
+    {
+      "name": "Texas Two-Step",
+      "ingredients": [
+        "2 oz Reposado Tequila or Mezcal (Guest Choice)",
+        "0.5 oz Jalapeño Triple Sec",
+        "1 oz Basil Syrup",
+        "1 oz Fresh Lime Juice"
+      ],
+      "garnish": [
+        "1 jalapeño slice + basil leaf"
+      ],
+      "glass": "Starred Rocks",
+      "ice": "Cocktail ice",
+      "rim": "Salt for Tequila | Tajín for Mezcal (setup also lists 'Mezcal: Tahini rim')",
+      "method": [
+        "Measure all ingredients into a shaker tin",
+        "Add ice to the shaker",
+        "Shake thoroughly until well chilled",
+        "Strain over fresh ice into a Star Rocks glass",
+        "Garnish according to the recipe",
+        "Serve immediately"
+      ]
+    },
+    {
+      "name": "Paloma Reserva",
+      "ingredients": [
+        "1.5 oz Maestro Dobel Tequila",
+        "0.5 oz Stirrings Triple Sec",
+        "1 oz Grapefruit Juice",
+        "1 tbsp Demerara Syrup",
+        "Top with Grapefruit Soda"
+      ],
+      "garnish": [
+        "1 lime wheel"
+      ],
+      "glass": "12 oz Collins",
+      "ice": "Cocktail ice",
+      "tools": "Jigger, Shaker, Hawthorne Strainer",
+      "method": [
+        "Combine all ingredients, except the Grapefruit Soda, in a shaker tin",
+        "Add ice and shake thoroughly until well chilled",
+        "Strain over fresh ice into the appropriate glass",
+        "Top with Grapefruit Soda",
+        "Garnish according to the recipe",
+        "Serve immediately"
+      ]
+    },
+    {
+      "name": "Mezcal Negroni",
+      "ingredients": [
+        "1 oz Ilegal Joven",
+        "1 oz Cocchi di Torino Vermouth",
+        "1 oz Cappelletti Aperitivo"
+      ],
+      "garnish": [
+        "1 dehydrated orange wheel"
+      ],
+      "glass": "Star Rocks Glass",
+      "ice": "Large Rock",
+      "tools": "Jigger, shaker, Hawthorne strainer & fine-mesh strainer",
+      "method": [
+        "Combine all ingredients in a mixing glass filled with ice",
+        "Stir 20 times until well chilled",
+        "Double strain into a Star Rocks glass",
+        "Garnish according to the recipe",
+        "Serve immediately"
+      ]
+    },
+    {
+      "name": "Chilean Pisco Sour",
+      "ingredients": [
+        "2 oz Macchu Pisco",
+        "1 oz Fresh Lemon Juice",
+        "1 oz Demerara Syrup"
+      ],
+      "garnish": [
+        "1 dehydrated lime wheel"
+      ],
+      "glass": "Coupe",
+      "ice": "None",
+      "tools": "Fine Mesh Strainer, Hawthorne Strainer",
+      "method": [
+        "Measure all ingredients into a shaker tin",
+        "Add ice to the shaker",
+        "Shake well until thoroughly chilled",
+        "Double strain into a chilled coupe glass",
+        "Garnish according to the recipe",
+        "Serve immediately"
+      ],
+      "notes": "No egg white on the printed recipe"
+    },
+    {
+      "name": "Local'Lite",
+      "ingredients": [
+        "2 oz 100% Agave Tequila",
+        ".75 oz Agave Syrup",
+        ".75 oz Lime Juice",
+        "Soda water (topper)"
+      ],
+      "garnish": [
+        "1 orange quarter wedge"
+      ],
+      "glass": "12 oz Collins - Salted Rim",
+      "ice": "Cocktail Ice",
+      "tools": "Jigger, shaker, Hawthorne strainer",
+      "method": [
+        "Combine all ingredients, except the Soda Water, in a shaker tin",
+        "Add ice and shake thoroughly until well chilled",
+        "Strain over fresh ice into the appropriate glass",
+        "Top with Soda Water",
+        "Garnish according to the recipe",
+        "Serve immediately"
+      ]
+    },
+    {
+      "name": "Piña Colada",
+      "type": "Frozen",
+      "ingredients": [
+        "8 oz Frozen Pina (pour 8 oz from prepared Frozen Pina batch)"
+      ],
+      "garnish": [
+        "2 pineapple fronds / pineapple wedge"
+      ],
+      "glass": "Green Glass Tumbler",
+      "method": [
+        "Fill glass to a peak, garnish with (2) Pineapple Fronds/Pineapple wedge, and serve",
+        "Serve with straw"
+      ]
+    },
+    {
+      "name": "Martini Café Tamarindo",
+      "zero": true,
+      "allergens": [
+        "Egg"
+      ],
+      "ingredients": [
+        "2 oz Free Spirits Bourbon Alternative",
+        "1 oz Cold Brew Concentrate",
+        "0.75 oz Tamarind-Piloncillo Cinnamon Syrup",
+        "0.5 oz Fresh Lime Juice",
+        "0.75 oz Egg White"
+      ],
+      "garnish": [
+        "3 coffee beans",
+        "light cinnamon dusting"
+      ],
+      "glass": "Coupe",
+      "ice": "None",
+      "method": [
+        "Add Free Spirits Bourbon Alternative, cold brew, Tamarind-Piloncillo Cinnamon Syrup, lime juice, and egg white to a shaker",
+        "Shake vigorously with ice for 10-15 seconds",
+        "Strain into small tin and remove ice and shake again until well aerated",
+        "Double strain into a chilled coupe",
+        "Garnish with a very light dusting of cinnamon or 3 coffee beans"
+      ],
+      "notes": "Reverse dry shake. EGG (egg white)"
+    },
+    {
+      "name": "Guava + Chile",
+      "zero": true,
+      "ingredients": [
+        "1.5 oz Ritual Agave Spirit Alternative",
+        "1 oz Guava Nectar",
+        "0.75 oz Pineapple Juice",
+        "0.5 oz Fresh Lime Juice",
+        "0.5 oz Chile-Lime Syrup",
+        "1.5-2 oz Sparkling Mineral Water"
+      ],
+      "garnish": [
+        "1 lime wheel",
+        "Tajín rim"
+      ],
+      "glass": "Collins",
+      "ice": "Cocktail Ice",
+      "method": [
+        "Rim glass with Tajín",
+        "Add Ritual Agave Spirit Alternative, guava nectar, pineapple juice, lime juice, and Chile-Lime Syrup to a shaker",
+        "Add ice and shake briefly",
+        "Strain over fresh cubed ice into a Collins or highball glass",
+        "Top with 1.5-2 oz sparkling mineral water",
+        "Gently lift or stir once to integrate",
+        "Garnish with a lime wheel"
+      ],
+      "notes": "Shake + top"
+    },
+    {
+      "name": "Flight",
+      "ingredients": [
+        ".75 oz of each tequila or mezcal for designated flight",
+        ".75 oz of sangrita"
+      ],
+      "garnish": [
+        "2 orange wedges dipped in cinnamon",
+        "2 lime wedges",
+        "salt",
+        "Tajín"
+      ],
+      "glass": "4 shot glasses & flight board",
+      "ice": "None",
+      "tools": "Jigger"
+    },
+    {
+      "name": "Wine Pour",
+      "ingredients": [
+        "Pour Size: 5 oz per glass",
+        "Pour Guide: Use the stars marked on the side of the wine glass as your visual guide",
+        "Utilize the center mark of the star to achieve flawless 5 oz pours",
+        "Bottle Dating: Always date any newly opened bottle of wine",
+        "Quality Standard: Do not serve wine that has been open for more than 3 days"
+      ]
+    }
+  ],
+  "batches": [
+    {
+      "name": "House Margarita Batch",
+      "ingredients": [
+        "FULL BATCH:",
+        "7 Qts Water",
+        "4 Qts Simple Syrup",
+        "1/2 oz Angostura Aromatic Bitters",
+        "3 Qts Fresh Lime Juice",
+        "1 L Triple Sec",
+        "5 Qts Rancho Alegre Reposado (other sheet: 5 Qts 100% Blue Agave Tequila or Rancho Alegre Reposado)",
+        "HALF BATCH:",
+        "3.5 Qts Water",
+        "2 Qts Simple Syrup",
+        "1/4 oz Angostura Aromatic Bitters",
+        "1.5 Qts Fresh Lime Juice",
+        ".5 L Triple Sec",
+        "2.5 Qts Rancho Alegre Reposado (other sheet: 100% Blue Agave Tequila or Rancho Alegre Reposado)"
+      ],
+      "tools": "Combine all ingredients in a 22-quart Cambro, Stir, Label, date, and refrigerate, Note: Always stir before use"
+    },
+    {
+      "name": "Piña Colada Batch",
+      "ingredients": [
+        "9 Cans of Coco Lopez (shake until liquified)",
+        "3 Cans of Dole Pineapple Juice (46 oz cans)",
+        "5.25 L Planteray OG Dark Rum",
+        "3 Liters Water",
+        "36 oz Lime Juice",
+        "15 oz Simple Syrup",
+        "9 oz Passion Fruit liqueur"
+      ],
+      "tools": "Combine all ingredients in a 22-quart Cambro, Whisk & Measuring Cup, Label, date, and refrigerate, Note: Always stir before use",
+      "method": [
+        "Combine all ingredients in Cambro",
+        "Whisk thoroughly until completely combined",
+        "Label - Product/Date/Initials",
+        "Store in Bar Walk-In or add into machine",
+        "During service, fill glass to a peak, garnish with Pineapple Fronds/Pineapple wedge, and serve"
+      ],
+      "notes": "Garnish: 1 pineapple wedge, 2 pineapple fronds"
+    },
+    {
+      "name": "Sangria Noir Batch",
+      "ingredients": [
+        "3.75 L Pinot Noir",
+        "2 oz Triple Sec",
+        "750 mL Merlet Pear Liqueur",
+        "4 L Apple Cider",
+        "1 L Pomegranate Juice",
+        "1.5 L Simple Syrup",
+        "6 dashes Angostura Bitters",
+        "2 dashes Orange Citrate"
+      ],
+      "tools": "Cambro, Whisk, Measuring Cup",
+      "method": [
+        "Combine all ingredients in Cambro",
+        "Whisk thoroughly until completely combined",
+        "Label - Product/Date/Initials",
+        "Store in Bar Walk-In or add into machine",
+        "During service, fill glass to a peak, garnish & serve"
+      ]
+    },
+    {
+      "name": "Tamarind-Piloncillo Cinnamon Syrup",
+      "yield": "Approx. 1 quart",
+      "ingredients": [
+        "24 oz Water",
+        "16 oz Piloncillo, chopped",
+        "6 oz Tamarind Paste",
+        "4 Cinnamon Sticks",
+        "1/16 tsp Kosher Salt"
+      ],
+      "tools": "Sauce Pan, Hot Plate, Whisk, Strainer",
+      "method": [
+        "Combine water, piloncillo, cinnamon sticks, and salt in a saucepan",
+        "Heat gently until the piloncillo is fully dissolved",
+        "Add tamarind and whisk until incorporated",
+        "Simmer gently for 5 minutes",
+        "Remove from heat and steep for 15-20 minutes",
+        "Fine strain",
+        "Cool completely",
+        "Bottle, label, date, and refrigerate"
+      ]
+    },
+    {
+      "name": "Brandied Cherries",
+      "yield": "Roughly 5 Liters",
+      "ingredients": [
+        "Dark Sweet Cherries",
+        "1,750 mL E&J VS Brandy",
+        "3 Cups Sugar",
+        "1.5 Tsp Cinnamon",
+        "1.5 Tsp Ground Ginger",
+        "1 Tsp Ground Clove",
+        "1 Tsp Vanilla Extract",
+        "1/4 Tsp Lamond Extract (as printed)",
+        "1/4 Tsp Kosher Salt",
+        "6 Medium sized lemons"
+      ],
+      "tools": "Cambro, Induction cook top, Bar spoon",
+      "method": [
+        "Combine all ingredients except cherries. Heat at low temp. below 180 degrees until sugar dissolves",
+        "Add cherries, stir 7 times and remove from heat",
+        "Transfer to a 120quart Cambro (as printed)",
+        "Label, date, and store in refrigerated cooler"
+      ],
+      "notes": "After using up all the cherries, the leftover liquid can be reused 3-4 times. Avoid filling the jar with more cherries than the liquid can cover. When the cherries begin to soften or show signs of fermentation, it's a sign to prepare a fresh batch."
+    }
+  ],
+  "conflicts": [
+    "House Margarita batch: one sheet says Rancho Alegre Reposado only; the other says 100% Blue Agave Tequila or Rancho Alegre Reposado. Which is current?",
+    "Pisco Sour garnish: dehydrated lime wheel on its own page, dehydrated lemon wheel on the Classic Cocktails page.",
+    "Texas Two-Step: setup says 'Mezcal: Tahini rim', rim line says Tajín for mezcal. Almost surely Tajín.",
+    "Heirloom Margarita: garnish says lime wheel, method step 5 says lime wedge.",
+    "Martini Café Tamarindo: setup says reverse dry shake, but the method shakes with ice first, then without. Garnish lists both coffee beans and cinnamon; method says cinnamon OR 3 coffee beans.",
+    "House Margarita glass: 'Frozen: Rocks Glass, Rocks: Tall Colins' but method says fill the rocks glass two-thirds full.",
+    "Local'Lite: soda water topper only on its own page, not on the Classic Cocktails page.",
+    "Brandied Cherries: '120quart Cambro' (likely 12 qt) and 'Lamond Extract' (likely almond) as printed."
+  ]
+}
