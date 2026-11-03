@@ -10,11 +10,11 @@
       "garnish": [
         "1 lime wedge"
       ],
-      "glass": "Frozen: Rocks Glass; Rocks: Tall Colins",
+      "glass": "Frozen: rocks glass (smaller frozen glass); Rocks: Tall Collins",
       "method": [
         "Salt rim",
         "Pour the margarita in the glass",
-        "Fill the rocks glass two-thirds full",
+        "Fill the glass two-thirds full",
         "Finish off by garnishing with a lime wedge"
       ],
       "rim": "Salt (guest may request any rim or none)"
@@ -38,7 +38,7 @@
         "Add ice to the shaker",
         "Shake vigorously until well chilled",
         "Double strain into a chilled coupe glass",
-        "Garnish accordingly with a lime wedge & spritz of Grand Marnier",
+        "Garnish with a lime wheel & spritz of Grand Marnier",
         "Serve immediately"
       ],
       "rim": "Salt (guest may request any rim or none)"
@@ -46,7 +46,7 @@
     {
       "name": "Texas Two-Step",
       "ingredients": [
-        "2 oz Reposado Tequila or Mezcal (Guest Choice)",
+        "2 oz Reposado Tequila or house Wahaka Mezcal (Guest Choice)",
         "0.5 oz Jalapeño Triple Sec",
         "1 oz Basil Syrup",
         "1 oz Fresh Lime Juice"
@@ -119,7 +119,7 @@
         "1 oz Demerara Syrup"
       ],
       "garnish": [
-        "1 dehydrated lime wheel"
+        "1 dehydrated lemon wheel"
       ],
       "glass": "Coupe",
       "ice": "None",
@@ -187,8 +187,7 @@
         "0.75 oz Egg White"
       ],
       "garnish": [
-        "3 coffee beans",
-        "light cinnamon dusting"
+        "3 coffee beans"
       ],
       "glass": "Coupe",
       "ice": "None",
@@ -197,7 +196,7 @@
         "Shake vigorously with ice for 10-15 seconds",
         "Strain into small tin and remove ice and shake again until well aerated",
         "Double strain into a chilled coupe",
-        "Garnish with a very light dusting of cinnamon or 3 coffee beans"
+        "Garnish with 3 coffee beans"
       ],
       "notes": "Reverse dry shake. EGG (egg white)"
     },
@@ -267,14 +266,14 @@
         "1/2 oz Angostura Aromatic Bitters",
         "3 Qts Fresh Lime Juice",
         "1 L Triple Sec",
-        "5 Qts Rancho Alegre Reposado (other sheet: 5 Qts 100% Blue Agave Tequila or Rancho Alegre Reposado)",
+        "5 Qts Rancho Alegre Reposado",
         "HALF BATCH:",
         "3.5 Qts Water",
         "2 Qts Simple Syrup",
         "1/4 oz Angostura Aromatic Bitters",
         "1.5 Qts Fresh Lime Juice",
         ".5 L Triple Sec",
-        "2.5 Qts Rancho Alegre Reposado (other sheet: 100% Blue Agave Tequila or Rancho Alegre Reposado)"
+        "2.5 Qts Rancho Alegre Reposado"
       ],
       "tools": "22-quart Cambro",
       "method": [
@@ -368,20 +367,14 @@
       "method": [
         "Combine all ingredients except cherries. Heat at low temp. below 180 degrees until sugar dissolves",
         "Add cherries, stir 7 times and remove from heat",
-        "Transfer to a 120quart Cambro (as printed)",
+        "Transfer to a 12-quart Cambro",
         "Label, date, and store in refrigerated cooler"
       ],
       "notes": "After using up all the cherries, the leftover liquid can be reused 3-4 times. Avoid filling the jar with more cherries than the liquid can cover. When the cherries begin to soften or show signs of fermentation, it's a sign to prepare a fresh batch."
     }
   ],
   "conflicts": [
-    "House Margarita batch: one sheet says Rancho Alegre Reposado only; the other says 100% Blue Agave Tequila or Rancho Alegre Reposado. Which is current?",
-    "Pisco Sour garnish: dehydrated lime wheel on its own page, dehydrated lemon wheel on the Classic Cocktails page.",
-    "Heirloom Margarita: garnish says lime wheel, method step 5 says lime wedge.",
-    "Martini Café Tamarindo: setup says reverse dry shake, but the method shakes with ice first, then without. Garnish lists both coffee beans and cinnamon; method says cinnamon OR 3 coffee beans.",
-    "House Margarita glass: 'Frozen: Rocks Glass, Rocks: Tall Colins' but method says fill the rocks glass two-thirds full.",
-    "Local'Lite: soda water topper only on its own page, not on the Classic Cocktails page.",
-    "Brandied Cherries: '120quart Cambro' (likely 12 qt) and 'Lamond Extract' (likely almond) as printed.",
-    "Texas Two-Step: Classic Cocktails page says \"Reposado Tequila or Reposado Mezcal\"; its own page says \"Reposado Tequila or Mezcal.\" Is the mezcal option reposado?"
+    "Martini Café Tamarindo: setup says reverse dry shake, but the method shakes with ice first, then without (a regular dry shake). Which is right?",
+    "Brandied Cherries: is \"Lamond Extract\" almond extract?"
   ]
 }
