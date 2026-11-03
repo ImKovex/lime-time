@@ -4,3 +4,34 @@
 .err{color:var(--red);margin-top:8px}.stamp{color:var(--muted);font-size:13px;text-align:center;margin:16px 0}
 .recipe h3{font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:16px 0 6px}
 .recipe ol{padding-left:22px}.recipe ol li{margin:4px 0}.note{color:var(--muted);font-size:15px;margin-top:8px}
+/* Polish pass (Artis, Nov 3). Palette variables only. */
+html{-webkit-tap-highlight-color:transparent}
+body{background:radial-gradient(120% 50% at 50% 0,var(--card) 0,var(--page) 60%) fixed}
+.top{background:linear-gradient(var(--page) 82%,transparent);padding-bottom:14px}
+.title{font-size:28px;letter-spacing:-.01em}
+.search{transition:border-color .15s}.search:focus{outline:0;border-color:var(--lime);box-shadow:0 0 0 3px var(--card-2)}
+.filters{scrollbar-width:none}.filters::-webkit-scrollbar{display:none}
+.row{position:relative;padding-right:40px;border-left:4px solid var(--outline);transition:transform .08s,background .15s}
+.row::after{content:"›";position:absolute;right:14px;top:50%;transform:translateY(-52%);font-size:34px;font-weight:700;line-height:1;color:var(--lime)}
+.row:active{transform:scale(.98);background:var(--card-2)}
+.row span{display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end}
+.recipe h1{font-size:30px;line-height:1.1;margin:4px 0 10px}
+.warn{display:flex;align-items:center;gap:10px;font-size:17px}
+.warn::before{content:"!";display:grid;place-items:center;flex:0 0 28px;height:28px;border-radius:50%;background:var(--on-red);color:var(--red);font-weight:1000}
+.meta div{border-top:3px solid var(--outline)}.meta span{color:var(--lime);letter-spacing:.05em}
+.spec{border:2px solid var(--card-2)}
+.recipe ol{list-style:none;padding:0;counter-reset:s}
+.recipe ol li{counter-increment:s;position:relative;padding:8px 0 8px 40px;margin:0;border-bottom:1px solid var(--card-2)}
+.recipe ol li:last-child{border:0}
+.recipe ol li::before{content:counter(s);position:absolute;left:0;top:8px;width:28px;height:28px;border-radius:50%;background:var(--lime);color:var(--ink);font-weight:1000;font-size:15px;display:grid;place-items:center}
+.tabs{backdrop-filter:blur(8px)}
+.tabs a{position:relative;font-size:16px}
+.tabs a.is-on::before{content:"";position:absolute;top:0;left:22%;right:22%;height:4px;border-radius:0 0 4px 4px;background:var(--lime)}
+.fc{border:3px solid var(--lime);box-shadow:0 10px 0 var(--card-2);transition:transform .12s}
+.fc:active{transform:scale(.985)}
+.fc:has(ul){background:var(--card);color:var(--cream);border-color:var(--outline)}
+.fc:has(ul) .q{color:var(--lime)}.fc:has(ul) .hint{color:var(--muted)}
+.fc:has(ul) li{border-bottom:1px solid var(--card-2);padding:6px 0}
+.fc .hint{font-size:15px}
+.btn{box-shadow:0 4px 0 var(--shade);transition:transform .06s}.btn:active{transform:translateY(3px);box-shadow:none}
+.stamp{opacity:.8}

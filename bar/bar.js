@@ -1,7 +1,7 @@
 // Lime Bar Book (build: I-Rock, look: Artis, recipes: Expo in recipes.json). Team code shared with Lime Time.
 const TEAM_CODE='LIME2026';let R={drinks:[],batches:[]},tab='drinks',filter='',chip='All',back=null,deck=[],fi=0,flip=false,again=[];
 const app=document.getElementById('app'),esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])),$=s=>app.querySelector(s);
-const AMT=/^([\d.\/½¼¾,\s-]+\s*(?:oz|tbsp|tsp|ml|mL|L|qts?|Qts?|cups?|Cups?|dashes|Dashes|cans?|Cans?)?)\s+(.+)$/;
+const AMT=/^([\d.\/½¼¾,\s-]+\s*(?:oz|tbsp|tsp|ml|mL|L|qts?|Qts?|cups?|Cups?|dashes|Dashes|cans?|Cans?)?)\s+(.+)$/i;
 async function load(){try{R=await fetch('recipes.json',{cache:'no-store'}).then(r=>r.json())}catch(e){}}
 function nav(){return`<nav class="tabs">${[['drinks','Drinks'],['prep','Prep'],['flash','Flash cards']].map(([k,l])=>`<a data-t="${k}" class="${tab===k?'is-on':''}">${l}</a>`).join('')}</nav>`}
 function wire(){app.querySelectorAll('.tabs a').forEach(a=>a.onclick=()=>{tab=a.dataset.t;filter='';chip='All';tab==='flash'?startFlash():list();scrollTo(0,0)})}
