@@ -41,12 +41,13 @@
         "Garnish with a lime wheel & spritz of Grand Marnier",
         "Serve immediately"
       ],
-      "rim": "Salt (guest may request any rim or none)"
+      "rim": "Salt (guest may request any rim or none)",
+      "notes": "Daniel, Nov 3: stays reposado (app keeps Espolòn Reposado; newer sheet lists Siembra Valles Reposado)."
     },
     {
       "name": "Texas Two-Step",
       "ingredients": [
-        "2 oz Reposado Tequila or house Wahaka Mezcal (Guest Choice)",
+        "2 oz Rancho Alegre Reposado Tequila or Wahaka Reposado Mezcal (Guest Choice)",
         "0.5 oz Jalapeño Triple Sec",
         "1 oz Basil Syrup",
         "1 oz Fresh Lime Juice"
@@ -54,7 +55,7 @@
       "garnish": [
         "1 jalapeño slice + basil leaf"
       ],
-      "glass": "Starred Rocks",
+      "glass": "Starred Rocks (same glass for tequila or mezcal)",
       "ice": "Cocktail ice",
       "rim": "Salt with tequila; Tajín with mezcal (guest may request any rim or none)",
       "method": [
@@ -115,24 +116,26 @@
       "name": "Chilean Pisco Sour",
       "ingredients": [
         "2 oz Macchu Pisco",
+        ".75 oz Simple Syrup",
         "1 oz Fresh Lemon Juice",
-        "1 oz Demerara Syrup"
+        "Egg White"
       ],
       "garnish": [
+        "Angostura hearts",
         "1 dehydrated lemon wheel"
       ],
       "glass": "Coupe",
       "ice": "None",
       "tools": "Fine Mesh Strainer, Hawthorne Strainer",
       "method": [
-        "Measure all ingredients into a shaker tin",
-        "Add ice to the shaker",
-        "Shake well until thoroughly chilled",
-        "Double strain into a chilled coupe glass",
-        "Garnish according to the recipe",
+        "Measure all ingredients, including egg white, into a shaker tin",
+        "Add ice and shake hard until well chilled",
+        "Strain out the ice, then shake again without ice until frothy (reverse dry shake)",
+        "Double strain into a chilled coupe",
+        "Garnish with angostura hearts and a dehydrated lemon wheel",
         "Serve immediately"
       ],
-      "notes": "May contain egg white: the newer sheet lists egg white and a reverse dry shake. Treat it as egg until Daniel confirms.",
+      "notes": "Contains egg white. Spec from the Classic Cocktails sheet; Daniel said to go with the correct version, Nov 3.",
       "allergens": [
         "Egg"
       ]
@@ -405,7 +408,7 @@
       "type": "Classic",
       "zero": false,
       "allergens": [
-        "Contains tree nut (almond)"
+        "Contains tree nut (almond; Luxardo Maraschino, brandied cherry)"
       ],
       "ingredients": [
         ".75oz GAD Reposado Mezcal",
@@ -447,7 +450,9 @@
       "name": "Last Word",
       "type": "Classic",
       "zero": false,
-      "allergens": [],
+      "allergens": [
+        "Contains tree nut (Luxardo Maraschino, made with cherry pits)"
+      ],
       "ingredients": [
         ".75oz Hayman's London Dry Gin",
         ".75oz Green Chartreuse",
@@ -533,7 +538,7 @@
       "source": "CamScanner 11-3-26 10.11_3.jpg"
     },
     {
-      "name": "Margarita (Classic)",
+      "name": "Margarita (Classic, reference only)",
       "type": "Classic",
       "zero": false,
       "allergens": [],
@@ -552,7 +557,7 @@
       ],
       "source": "CamScanner 11-3-26 10.11_3.jpg",
       "rim": "Salt (guest may request any rim or none)",
-      "notes": "Single-build classic from the sheet titled \"Margarita\". Not the batched House Margarita."
+      "notes": "Reference only, not on our menu (Daniel, Nov 3). For service, use the House Margarita."
     },
     {
       "name": "Pegu Club Cocktail",
@@ -580,14 +585,16 @@
       "name": "Rob Roy",
       "type": "Classic",
       "zero": false,
-      "allergens": [],
+      "allergens": [
+        "Contains tree nut (almond)"
+      ],
       "ingredients": [
         "2oz Glenfiddich 12 Year",
         ".75oz Carpano Antica Vermouth",
         "2dsh Angostura Bitters"
       ],
       "garnish": [
-        "2 cherries on skewer"
+        "2 brandied cherries on skewer"
       ],
       "glass": "Coupe",
       "method": [
@@ -719,10 +726,12 @@
       ],
       "glass": "Collins",
       "method": [
-        "Reverse dry shake",
+        "Shake with ice",
+        "Strain into a Collins glass over fresh ice",
         "Add soda to fill line and swizzle"
       ],
-      "source": "CamScanner 11-3-26 10.11_8.jpg"
+      "source": "CamScanner 11-3-26 10.11_8.jpg",
+      "notes": "No egg white (Daniel, Nov 3), so a regular shake. The sheet says reverse dry shake."
     },
     {
       "name": "Vesper",
@@ -771,7 +780,8 @@
       "type": "Classic",
       "zero": false,
       "allergens": [
-        "Contains egg white"
+        "Contains egg white",
+        "Contains tree nut (almond)"
       ],
       "ingredients": [
         "2oz Old Grand Dad 100 Bourbon",
@@ -948,20 +958,5 @@
       ]
     }
   ],
-  "conflicts": [
-    "Heirloom Margarita tequila: the app says 1.5 oz Espolòn Reposado, the new sheet (CamScanner 11-3-26 10.11_3.jpg) says 1.5oz Siembra Valles Reposado.",
-    "Heirloom Margarita garnish: the app says lime wheel & spritz of Grand Marnier, the new sheet (CamScanner 11-3-26 10.11_3.jpg) says lime wheel - Grand Mariner mist (same idea; 'Mariner' read as Marnier).",
-    "Pisco Sour sweetener: the app's Chilean Pisco Sour says 1 oz Demerara Syrup, the new sheet (CamScanner 11-3-26 10.11_7.jpg) says .75oz Simple Syrup.",
-    "Pisco Sour egg white: the app's Chilean Pisco Sour has no egg white ('No egg white on the printed recipe'), the new sheet (CamScanner 11-3-26 10.11_7.jpg) lists *Egg White with a reverse dry shake. If it gets egg white, it needs the egg-white allergen.",
-    "Pisco Sour garnish: the app says 1 dehydrated lemon wheel (Daniel confirmed), the new sheet (CamScanner 11-3-26 10.11_7.jpg) says angostura hearts.",
-    "Texas Two-Step spirit: the app says Reposado Tequila or house Wahaka Mezcal, the new sheet (CamScanner 11-3-26 10.11_8.jpg) says 2oz Rancho Alegre Reposado or Wahaka Reposado.",
-    "Texas Two-Step glass: the app says Starred Rocks, the new sheet (CamScanner 11-3-26 10.11_8.jpg) says salted rocks glass. The garnish matches (jalapeño with a basil leaf through the middle).",
-    "Margarita: the new single-build 'Margarita' sheet (CamScanner 11-3-26 10.11_3.jpg: 2oz Rancho Alegre Reposado, 1oz simple, 1oz lime, .5oz triple sec, salted rocks glass, lime wedge) was added as 'Margarita (Classic)'. That is separate from House Margarita, which is batched and served in a Tall Collins for rocks. Confirm whether it belongs on the menu.",
-    "Rob Roy garnish (CamScanner 11-3-26 10.11_7.jpg) is '2 cherries on skewer', but the sheet doesn't say they're brandied. If they are the house brandied cherries, it needs 'Contains tree nut (almond)'.",
-    "Whiskey Sour garnish (CamScanner 11-3-26 10.11_9.jpg) is 'lemon cherry taco'. If the cherry is a house brandied cherry, it needs 'Contains tree nut (almond)'.",
-    "Tom Collins (CamScanner 11-3-26 10.11_8.jpg) says 'Reverse dry shake' but lists no egg white. Confirm whether it gets egg white (that would add the egg-white allergen).",
-    "Firing Line and Last Word (CamScanner 11-3-26 10.11_2.jpg) use Luxardo Maraschino Liqueur, which is distilled from marasca cherries and their pits. It wasn't flagged as a tree nut; confirm with the allergen policy.",
-    "Missing pages: files are numbered 10.11_1, 2, 3, 7, 8, 9, so pages 4 to 6 (about drinks from Margarita to Pegu Club, likely M to P) are not in the folder.",
-    "Typos fixed on import: Gimlett→Gimlet, Pegu Cub→Pegu Club, Pierre Ferand→Pierre Ferrand, coup→coupe, rose'→rosé, Flemming→Fleming (kept in note). 'Grand Mariner' read as Grand Marnier."
-  ]
+  "conflicts": []
 }
