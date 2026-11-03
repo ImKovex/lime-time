@@ -1,6 +1,6 @@
 /* Bar Book style kit (owner: Artis). Lime Time palette; see /workspace/lime-quiz/COLORS.md */
 @font-face{font-family:"Nunito";src:url("Nunito.ttf") format("truetype");font-weight:200 1000;font-display:swap}
-:root{--page:#0E2016;--card:#16301F;--card-2:#1D3D28;--lime:#B0E248;--outline:#5CAA28;--cream:#ECF8C8;--muted:#9DB58A;--gold:#FFD25A;--red:#E5484D;--ink:#0E2016;--on-red:#FFFFFF;--shade:rgba(0,0,0,.35);
+:root{--page:#0A1A33;--card:#12284A;--card-2:#1B3766;--lime:#5AB0FF;--outline:#2F6FD6;--cream:#FFFFFF;--muted:#A9BEDC;--gold:#FFD25A;--red:#E5484D;--ink:#0A1A33;--on-red:#FFFFFF;--shade:rgba(0,0,0,.35);
  --tap:44px;--btn:56px;--r-sm:12px;--r:18px;--pill:999px}
 *{box-sizing:border-box;margin:0}ul{padding:0}
 body{background:var(--page);color:var(--cream);font:600 17px/1.4 "Nunito",system-ui,sans-serif;padding:0 16px 96px}

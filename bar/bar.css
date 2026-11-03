@@ -35,3 +35,4 @@ body{background:radial-gradient(120% 50% at 50% 0,var(--card) 0,var(--page) 60%)
 .fc .hint{font-size:15px}
 .btn{box-shadow:0 4px 0 var(--shade);transition:transform .06s}.btn:active{transform:translateY(3px);box-shadow:none}
 .stamp{opacity:.8}
+.row{color:var(--cream)}
