@@ -132,7 +132,10 @@
         "Garnish according to the recipe",
         "Serve immediately"
       ],
-      "notes": "No egg white on the printed recipe"
+      "notes": "May contain egg white: the newer sheet lists egg white and a reverse dry shake. Treat it as egg until Daniel confirms.",
+      "allergens": [
+        "Egg"
+      ]
     },
     {
       "name": "Local'Lite",
@@ -254,6 +257,575 @@
         "Bottle Dating: Always date any newly opened bottle of wine",
         "Quality Standard: Do not serve wine that has been open for more than 3 days"
       ]
+    },
+    {
+      "name": "Caipirinha",
+      "type": "Classic",
+      "zero": false,
+      "allergens": [],
+      "ingredients": [
+        "2oz Cachaca",
+        ".75oz Simple Syrup",
+        "1oz Lime Juice",
+        "1 sugar cube"
+      ],
+      "garnish": [
+        "No garnish"
+      ],
+      "glass": "Double Old-Fashioned",
+      "method": [
+        "Cut the lime in half crosswise, then cut each half into quarters. Put 6 of the pieces in a shaker, reserving the other 2 for another use. Add the simple syrup, lime juice and sugar cube and gently muddle the lime, carefully pressing each piece. Add the cachaca and shake with ice, then dump into a double Old-Fashioned glass. No garnish."
+      ],
+      "source": "CamScanner 11-3-26 10.11_1.jpg"
+    },
+    {
+      "name": "Corpse Reviver #2",
+      "type": "Classic",
+      "zero": false,
+      "allergens": [],
+      "ingredients": [
+        "1oz Hayman's London Dry Gin",
+        "1oz Cocchi Americano",
+        "1oz Pierre Ferrand Dry Curacao",
+        "1oz Lemon Juice",
+        "*Rinse Coupe with Absinthe"
+      ],
+      "garnish": [
+        "No Garnish"
+      ],
+      "glass": "Coupe",
+      "method": [
+        "Shake and double strain"
+      ],
+      "source": "CamScanner 11-3-26 10.11_1.jpg"
+    },
+    {
+      "name": "Cosmopolitan",
+      "type": "Classic",
+      "zero": false,
+      "allergens": [],
+      "ingredients": [
+        "2.25oz Rocktown Vodka",
+        ".75oz Triple Sec",
+        ".75oz Cranberry Juice",
+        ".5oz Lime Juice"
+      ],
+      "garnish": [
+        "lime wheel"
+      ],
+      "glass": "Coupe",
+      "method": [
+        "Shake and double strain"
+      ],
+      "source": "CamScanner 11-3-26 10.11_1.jpg",
+      "notes": "Sheet says \"coup glass\"; fixed to coupe."
+    },
+    {
+      "name": "Dark & Stormy",
+      "type": "Classic",
+      "zero": false,
+      "allergens": [],
+      "ingredients": [
+        "2oz Gosling's Black Seal rum",
+        "1oz Ginger Syrup",
+        ".75oz Lime Juice",
+        "*add soda water to fill line"
+      ],
+      "garnish": [
+        "lime wheel"
+      ],
+      "glass": "Collins",
+      "method": [
+        "Shake and strain"
+      ],
+      "source": "CamScanner 11-3-26 10.11_1.jpg"
+    },
+    {
+      "name": "Daiquiri",
+      "type": "Classic",
+      "zero": false,
+      "allergens": [],
+      "ingredients": [
+        "2oz El Dorado 3 year Rum",
+        "1oz Simple Syrup",
+        "1oz Lime Juice"
+      ],
+      "garnish": [
+        "Lime Wheel"
+      ],
+      "glass": "Coupe",
+      "method": [
+        "Shake and double strain"
+      ],
+      "source": "CamScanner 11-3-26 10.11_1.jpg"
+    },
+    {
+      "name": "El Diablo",
+      "type": "Classic",
+      "zero": false,
+      "allergens": [],
+      "ingredients": [
+        "1.5oz Lunazul Blanco tequila",
+        ".25oz Giffard Cassis Noir",
+        ".5oz Lime Juice",
+        "Top w/ ginger beer"
+      ],
+      "garnish": [
+        "lime wheel"
+      ],
+      "glass": "Collins",
+      "method": [
+        "Shake and strain",
+        "Top w/ ginger beer"
+      ],
+      "source": "CamScanner 11-3-26 10.11_2.jpg"
+    },
+    {
+      "name": "French 75",
+      "type": "Classic",
+      "zero": false,
+      "allergens": [],
+      "ingredients": [
+        "1.5oz Hayman's London Dry Gin",
+        ".5oz Simple Syrup",
+        ".75oz Lemon Juice",
+        "*Add Prosecco to fill line"
+      ],
+      "garnish": [
+        "lemon twist"
+      ],
+      "glass": "Wine glass",
+      "method": [
+        "Shake and double strain"
+      ],
+      "source": "CamScanner 11-3-26 10.11_2.jpg"
+    },
+    {
+      "name": "Firing Line",
+      "type": "Classic",
+      "zero": false,
+      "allergens": [
+        "Contains tree nut (almond)"
+      ],
+      "ingredients": [
+        ".75oz GAD Reposado Mezcal",
+        ".5oz Green Chartreuse",
+        ".75oz Ancho Reyes Chili Liqueur",
+        ".75oz Luxardo Maraschino Liqueur",
+        ".75oz Lime Juice"
+      ],
+      "garnish": [
+        "brandied cherry"
+      ],
+      "glass": "Coupe",
+      "method": [
+        "Shake and double strain"
+      ],
+      "source": "CamScanner 11-3-26 10.11_2.jpg"
+    },
+    {
+      "name": "Gimlet",
+      "type": "Classic",
+      "zero": false,
+      "allergens": [],
+      "ingredients": [
+        "2oz Rocktown Vodka or Hayman's London Dry Gin",
+        "1oz Simple Syrup",
+        "1oz Lime Juice"
+      ],
+      "garnish": [
+        "lime wheel"
+      ],
+      "glass": "Coupe",
+      "method": [
+        "Shake and double strain"
+      ],
+      "source": "CamScanner 11-3-26 10.11_2.jpg",
+      "notes": "Sheet spells it \"Gimlett\"; fixed to Gimlet."
+    },
+    {
+      "name": "Last Word",
+      "type": "Classic",
+      "zero": false,
+      "allergens": [],
+      "ingredients": [
+        ".75oz Hayman's London Dry Gin",
+        ".75oz Green Chartreuse",
+        ".75oz Luxardo Maraschino Liqueur",
+        ".75oz Lime Juice"
+      ],
+      "garnish": [
+        "no garnish"
+      ],
+      "glass": "Coupe",
+      "method": [
+        "Shake and double strain"
+      ],
+      "source": "CamScanner 11-3-26 10.11_2.jpg"
+    },
+    {
+      "name": "Long Island Iced Tea",
+      "type": "Classic",
+      "zero": false,
+      "allergens": [],
+      "ingredients": [
+        ".5oz Rancho Alegre Reposado",
+        ".5oz Rocktown Triple Sec",
+        ".5oz Old Grand Dad 100 Bourbon",
+        ".5oz El Dorado 3 Year Rum",
+        ".5oz Hayman's London Dry Gin",
+        "1oz Simple Syrup",
+        "1oz Lemon Juice",
+        "*Topped with splash of Coke"
+      ],
+      "garnish": [
+        "lemon wheel"
+      ],
+      "glass": "Collins",
+      "method": [
+        "Shake and strain"
+      ],
+      "source": "CamScanner 11-3-26 10.11_3.jpg"
+    },
+    {
+      "name": "Mai Tai",
+      "type": "Classic",
+      "zero": false,
+      "allergens": [
+        "Contains tree nut (almond, orgeat)"
+      ],
+      "ingredients": [
+        "1oz Smith and Cross Jamaican Rum",
+        ".5oz Charanda Uruapan",
+        ".5oz Pierre Ferrand Dry Curacao",
+        ".75oz Orgeat",
+        ".75oz Lime Juice"
+      ],
+      "garnish": [
+        "mint sprig"
+      ],
+      "glass": "Tiki glass",
+      "method": [
+        "Shake and strain"
+      ],
+      "source": "CamScanner 11-3-26 10.11_3.jpg",
+      "ice": "Crushed ice"
+    },
+    {
+      "name": "Manhattan",
+      "type": "Classic",
+      "zero": false,
+      "allergens": [
+        "Contains tree nut (almond)"
+      ],
+      "ingredients": [
+        "2oz Rittenhouse Rye",
+        "1oz Cocchi Vermouth di Torino",
+        "2dsh Angostura Bitters"
+      ],
+      "garnish": [
+        "brandied cherries on skewer"
+      ],
+      "glass": "Coupe",
+      "method": [
+        "Stir and Julep strain"
+      ],
+      "source": "CamScanner 11-3-26 10.11_3.jpg"
+    },
+    {
+      "name": "Margarita (Classic)",
+      "type": "Classic",
+      "zero": false,
+      "allergens": [],
+      "ingredients": [
+        "2oz Rancho Alegre Reposado",
+        "1oz Simple Syrup",
+        "1oz Lime Juice",
+        ".5oz Triple Sec"
+      ],
+      "garnish": [
+        "lime wedge"
+      ],
+      "glass": "Salted rocks glass",
+      "method": [
+        "Shake and strain"
+      ],
+      "source": "CamScanner 11-3-26 10.11_3.jpg",
+      "rim": "Salt (guest may request any rim or none)",
+      "notes": "Single-build classic from the sheet titled \"Margarita\". Not the batched House Margarita."
+    },
+    {
+      "name": "Pegu Club Cocktail",
+      "type": "Classic",
+      "zero": false,
+      "allergens": [],
+      "ingredients": [
+        "2oz Hayman's London Dry Gin",
+        ".75oz Cointreau",
+        ".75oz Lime Juice",
+        "1dsh Angostura Bitters",
+        "1dsh Orange Bitters"
+      ],
+      "garnish": [
+        "lime wheel"
+      ],
+      "glass": "Coupe",
+      "method": [
+        "Shake and double strain"
+      ],
+      "source": "CamScanner 11-3-26 10.11_7.jpg",
+      "notes": "Sheet says \"Pegu Cub\"; fixed to Pegu Club."
+    },
+    {
+      "name": "Rob Roy",
+      "type": "Classic",
+      "zero": false,
+      "allergens": [],
+      "ingredients": [
+        "2oz Glenfiddich 12 Year",
+        ".75oz Carpano Antica Vermouth",
+        "2dsh Angostura Bitters"
+      ],
+      "garnish": [
+        "2 cherries on skewer"
+      ],
+      "glass": "Coupe",
+      "method": [
+        "Stir and Julep strain"
+      ],
+      "source": "CamScanner 11-3-26 10.11_7.jpg"
+    },
+    {
+      "name": "Rusty Nail",
+      "type": "Classic",
+      "zero": false,
+      "allergens": [],
+      "ingredients": [
+        "2oz Glenfiddich 12 Year",
+        ".75oz Drambuie",
+        "1dsh Bitter Truth Aromatic Bitters",
+        "*Large Rock (Ice)"
+      ],
+      "garnish": [
+        "lemon twist"
+      ],
+      "glass": "Rocks glass",
+      "method": [
+        "Stir and Julep strain"
+      ],
+      "source": "CamScanner 11-3-26 10.11_7.jpg",
+      "ice": "Large Rock"
+    },
+    {
+      "name": "Sazerac",
+      "type": "Classic",
+      "zero": false,
+      "allergens": [],
+      "ingredients": [
+        "1.5oz Rittenhouse Rye",
+        ".5oz Pierre Ferrand 1840 Cognac",
+        "1bsp Demerara Syrup",
+        "4dsh Peychaud's Bitters",
+        "1dsh Angostura Bitters",
+        "*Absinthe Rinse",
+        "*Express Lemon Twist",
+        "*No ice in glassware"
+      ],
+      "garnish": [
+        "no garnish"
+      ],
+      "glass": "Rocks glass",
+      "method": [
+        "Stir and Julep strain"
+      ],
+      "source": "CamScanner 11-3-26 10.11_7.jpg",
+      "ice": "None",
+      "notes": "Sheet says \"Pierre Ferand\"; fixed to Ferrand."
+    },
+    {
+      "name": "Sidecar",
+      "type": "Classic",
+      "zero": false,
+      "allergens": [],
+      "ingredients": [
+        "2oz Pierre Ferrand 1840 Cognac",
+        ".5oz Cointreau",
+        ".25oz Demerara Syrup",
+        ".75oz Lemon Juice"
+      ],
+      "garnish": [
+        "orange twist"
+      ],
+      "glass": "Coupe",
+      "method": [
+        "Shake and double strain"
+      ],
+      "source": "CamScanner 11-3-26 10.11_8.jpg",
+      "rim": "Sugar"
+    },
+    {
+      "name": "Southside",
+      "type": "Classic",
+      "zero": false,
+      "allergens": [],
+      "ingredients": [
+        "2oz Plymouth Gin",
+        ".75oz Simple Syrup",
+        ".75oz Lime Juice",
+        "*5 Mint Leaves",
+        "1dsh Angostura Bitters"
+      ],
+      "garnish": [
+        "mint leaf"
+      ],
+      "glass": "Coupe",
+      "method": [
+        "Shake and double strain"
+      ],
+      "source": "CamScanner 11-3-26 10.11_8.jpg"
+    },
+    {
+      "name": "Tequila Sunrise",
+      "type": "Classic",
+      "zero": false,
+      "allergens": [],
+      "ingredients": [
+        "2oz Siembra Azul Blanco",
+        "4oz Orange Juice",
+        ".25oz Lime Juice",
+        ".25oz house Grenadine (or .75oz Stirrings Pomegranate liqueur)"
+      ],
+      "garnish": [
+        "orange half wheel & lime wedge"
+      ],
+      "glass": "Highball",
+      "method": [
+        "Combine the tequila, orange juice, and lime juice in a Highball glass, then add 3 ice cubes. Stir for 3 seconds. Add the grenadine and don't stir so it will settle to the bottom of the glass."
+      ],
+      "source": "CamScanner 11-3-26 10.11_8.jpg"
+    },
+    {
+      "name": "Tom Collins",
+      "type": "Classic",
+      "zero": false,
+      "allergens": [],
+      "ingredients": [
+        "2oz Hayman's Old Tom Gin",
+        "1oz Lemon Juice",
+        "1oz Simple Syrup"
+      ],
+      "garnish": [
+        "lemon wheel"
+      ],
+      "glass": "Collins",
+      "method": [
+        "Reverse dry shake",
+        "Add soda to fill line and swizzle"
+      ],
+      "source": "CamScanner 11-3-26 10.11_8.jpg"
+    },
+    {
+      "name": "Vesper",
+      "type": "Classic",
+      "zero": false,
+      "allergens": [],
+      "ingredients": [
+        "1.5oz Plymouth Gin",
+        ".75oz Rocktown Vodka",
+        ".5oz Cocchi Americano"
+      ],
+      "garnish": [
+        "lemon twist"
+      ],
+      "glass": "Nick and Nora",
+      "method": [
+        "Stir and Julep strain"
+      ],
+      "source": "CamScanner 11-3-26 10.11_9.jpg",
+      "notes": "Popularized by Ian Fleming's 007 (sheet spells it \"Flemming\")."
+    },
+    {
+      "name": "Vieux Carre",
+      "type": "Classic",
+      "zero": false,
+      "allergens": [],
+      "ingredients": [
+        "1oz Rittenhouse Rye",
+        "1oz Pierre Ferrand 1840 Cognac",
+        "1oz Carpano Antica Vermouth",
+        "1bsp Benedictine",
+        "1dsh Angostura bitters",
+        "1dsh Peychaud's bitters"
+      ],
+      "garnish": [
+        "lemon twist"
+      ],
+      "glass": "Rocks glass",
+      "method": [
+        "Stir and Julep strain"
+      ],
+      "source": "CamScanner 11-3-26 10.11_9.jpg"
+    },
+    {
+      "name": "Whiskey Sour",
+      "type": "Classic",
+      "zero": false,
+      "allergens": [
+        "Contains egg white"
+      ],
+      "ingredients": [
+        "2oz Old Grand Dad 100 Bourbon",
+        "1oz Simple Syrup",
+        "1oz Lemon Juice",
+        "*Egg White"
+      ],
+      "garnish": [
+        "lemon cherry taco"
+      ],
+      "glass": "Rocks glass",
+      "method": [
+        "Reverse dry shake"
+      ],
+      "source": "CamScanner 11-3-26 10.11_9.jpg"
+    },
+    {
+      "name": "White Russian",
+      "type": "Classic",
+      "zero": false,
+      "allergens": [
+        "Contains dairy (half & half)"
+      ],
+      "ingredients": [
+        "1.5oz Rocktown Vodka",
+        "1oz Oak and Bean coffee liqueur",
+        "1oz Half & Half"
+      ],
+      "garnish": [
+        "3 coffee beans"
+      ],
+      "glass": "Old-Fashioned",
+      "method": [
+        "Combine the vodka and liqueur in an Old-Fashioned glass. Fill the glass with ice cubes and stir briefly. Layer the half and half on top"
+      ],
+      "source": "CamScanner 11-3-26 10.11_9.jpg"
+    },
+    {
+      "name": "Wine Spritz",
+      "type": "Classic",
+      "zero": false,
+      "allergens": [],
+      "ingredients": [
+        "4oz cold, crisp white or rosé wine",
+        "2oz Soda Water"
+      ],
+      "garnish": [
+        "lemon wheel"
+      ],
+      "glass": "Wine glass",
+      "method": [
+        "Pour the wine into a wine glass. Fill the glass with ice cubes, then pour in the soda water and stir once."
+      ],
+      "source": "CamScanner 11-3-26 10.11_9.jpg"
     }
   ],
   "batches": [
@@ -376,5 +948,20 @@
       ]
     }
   ],
-  "conflicts": []
+  "conflicts": [
+    "Heirloom Margarita tequila: the app says 1.5 oz Espolòn Reposado, the new sheet (CamScanner 11-3-26 10.11_3.jpg) says 1.5oz Siembra Valles Reposado.",
+    "Heirloom Margarita garnish: the app says lime wheel & spritz of Grand Marnier, the new sheet (CamScanner 11-3-26 10.11_3.jpg) says lime wheel - Grand Mariner mist (same idea; 'Mariner' read as Marnier).",
+    "Pisco Sour sweetener: the app's Chilean Pisco Sour says 1 oz Demerara Syrup, the new sheet (CamScanner 11-3-26 10.11_7.jpg) says .75oz Simple Syrup.",
+    "Pisco Sour egg white: the app's Chilean Pisco Sour has no egg white ('No egg white on the printed recipe'), the new sheet (CamScanner 11-3-26 10.11_7.jpg) lists *Egg White with a reverse dry shake. If it gets egg white, it needs the egg-white allergen.",
+    "Pisco Sour garnish: the app says 1 dehydrated lemon wheel (Daniel confirmed), the new sheet (CamScanner 11-3-26 10.11_7.jpg) says angostura hearts.",
+    "Texas Two-Step spirit: the app says Reposado Tequila or house Wahaka Mezcal, the new sheet (CamScanner 11-3-26 10.11_8.jpg) says 2oz Rancho Alegre Reposado or Wahaka Reposado.",
+    "Texas Two-Step glass: the app says Starred Rocks, the new sheet (CamScanner 11-3-26 10.11_8.jpg) says salted rocks glass. The garnish matches (jalapeño with a basil leaf through the middle).",
+    "Margarita: the new single-build 'Margarita' sheet (CamScanner 11-3-26 10.11_3.jpg: 2oz Rancho Alegre Reposado, 1oz simple, 1oz lime, .5oz triple sec, salted rocks glass, lime wedge) was added as 'Margarita (Classic)'. That is separate from House Margarita, which is batched and served in a Tall Collins for rocks. Confirm whether it belongs on the menu.",
+    "Rob Roy garnish (CamScanner 11-3-26 10.11_7.jpg) is '2 cherries on skewer', but the sheet doesn't say they're brandied. If they are the house brandied cherries, it needs 'Contains tree nut (almond)'.",
+    "Whiskey Sour garnish (CamScanner 11-3-26 10.11_9.jpg) is 'lemon cherry taco'. If the cherry is a house brandied cherry, it needs 'Contains tree nut (almond)'.",
+    "Tom Collins (CamScanner 11-3-26 10.11_8.jpg) says 'Reverse dry shake' but lists no egg white. Confirm whether it gets egg white (that would add the egg-white allergen).",
+    "Firing Line and Last Word (CamScanner 11-3-26 10.11_2.jpg) use Luxardo Maraschino Liqueur, which is distilled from marasca cherries and their pits. It wasn't flagged as a tree nut; confirm with the allergen policy.",
+    "Missing pages: files are numbered 10.11_1, 2, 3, 7, 8, 9, so pages 4 to 6 (about drinks from Margarita to Pegu Club, likely M to P) are not in the folder.",
+    "Typos fixed on import: Gimlett→Gimlet, Pegu Cub→Pegu Club, Pierre Ferand→Pierre Ferrand, coup→coupe, rose'→rosé, Flemming→Fleming (kept in note). 'Grand Mariner' read as Grand Marnier."
+  ]
 }

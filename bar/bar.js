@@ -12,9 +12,9 @@ function sub(d){return d.glass&&d.glass.length<=24?d.glass:(d.type||'').replace(
 function al(a){a=String(a).replace(/^contains\s+/i,'');return a.toLowerCase()==='egg'?'egg white':a}
 function tags(d){return(d.allergens||[]).map(a=>`<span class="tag allergy">${esc(al(a))}</span>`).join('')+(d.zero?'<span class="tag zero">0%</span>':'')}
 function list(){const prep=tab==='prep',src=prep?R.batches:R.drinks,q=filter.toLowerCase();
-const ok=d=>(!q||JSON.stringify(d).toLowerCase().includes(q))&&(prep||chip==='All'||(chip==='0% alcohol'?d.zero:(d.type||'').toLowerCase().includes(chip.toLowerCase())));
+const ok=d=>(!q||JSON.stringify(d).toLowerCase().includes(q))&&(prep||chip==='All'||(chip==='0%'?d.zero:chip==='Classics'?/classic/i.test(d.type||''):chip==='House'?!/classic/i.test(d.type||''):(d.type||'').toLowerCase().includes(chip.toLowerCase())));
 app.innerHTML=`<div class="top"><div class="title">${prep?'Prep':'Bar Book'}</div><input class="search" id="q" type="search" placeholder="Search a ${prep?'batch':'drink'} or ingredient" value="${esc(filter)}">
-${prep?'':`<div class="filters">${['All','Rocks','Frozen','0% alcohol'].map(c=>`<button class="chip ${chip===c?'is-on':''}">${c}</button>`).join('')}</div>`}</div>
+${prep?'':`<div class="filters">${['All','House','Classics','Frozen','0%'].map(c=>`<button class="chip ${chip===c?'is-on':''}">${c}</button>`).join('')}</div>`}</div>
 <div id="res">${src.map((d,i)=>ok(d)?`<button class="row" data-i="${i}"><div><b>${esc(d.name)}</b><small>${esc(sub(d))}</small></div><span>${tags(d)}</span></button>`:'').join('')||'<p class="stamp">No matches.</p>'}</div><p class="stamp" id="stamp"></p>${nav()}`;
 wire();const s=$('#q');s.oninput=()=>{filter=s.value;const p=s.selectionStart;list();const n=$('#q');n.focus();n.setSelectionRange(p,p)};
 app.querySelectorAll('.chip').forEach(b=>b.onclick=()=>{chip=b.textContent;list()});app.querySelectorAll('#res .row').forEach(b=>b.onclick=()=>show(src[+b.dataset.i]));stamp()}
