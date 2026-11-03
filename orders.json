@@ -31,7 +31,7 @@
         "Soy"
       ],
       "conditional": {},
-      "allergenStatus": "unverified"
+      "allergenStatus": "verified"
     },
     {
       "name": "Queso Blanco",
@@ -55,7 +55,7 @@
         "Soy"
       ],
       "conditional": {},
-      "allergenStatus": "unverified"
+      "allergenStatus": "verified"
     },
     {
       "name": "Queso Flameado Serves 2–4",
@@ -293,7 +293,7 @@
         "Soy"
       ],
       "conditional": {},
-      "allergenStatus": "unverified"
+      "allergenStatus": "verified"
     },
     {
       "name": "Grilled Chicken",
@@ -332,7 +332,7 @@
         "Fish"
       ],
       "conditional": {},
-      "allergenStatus": "unverified"
+      "allergenStatus": "verified"
     },
     {
       "name": "Fried Chicken",
@@ -357,7 +357,7 @@
         "Soy"
       ],
       "conditional": {},
-      "allergenStatus": "unverified"
+      "allergenStatus": "verified"
     },
     {
       "name": "Crispy Ahi Tuna*",
@@ -384,7 +384,7 @@
         "Shellfish"
       ],
       "conditional": {},
-      "allergenStatus": "unverified"
+      "allergenStatus": "verified"
     },
     {
       "name": "Chargrilled Ribeye*",
@@ -410,7 +410,7 @@
         "Alpha-Gal"
       ],
       "conditional": {},
-      "allergenStatus": "unverified"
+      "allergenStatus": "verified"
     },
     {
       "name": "Cilantro lime rice",
@@ -420,15 +420,17 @@
         "Dairy"
       ],
       "conditional": {},
-      "allergenStatus": "unverified"
+      "allergenStatus": "verified"
     },
     {
       "name": "Jicama-jalapeño slaw",
       "category": "Sides",
       "modifiers": [],
       "allergens": [],
-      "conditional": {},
-      "allergenStatus": "unverified"
+      "conditional": {
+        "Dairy": "if garnished"
+      },
+      "allergenStatus": "verified"
     },
     {
       "name": "Black beans",
@@ -438,7 +440,7 @@
       "conditional": {
         "Dairy": "if garnished"
       },
-      "allergenStatus": "unverified"
+      "allergenStatus": "verified"
     },
     {
       "name": "Drunken pinto beans",
@@ -469,8 +471,10 @@
       "allergens": [
         "Dairy"
       ],
-      "conditional": {},
-      "allergenStatus": "unverified"
+      "conditional": {
+        "Gluten": "if flour tortilla"
+      },
+      "allergenStatus": "verified"
     },
     {
       "name": "Chicken",
@@ -482,8 +486,10 @@
         "Dairy",
         "Soy"
       ],
-      "conditional": {},
-      "allergenStatus": "unverified"
+      "conditional": {
+        "Gluten": "if flour tortilla"
+      },
+      "allergenStatus": "verified"
     },
     {
       "name": "Shrimp",
@@ -495,8 +501,10 @@
         "Dairy",
         "Shellfish"
       ],
-      "conditional": {},
-      "allergenStatus": "unverified"
+      "conditional": {
+        "Gluten": "if flour tortilla"
+      },
+      "allergenStatus": "verified"
     },
     {
       "name": "Ribeye*",
@@ -509,8 +517,10 @@
         "Soy",
         "Alpha-Gal"
       ],
-      "conditional": {},
-      "allergenStatus": "unverified"
+      "conditional": {
+        "Gluten": "if flour tortilla"
+      },
+      "allergenStatus": "verified"
     },
     {
       "name": "Combo (choose 2)",
@@ -522,8 +532,10 @@
       "allergens": [
         "Dairy"
       ],
-      "conditional": {},
-      "allergenStatus": "unverified"
+      "conditional": {
+        "Gluten": "if flour tortilla"
+      },
+      "allergenStatus": "verified"
     },
     {
       "name": "Salmon Vera Cruz Skillet*",
@@ -534,7 +546,7 @@
         "Fish"
       ],
       "conditional": {},
-      "allergenStatus": "unverified"
+      "allergenStatus": "verified"
     },
     {
       "name": "Birria Quesadilla Plato",
@@ -558,7 +570,7 @@
         "Dairy"
       ],
       "conditional": {},
-      "allergenStatus": "unverified"
+      "allergenStatus": "verified"
     },
     {
       "name": "Spinach Artichoke Enchiladas",
@@ -580,7 +592,7 @@
         "Dairy"
       ],
       "conditional": {},
-      "allergenStatus": "unverified"
+      "allergenStatus": "verified"
     },
     {
       "name": "Grilled Salmon Plate*",
@@ -604,7 +616,7 @@
         "Tree Nuts"
       ],
       "conditional": {},
-      "allergenStatus": "unverified"
+      "allergenStatus": "verified"
     },
     {
       "name": "The Local Key Lime Cheesecake",
@@ -616,7 +628,7 @@
         "Egg"
       ],
       "conditional": {},
-      "allergenStatus": "unverified"
+      "allergenStatus": "verified"
     },
     {
       "name": "Tres-Rum Spiked Tres Leches",
@@ -628,7 +640,7 @@
         "Egg"
       ],
       "conditional": {},
-      "allergenStatus": "unverified"
+      "allergenStatus": "verified"
     },
     {
       "name": "Mini 'Dillas",
@@ -644,7 +656,7 @@
       "conditional": {
         "Soy": "if chicken version"
       },
-      "allergenStatus": "unverified"
+      "allergenStatus": "verified"
     },
     {
       "name": "Kids Chicken Tacos",
@@ -669,7 +681,7 @@
         "Soy"
       ],
       "conditional": {},
-      "allergenStatus": "unverified"
+      "allergenStatus": "verified"
     },
     {
       "name": "Kids Sides",

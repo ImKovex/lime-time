@@ -10,7 +10,9 @@ Always use these CSS variables from `style.css` `:root`. No new hex values anywh
 | Main text | `--cream` | #ECF8C8 |
 | Secondary text | `--muted` | #9DB58A |
 | Highlights, stars | `--gold` | #FFD25A |
-| Wrong, errors (white text) | `--red` | #E5484D |
+| Wrong, errors | `--red` + text `--on-red` | #E5484D / #FFFFFF |
+| Medal gradient | `--gold-hi` / `--gold-lo` | #FFE79A / #C99A1E |
+| Button press shadow | `--shade` | rgba(0,0,0,.35) |
 | Agave round | see `assets/agave.css` | #1A120C, #2A1A10, #D9822B, #F2B45A, #B8A48E |
 
 Sizes: taps at least 44px (`--tap`), main buttons 56px (`--btn`), nothing clipped at 320px wide.

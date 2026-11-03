@@ -7,7 +7,8 @@
   --font:"Nunito","Baloo 2",ui-rounded,"SF Pro Rounded",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
   --r-sm:12px; --r:18px; --r-lg:26px; --pill:999px;
   --tap:44px; --btn:56px; --gap:12px; --pad:20px;
-  --shadow:0 4px 0 rgba(0,0,0,.35);
+  --shade:rgba(0,0,0,.35); --on-red:#FFFFFF; --gold-hi:#FFE79A; --gold-lo:#C99A1E;
+  --shadow:0 4px 0 var(--shade);
 }
 *{box-sizing:border-box;margin:0}
 html,body{background:var(--page);color:var(--cream);font-family:var(--font);-webkit-font-smoothing:antialiased}
@@ -22,7 +23,7 @@ h2,.h2{font-size:clamp(20px,6vw,24px);font-weight:800;line-height:1.2}
 .card{background:var(--card);border:2px solid rgba(92,170,40,.35);border-radius:var(--r);padding:16px}
 /* Buttons */
 .btn{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;min-height:var(--btn);padding:0 20px;border-radius:var(--r);border:0;font:inherit;font-size:19px;font-weight:900;cursor:pointer;box-shadow:var(--shadow);transition:transform .08s}
-.btn:active{transform:translateY(3px);box-shadow:0 1px 0 rgba(0,0,0,.35)}
+.btn:active{transform:translateY(3px);box-shadow:0 1px 0 var(--shade)}
 .btn-primary{background:var(--lime);color:var(--ink)}
 .btn-secondary{background:transparent;color:var(--cream);border:2px solid var(--outline);box-shadow:none}
 .btn-icon{width:var(--tap);height:var(--tap);min-height:var(--tap);padding:0;border-radius:var(--pill);background:var(--card);color:var(--cream);border:2px solid var(--outline);box-shadow:none;font-size:18px}
@@ -38,7 +39,7 @@ h2,.h2{font-size:clamp(20px,6vw,24px);font-weight:800;line-height:1.2}
 .tile.is-correct{background:var(--lime);border-color:var(--lime);color:var(--ink)}
 .tile.is-correct .key{background:var(--ink);color:var(--lime)}
 .tile.is-wrong{background:rgba(229,72,77,.16);border-color:var(--red);color:var(--cream)}
-.tile.is-wrong .key{background:var(--red);color:#fff}
+.tile.is-wrong .key{background:var(--red);color:var(--on-red)}
 .tile.is-dim{opacity:.45}
 /* Circular timer: set --p (0-1) inline */
 .timer{--p:1;--size:64px;position:relative;width:var(--size);height:var(--size);border-radius:50%;flex:none;
@@ -63,12 +64,12 @@ h2,.h2{font-size:clamp(20px,6vw,24px);font-weight:800;line-height:1.2}
 .row.is-me{border:2px solid var(--lime);background:var(--card-2)}
 /* Badge */
 .badge{display:flex;flex-direction:column;align-items:center;gap:6px;width:88px;text-align:center;font-size:12px;font-weight:800;color:var(--cream)}
-.badge .medal{width:64px;height:64px;border-radius:50%;display:grid;place-items:center;font-size:28px;background:radial-gradient(circle at 35% 30%,#FFE79A,var(--gold) 60%,#C99A1E);border:3px solid var(--page);box-shadow:0 0 0 3px var(--gold)}
+.badge .medal{width:64px;height:64px;border-radius:50%;display:grid;place-items:center;font-size:28px;background:radial-gradient(circle at 35% 30%,var(--gold-hi),var(--gold) 60%,var(--gold-lo));border:3px solid var(--page);box-shadow:0 0 0 3px var(--gold)}
 .badge.is-locked .medal{background:var(--card-2);box-shadow:0 0 0 3px var(--card-2);filter:grayscale(1);opacity:.6}
 .badges{display:flex;flex-wrap:wrap;gap:12px;justify-content:center}
 /* Feedback banner */
 .banner{border-radius:var(--r);padding:16px;font-weight:900;font-size:22px;display:flex;align-items:center;gap:12px}
-.banner.ok{background:var(--lime);color:var(--ink)} .banner.no{background:var(--red);color:#fff}
+.banner.ok{background:var(--lime);color:var(--ink)} .banner.no{background:var(--red);color:var(--on-red)}
 /* Ring it in: order entry */
 .ticket{background:var(--cream);color:var(--ink);border-radius:var(--r-sm);padding:12px 14px;font-weight:800;font-size:15px;line-height:1.4}
 .ticket b{font-weight:900}
@@ -82,7 +83,7 @@ h2,.h2{font-size:clamp(20px,6vw,24px);font-weight:800;line-height:1.2}
 .chips{display:flex;flex-wrap:wrap;gap:8px}
 .chip{min-height:var(--tap);padding:0 14px;border-radius:var(--pill);background:transparent;border:2px solid var(--outline);color:var(--cream);font:inherit;font-weight:800;font-size:15px}
 .chip.is-on{background:var(--lime);border-color:var(--lime);color:var(--ink)}
-.chip.allergy{border-color:var(--red)} .chip.allergy.is-on{background:var(--red);color:#fff}
+.chip.allergy{border-color:var(--red)} .chip.allergy.is-on{background:var(--red);color:var(--on-red)}
 .btn-send{background:var(--lime);color:var(--ink)}
 .sticky-bottom{position:sticky;bottom:0;padding-top:8px;background:linear-gradient(transparent,var(--page) 30%)}
 .tag{display:inline-block;padding:2px 8px;border-radius:6px;background:var(--card-2);color:var(--muted);font-size:12px;font-weight:800}
