@@ -16,7 +16,8 @@
         "Pour the margarita in the glass",
         "Fill the rocks glass two-thirds full",
         "Finish off by garnishing with a lime wedge"
-      ]
+      ],
+      "rim": "Salt (guest may request any rim or none)"
     },
     {
       "name": "Heirloom Margarita",
@@ -39,7 +40,8 @@
         "Double strain into a chilled coupe glass",
         "Garnish accordingly with a lime wedge & spritz of Grand Marnier",
         "Serve immediately"
-      ]
+      ],
+      "rim": "Salt (guest may request any rim or none)"
     },
     {
       "name": "Texas Two-Step",
@@ -54,7 +56,7 @@
       ],
       "glass": "Starred Rocks",
       "ice": "Cocktail ice",
-      "rim": "Salt for Tequila | Tajín for Mezcal (setup also lists 'Mezcal: Tahini rim')",
+      "rim": "Salt with tequila; Tajín with mezcal (guest may request any rim or none)",
       "method": [
         "Measure all ingredients into a shaker tin",
         "Add ice to the shaker",
@@ -153,7 +155,8 @@
         "Top with Soda Water",
         "Garnish according to the recipe",
         "Serve immediately"
-      ]
+      ],
+      "rim": "Salt (guest may request any rim or none)"
     },
     {
       "name": "Piña Colada",
@@ -224,7 +227,8 @@
         "Gently lift or stir once to integrate",
         "Garnish with a lime wheel"
       ],
-      "notes": "Shake + top"
+      "notes": "Shake + top",
+      "rim": "Tajín (guest may request any rim or none)"
     },
     {
       "name": "Flight",
@@ -272,7 +276,13 @@
         ".5 L Triple Sec",
         "2.5 Qts Rancho Alegre Reposado (other sheet: 100% Blue Agave Tequila or Rancho Alegre Reposado)"
       ],
-      "tools": "Combine all ingredients in a 22-quart Cambro, Stir, Label, date, and refrigerate, Note: Always stir before use"
+      "tools": "22-quart Cambro",
+      "method": [
+        "Combine all ingredients in a 22-quart Cambro",
+        "Stir",
+        "Label, date, and refrigerate",
+        "Always stir before use"
+      ]
     },
     {
       "name": "Piña Colada Batch",
@@ -285,12 +295,13 @@
         "15 oz Simple Syrup",
         "9 oz Passion Fruit liqueur"
       ],
-      "tools": "Combine all ingredients in a 22-quart Cambro, Whisk & Measuring Cup, Label, date, and refrigerate, Note: Always stir before use",
+      "tools": "22-quart Cambro, Whisk, Measuring Cup",
       "method": [
         "Combine all ingredients in Cambro",
         "Whisk thoroughly until completely combined",
         "Label - Product/Date/Initials",
         "Store in Bar Walk-In or add into machine",
+        "Always stir before use",
         "During service, fill glass to a peak, garnish with Pineapple Fronds/Pineapple wedge, and serve"
       ],
       "notes": "Garnish: 1 pineapple wedge, 2 pineapple fronds"
@@ -366,11 +377,11 @@
   "conflicts": [
     "House Margarita batch: one sheet says Rancho Alegre Reposado only; the other says 100% Blue Agave Tequila or Rancho Alegre Reposado. Which is current?",
     "Pisco Sour garnish: dehydrated lime wheel on its own page, dehydrated lemon wheel on the Classic Cocktails page.",
-    "Texas Two-Step: setup says 'Mezcal: Tahini rim', rim line says Tajín for mezcal. Almost surely Tajín.",
     "Heirloom Margarita: garnish says lime wheel, method step 5 says lime wedge.",
     "Martini Café Tamarindo: setup says reverse dry shake, but the method shakes with ice first, then without. Garnish lists both coffee beans and cinnamon; method says cinnamon OR 3 coffee beans.",
     "House Margarita glass: 'Frozen: Rocks Glass, Rocks: Tall Colins' but method says fill the rocks glass two-thirds full.",
     "Local'Lite: soda water topper only on its own page, not on the Classic Cocktails page.",
-    "Brandied Cherries: '120quart Cambro' (likely 12 qt) and 'Lamond Extract' (likely almond) as printed."
+    "Brandied Cherries: '120quart Cambro' (likely 12 qt) and 'Lamond Extract' (likely almond) as printed.",
+    "Texas Two-Step: Classic Cocktails page says \"Reposado Tequila or Reposado Mezcal\"; its own page says \"Reposado Tequila or Mezcal.\" Is the mezcal option reposado?"
   ]
 }
