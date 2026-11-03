@@ -359,7 +359,7 @@
         "1.5 Tsp Ground Ginger",
         "1 Tsp Ground Clove",
         "1 Tsp Vanilla Extract",
-        "1/4 Tsp Lamond Extract (as printed)",
+        "1/4 Tsp Almond Extract",
         "1/4 Tsp Kosher Salt",
         "6 Medium sized lemons"
       ],
@@ -370,10 +370,11 @@
         "Transfer to a 12-quart Cambro",
         "Label, date, and store in refrigerated cooler"
       ],
-      "notes": "After using up all the cherries, the leftover liquid can be reused 3-4 times. Avoid filling the jar with more cherries than the liquid can cover. When the cherries begin to soften or show signs of fermentation, it's a sign to prepare a fresh batch."
+      "notes": "Contains almond extract (tree nut). Printed as \"Lamond\"; Daniel read it as almond, Nov 3. After using up all the cherries, the leftover liquid can be reused 3-4 times. Avoid filling the jar with more cherries than the liquid can cover. When the cherries begin to soften or show signs of fermentation, it's a sign to prepare a fresh batch.",
+      "allergens": [
+        "Contains tree nut (almond)"
+      ]
     }
   ],
-  "conflicts": [
-    "Brandied Cherries: is \"Lamond Extract\" almond extract?"
-  ]
+  "conflicts": []
 }
