@@ -1,5 +1,6 @@
 // Local Lime Leawood — manager floor chart.
-// Change the shared gate here. This is not an account password.
+// Sign-in is temporarily off. Set AUTH_ENABLED to true to require MANAGER_CODE again.
+const AUTH_ENABLED = false;
 const MANAGER_CODE = "MGR2026";
 const QUIZ_CODE = "LIME2026";
 
@@ -521,13 +522,19 @@ function $(id) {
   return document.getElementById(id);
 }
 
+function lockScreen() {
+  sessionStorage.removeItem(AUTH_KEY);
+  closeSheet();
+  show("unlock");
+}
+
 function show(screen) {
   ["loading", "unlock", "shift", "roster", "chart"].forEach((name) => {
     const node = $("screen-" + name);
     if (node) node.hidden = name !== screen;
   });
   const lock = $("lock-btn");
-  if (lock) lock.hidden = screen === "unlock" || screen === "loading";
+  if (lock) lock.hidden = !AUTH_ENABLED || screen === "unlock" || screen === "loading";
   const note = $("toast");
   if (note) note.hidden = true;
 }
@@ -1274,11 +1281,8 @@ function bind() {
     renderShiftMeta();
   });
 
-  $("lock-btn").addEventListener("click", () => {
-    sessionStorage.removeItem(AUTH_KEY);
-    closeSheet();
-    show("unlock");
-  });
+  $("lock-btn").addEventListener("click", lockScreen);
+  $("shift-back").addEventListener("click", lockScreen);
 
   $("shift-am").addEventListener("click", () => {
     state.shift = "AM";
@@ -1316,10 +1320,31 @@ function bind() {
     show("shift");
     renderShiftMeta();
   });
+  $("roster-cancel").addEventListener("click", () => {
+    state.selected = new Set();
+    localStorage.removeItem(DRAFT_KEY);
+    show("shift");
+    renderShiftMeta();
+  });
   $("back-to-roster").addEventListener("click", () => {
     closeSheet();
     show("roster");
     renderRoster();
+  });
+  $("chart-start-over").addEventListener("click", () => {
+    closeSheet();
+    state.assignments = {};
+    state.colors = {};
+    state.manual = false;
+    state.notes = [];
+    state.history = [];
+    state.highlight = null;
+    state.activeTable = null;
+    state.includeBar = false;
+    state.view = [];
+    localStorage.removeItem(CHART_KEY);
+    show("shift");
+    renderShiftMeta();
   });
 
   $("roster-filter").addEventListener("input", renderRoster);
@@ -1381,13 +1406,6 @@ function bind() {
     renderChart();
     saveChart();
   });
-  $("zoom-btn").addEventListener("click", () => {
-    const scroll = $("map-scroll");
-    const on = !scroll.classList.contains("zoomed");
-    scroll.classList.toggle("zoomed", on);
-    $("zoom-btn").setAttribute("aria-pressed", on ? "true" : "false");
-    $("zoom-btn").textContent = on ? "Fit map" : "Larger map";
-  });
   $("print-btn").addEventListener("click", () => window.print());
   $("image-btn").addEventListener("click", saveImage);
   $("sheet-close").addEventListener("click", () => {
@@ -1428,9 +1446,12 @@ function boot() {
       if (counts.patio !== 13 || counts.dining !== 38 || counts.bar !== 21 || state.servers.length !== 40) {
         toast("Roster or table file doesn’t match the room. Expected 40 servers, 13 patio, 38 dining, 21 bar.");
       }
-      if (sessionStorage.getItem(AUTH_KEY) === "1") {
-        const saved = loadChart();
-        if (saved && saved.assignments && Object.keys(saved.assignments).length) {
+      const saved = loadChart();
+      const openSaved = saved && saved.assignments && Object.keys(saved.assignments).length;
+      if (!AUTH_ENABLED) {
+        show("shift");
+      } else if (sessionStorage.getItem(AUTH_KEY) === "1") {
+        if (openSaved) {
           applySaved(saved);
           show("chart");
           renderChart();
@@ -1440,6 +1461,7 @@ function boot() {
       } else {
         show("unlock");
       }
+      if (AUTH_ENABLED) $("shift-back").hidden = false;
     })
     .catch(() => {
       show("loading");

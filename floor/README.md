@@ -14,17 +14,20 @@ python3 -m http.server 8741
 
 Open `http://127.0.0.1:8741`. Browsers block `fetch` on a `file://` page, so use a static server or GitHub Pages.
 
-Unlock with the manager code, pick the shift, tap **Auto-pick 15** (or check names yourself), then **Build sections**. The last chart is stored in this browser’s `localStorage`. Locking the page only clears the session; it does not delete the chart.
+The app opens on the shift picker. Pick the shift, tap **Auto-pick 15** (or check names yourself), then **Build sections**. The last chart is stored in this browser’s `localStorage`. **Back** returns one step. **Cancel** on the roster drops the names you checked. **Start over** on the chart clears it and returns to the shift picker.
 
 ## Manager code
 
-The gate is a shared code, not a user account. It lives in `app.js`:
+Sign-in is **temporarily off**. The app opens on the shift picker. No code prompt.
+
+To turn the gate back on, set this in `app.js` and refresh:
 
 ```js
+const AUTH_ENABLED = true;
 const MANAGER_CODE = "MGR2026";
 ```
 
-Change that string and refresh. The team quiz code (`LIME2026`) is a different app and will not unlock this one. The unlock flag is `sessionStorage` only (`lll.floor.unlocked`).
+Change `MGR2026` if you want a different shared code. The team quiz code (`LIME2026`) is a different app and will not unlock this one. When the gate is on, the unlock flag is `sessionStorage` only (`lll.floor.unlocked`), and **Back** on the shift screen locks the page.
 
 ## Roster
 

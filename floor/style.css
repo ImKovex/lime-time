@@ -11,6 +11,7 @@
   --bad: #ff8f8f;
   --ok: #8fd6a8;
   --lime: #d6f27a;
+  --lime-ink: #14210a;
   --shadow: 0 12px 40px rgba(0, 0, 0, 0.28);
   --radius: 18px;
   --dock: 76px;
@@ -97,6 +98,17 @@ h3 { margin: 0; font-size: 18px; }
 }
 .screen-head h1 { margin: 0; }
 
+.nav-row {
+  display: flex;
+  gap: 8px;
+  margin: 0 0 12px;
+}
+.nav-btn {
+  flex: 1 1 0;
+  min-width: 0;
+  min-height: 44px;
+}
+
 .text-btn {
   background: none;
   border: 0;
@@ -117,8 +129,24 @@ h3 { margin: 0; font-size: 18px; }
   font-weight: 700;
   text-align: center;
 }
-.btn-primary { background: var(--accent); color: var(--accent-ink); }
+.btn-primary { background: var(--lime); color: var(--lime-ink); }
 .btn-primary:disabled { opacity: 0.45; }
+.btn-undo {
+  min-height: 44px;
+  min-width: 88px;
+  padding: 10px 16px;
+  border-radius: 12px;
+  border: 2px solid var(--lime);
+  background: rgba(214, 242, 122, 0.16);
+  color: var(--lime);
+  font-weight: 800;
+}
+.btn-undo:disabled {
+  opacity: 1;
+  border-color: rgba(244, 240, 230, 0.55);
+  background: rgba(244, 240, 230, 0.08);
+  color: var(--cream);
+}
 .btn-ghost {
   background: transparent;
   border-color: var(--line);
@@ -186,9 +214,9 @@ input[type="password"], input[type="search"], select {
   font-size: 13px;
 }
 .days button[aria-pressed="true"], .shift-btn[aria-pressed="true"] {
-  background: var(--accent);
-  color: var(--accent-ink);
-  border-color: var(--accent);
+  background: var(--lime);
+  color: var(--lime-ink);
+  border-color: var(--lime);
 }
 .shift-row { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
 .shift-btn { font-size: 20px; }
@@ -289,13 +317,12 @@ details.group summary {
 .chart-layout { display: block; }
 .map-card { margin-bottom: 16px; }
 .map-scroll {
-  overflow: auto;
-  max-height: min(58vh, calc(100dvh - 360px));
+  overflow: visible;
+  max-height: none;
   border-radius: 16px;
   border: 1px solid var(--line);
   background: #081428;
 }
-.map-scroll.zoomed .map { width: 170%; }
 
 .map {
   position: relative;
@@ -367,14 +394,14 @@ details.group summary {
 .tbl {
   position: absolute;
   transform: translate(-50%, -50%);
-  width: 26px;
-  height: 22px;
+  width: 44px;
+  height: 40px;
   padding: 0;
-  border-radius: 5px;
+  border-radius: 8px;
   border: 2px solid var(--swatch, #c8c2b6);
   background: var(--tint, #efeae0);
   color: #102033;
-  font-size: 9px;
+  font-size: 12px;
   font-weight: 800;
   line-height: 1;
   display: flex;
@@ -400,12 +427,12 @@ details.group summary {
   border-radius: 2px;
   z-index: 0;
 }
-.tbl.kind-diamond span { position: relative; z-index: 1; font-size: 8px; }
+.tbl.kind-diamond span { position: relative; z-index: 1; font-size: 11px; }
 .tbl.kind-bar-seat, .tbl.bar-seat {
-  width: 13px;
-  height: 13px;
+  width: 18px;
+  height: 18px;
   border-radius: 50%;
-  font-size: 6px;
+  font-size: 8px;
   border-width: 1px;
 }
 .tbl.is-off {
@@ -426,7 +453,11 @@ details.group summary {
 .tbl.is-dim { opacity: 0.28; }
 .tbl.is-drop { outline: 2px dashed var(--accent); }
 
-.section-list { display: flex; flex-direction: column; gap: 8px; }
+#section-list { display: flex; flex-direction: column; gap: 8px; }
+#screen-chart .chart-layout,
+#screen-roster .card {
+  margin-bottom: calc(var(--dock) + 28px);
+}
 .section {
   display: grid;
   grid-template-columns: 10px 1fr;
@@ -523,13 +554,26 @@ details.group summary {
 }
 .foot p { margin: 0; }
 
+@media (max-width: 719px) {
+  #screen-chart .map-card {
+    margin-left: -16px;
+    margin-right: -16px;
+  }
+}
+
 @media (min-width: 720px) {
-  .tbl { width: 34px; height: 28px; font-size: 11px; }
-  .tbl.kind-diamond span { font-size: 10px; }
-  .tbl.bar-seat, .tbl.kind-bar-seat { width: 16px; height: 16px; font-size: 8px; }
+  .tbl { width: 48px; height: 44px; font-size: 14px; }
+  .tbl.kind-diamond span { font-size: 12px; }
+  .tbl.bar-seat, .tbl.kind-bar-seat { width: 22px; height: 22px; font-size: 10px; }
   .mark { font-size: 12px; }
   main { padding-left: 24px; padding-right: 24px; }
   .dock { margin-left: -24px; margin-right: -24px; }
+  #section-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    align-items: start;
+  }
 }
 
 @media (min-width: 980px) {
@@ -539,7 +583,8 @@ details.group summary {
     gap: 18px;
     align-items: start;
   }
-  .map-scroll { position: sticky; top: 10px; }
+  .map-scroll { position: static; }
+  #section-list { grid-template-columns: 1fr; }
   h1 { font-size: 34px; }
 }
 

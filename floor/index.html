@@ -8,7 +8,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <title>LLL Floor Chart</title>
   <meta name="description" content="Local Lime Leawood manager floor chart. Pick a shift, pick servers, and build connected sections.">
-  <link rel="stylesheet" href="style.css?v=1793892446">
+  <link rel="stylesheet" href="style.css?v=1793897060">
 </head>
 <body>
   <header class="topbar">
@@ -44,6 +44,9 @@
     </section>
 
     <section class="screen" id="screen-shift" hidden>
+      <div class="nav-row">
+        <button type="button" class="btn btn-ghost nav-btn" id="shift-back" hidden>Back</button>
+      </div>
       <div class="card">
         <h1>Which shift?</h1>
         <p class="lede">Sections are built only from people on this day and shift. Anyone missing from the sheet can still be added, and they’ll be flagged.</p>
@@ -59,10 +62,11 @@
     </section>
 
     <section class="screen" id="screen-roster" hidden>
-      <div class="screen-head">
-        <button type="button" class="text-btn" id="back-to-shift">Shift</button>
-        <h1 id="roster-heading">Who’s on?</h1>
+      <div class="nav-row">
+        <button type="button" class="btn btn-ghost nav-btn" id="back-to-shift">Back</button>
+        <button type="button" class="btn btn-ghost nav-btn" id="roster-cancel">Cancel</button>
       </div>
+      <h1 id="roster-heading">Who’s on?</h1>
       <div class="card">
         <label class="search-label" for="roster-filter">Find a name</label>
         <input id="roster-filter" type="search" placeholder="Search servers" autocomplete="off">
@@ -80,17 +84,17 @@
     </section>
 
     <section class="screen" id="screen-chart" hidden>
-      <div class="screen-head">
-        <button type="button" class="text-btn" id="back-to-roster">Servers</button>
-        <h1 id="chart-heading">Floor</h1>
+      <div class="nav-row no-print">
+        <button type="button" class="btn btn-ghost nav-btn" id="back-to-roster">Back</button>
+        <button type="button" class="btn btn-ghost nav-btn" id="chart-start-over">Start over</button>
       </div>
+      <h1 id="chart-heading">Floor</h1>
       <div class="chart-tools no-print">
         <label class="check-line">
           <input type="checkbox" id="include-bar">
           <span>Include bar seats</span>
         </label>
-        <button type="button" class="text-btn" id="zoom-btn" aria-pressed="false">Larger map</button>
-        <button type="button" class="text-btn" id="undo-btn" disabled>Undo</button>
+        <button type="button" class="btn btn-undo" id="undo-btn" disabled>Undo</button>
       </div>
       <p class="summary" id="chart-summary"></p>
       <div id="chart-notes"></div>
@@ -143,6 +147,6 @@
     </div>
   </div>
 
-  <script src="app.js?v=1793892446"></script>
+  <script src="app.js?v=1793897060"></script>
 </body>
 </html>
