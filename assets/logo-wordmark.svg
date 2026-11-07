@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 96" width="360" height="96" role="img" aria-label="Lime Time">
-<g transform="translate(48 48)"><circle r="40" fill="#B0E248" stroke="#5CAA28" stroke-width="6"/><circle r="28" fill="#ECF8C8"/>
-<g stroke="#B0E248" stroke-width="4">
-<line x1="0" y1="-26" x2="0" y2="26"/><line x1="-26" y1="0" x2="26" y2="0"/><line x1="-18" y1="-18" x2="18" y2="18"/><line x1="18" y1="-18" x2="-18" y2="18"/></g>
-<circle r="6" fill="#0E2016"/><path d="M0 0 L0 -20 M0 0 L13 8" stroke="#0E2016" stroke-width="5" stroke-linecap="round"/></g>
-<text x="102" y="62" font-family="Nunito,ui-rounded,system-ui,sans-serif" font-weight="900" font-size="46" fill="#ECF8C8">Lime <tspan fill="#B0E248">Time</tspan></text>
-<text x="104" y="84" font-family="Nunito,ui-rounded,system-ui,sans-serif" font-weight="800" font-size="13" letter-spacing="2.5" fill="#9DB58A">LOCAL LIME LEAWOOD · FOH</text>
-</svg>
