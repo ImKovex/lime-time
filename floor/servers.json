@@ -1,0 +1,1114 @@
+{
+  "source": "Local Lime Leawood \u2014 Qualified FOH weekly availability (read-only copy)",
+  "note": "availability null = not on the sheet (unknown). Empty list = off that day. Do not balance or schedule from anything except name, role, and availability.",
+  "servers": [
+    {
+      "name": "Alison Griffin",
+      "role": "S",
+      "availability": {
+        "Mon": [
+          "AM"
+        ],
+        "Tue": [
+          "AM"
+        ],
+        "Wed": [
+          "AM"
+        ],
+        "Thu": [
+          "AM"
+        ],
+        "Fri": [
+          "AM"
+        ],
+        "Sat": [
+          "AM"
+        ],
+        "Sun": []
+      }
+    },
+    {
+      "name": "Austin Lanksbury",
+      "role": "S",
+      "availability": {
+        "Mon": [
+          "AM",
+          "PM"
+        ],
+        "Tue": [
+          "AM",
+          "PM"
+        ],
+        "Wed": [
+          "AM",
+          "PM"
+        ],
+        "Thu": [
+          "AM",
+          "PM"
+        ],
+        "Fri": [
+          "AM",
+          "PM"
+        ],
+        "Sat": [
+          "PM"
+        ],
+        "Sun": [
+          "AM",
+          "PM"
+        ]
+      }
+    },
+    {
+      "name": "Benjamin Landherr",
+      "role": "S",
+      "availability": {
+        "Mon": [
+          "AM",
+          "PM"
+        ],
+        "Tue": [
+          "AM",
+          "PM"
+        ],
+        "Wed": [
+          "AM",
+          "PM"
+        ],
+        "Thu": [
+          "AM",
+          "PM"
+        ],
+        "Fri": [
+          "AM",
+          "PM"
+        ],
+        "Sat": [
+          "AM",
+          "PM"
+        ],
+        "Sun": [
+          "AM",
+          "PM"
+        ]
+      }
+    },
+    {
+      "name": "Britney Lewis",
+      "role": "S",
+      "availability": {
+        "Mon": [
+          "AM",
+          "PM"
+        ],
+        "Tue": [
+          "AM",
+          "PM"
+        ],
+        "Wed": [
+          "AM",
+          "PM"
+        ],
+        "Thu": [
+          "AM",
+          "PM"
+        ],
+        "Fri": [
+          "AM",
+          "PM"
+        ],
+        "Sat": [
+          "AM",
+          "PM"
+        ],
+        "Sun": [
+          "AM",
+          "PM"
+        ]
+      }
+    },
+    {
+      "name": "Candice Cooper",
+      "role": "S",
+      "availability": {
+        "Mon": [
+          "PM"
+        ],
+        "Tue": [],
+        "Wed": [],
+        "Thu": [],
+        "Fri": [
+          "PM"
+        ],
+        "Sat": [
+          "AM",
+          "PM"
+        ],
+        "Sun": [
+          "AM",
+          "PM"
+        ]
+      }
+    },
+    {
+      "name": "Elly Cotter",
+      "role": "S",
+      "availability": {
+        "Mon": null,
+        "Tue": null,
+        "Wed": null,
+        "Thu": null,
+        "Fri": null,
+        "Sat": null,
+        "Sun": null
+      }
+    },
+    {
+      "name": "Genesis Brown",
+      "role": "S",
+      "availability": {
+        "Mon": [
+          "AM",
+          "PM"
+        ],
+        "Tue": [
+          "AM",
+          "PM"
+        ],
+        "Wed": [
+          "AM",
+          "PM"
+        ],
+        "Thu": [
+          "AM",
+          "PM"
+        ],
+        "Fri": [
+          "AM",
+          "PM"
+        ],
+        "Sat": [
+          "AM",
+          "PM"
+        ],
+        "Sun": [
+          "AM",
+          "PM"
+        ]
+      }
+    },
+    {
+      "name": "Grace Ellis",
+      "role": "S",
+      "availability": {
+        "Mon": [],
+        "Tue": [
+          "PM"
+        ],
+        "Wed": [],
+        "Thu": [
+          "AM",
+          "PM"
+        ],
+        "Fri": [
+          "AM",
+          "PM"
+        ],
+        "Sat": [
+          "AM",
+          "PM"
+        ],
+        "Sun": [
+          "AM"
+        ]
+      }
+    },
+    {
+      "name": "Aly Can",
+      "role": "S",
+      "availability": {
+        "Mon": [
+          "AM",
+          "PM"
+        ],
+        "Tue": [
+          "AM",
+          "PM"
+        ],
+        "Wed": [
+          "AM",
+          "PM"
+        ],
+        "Thu": [
+          "AM",
+          "PM"
+        ],
+        "Fri": [
+          "AM",
+          "PM"
+        ],
+        "Sat": [
+          "AM",
+          "PM"
+        ],
+        "Sun": [
+          "AM",
+          "PM"
+        ]
+      }
+    },
+    {
+      "name": "Helen Emerick",
+      "role": "S",
+      "availability": {
+        "Mon": [],
+        "Tue": [],
+        "Wed": [
+          "AM",
+          "PM"
+        ],
+        "Thu": [
+          "AM",
+          "PM"
+        ],
+        "Fri": [
+          "AM",
+          "PM"
+        ],
+        "Sat": [
+          "AM",
+          "PM"
+        ],
+        "Sun": [
+          "AM",
+          "PM"
+        ]
+      }
+    },
+    {
+      "name": "Isabella Sergent",
+      "role": "S",
+      "availability": {
+        "Mon": [
+          "PM"
+        ],
+        "Tue": [
+          "PM"
+        ],
+        "Wed": [
+          "PM"
+        ],
+        "Thu": [],
+        "Fri": [
+          "AM",
+          "PM"
+        ],
+        "Sat": [],
+        "Sun": [
+          "AM",
+          "PM"
+        ]
+      }
+    },
+    {
+      "name": "Johana Olivetto",
+      "role": "S",
+      "availability": {
+        "Mon": [
+          "PM"
+        ],
+        "Tue": [
+          "AM",
+          "PM"
+        ],
+        "Wed": [
+          "AM",
+          "PM"
+        ],
+        "Thu": [
+          "AM",
+          "PM"
+        ],
+        "Fri": [
+          "AM",
+          "PM"
+        ],
+        "Sat": [
+          "AM"
+        ],
+        "Sun": []
+      }
+    },
+    {
+      "name": "Joleena Domingez",
+      "role": "S",
+      "availability": {
+        "Mon": null,
+        "Tue": null,
+        "Wed": null,
+        "Thu": null,
+        "Fri": null,
+        "Sat": null,
+        "Sun": null
+      }
+    },
+    {
+      "name": "Kaden Byram",
+      "role": "S",
+      "availability": {
+        "Mon": [
+          "PM"
+        ],
+        "Tue": [
+          "PM"
+        ],
+        "Wed": [
+          "PM"
+        ],
+        "Thu": [],
+        "Fri": [
+          "AM",
+          "PM"
+        ],
+        "Sat": [
+          "AM"
+        ],
+        "Sun": []
+      }
+    },
+    {
+      "name": "Kelsey Barnum",
+      "role": "S",
+      "availability": {
+        "Mon": null,
+        "Tue": null,
+        "Wed": null,
+        "Thu": null,
+        "Fri": null,
+        "Sat": null,
+        "Sun": null
+      }
+    },
+    {
+      "name": "Kristin Lehman",
+      "role": "S",
+      "availability": {
+        "Mon": [
+          "AM",
+          "PM"
+        ],
+        "Tue": [
+          "AM",
+          "PM"
+        ],
+        "Wed": [
+          "AM",
+          "PM"
+        ],
+        "Thu": [
+          "AM",
+          "PM"
+        ],
+        "Fri": [
+          "AM",
+          "PM"
+        ],
+        "Sat": [
+          "AM",
+          "PM"
+        ],
+        "Sun": [
+          "AM",
+          "PM"
+        ]
+      }
+    },
+    {
+      "name": "Luz Gloria",
+      "role": "S",
+      "availability": {
+        "Mon": [
+          "PM"
+        ],
+        "Tue": [
+          "PM"
+        ],
+        "Wed": [
+          "PM"
+        ],
+        "Thu": [],
+        "Fri": [
+          "PM"
+        ],
+        "Sat": [
+          "PM"
+        ],
+        "Sun": [
+          "PM"
+        ]
+      }
+    },
+    {
+      "name": "Melanie Middleton",
+      "role": "S",
+      "availability": {
+        "Mon": [
+          "PM"
+        ],
+        "Tue": [
+          "AM",
+          "PM"
+        ],
+        "Wed": [
+          "AM"
+        ],
+        "Thu": [
+          "AM",
+          "PM"
+        ],
+        "Fri": [
+          "AM",
+          "PM"
+        ],
+        "Sat": [
+          "AM",
+          "PM"
+        ],
+        "Sun": [
+          "PM"
+        ]
+      }
+    },
+    {
+      "name": "Nadya Ortega",
+      "role": "S",
+      "availability": {
+        "Mon": [
+          "AM",
+          "PM"
+        ],
+        "Tue": [
+          "AM",
+          "PM"
+        ],
+        "Wed": [
+          "AM",
+          "PM"
+        ],
+        "Thu": [
+          "AM",
+          "PM"
+        ],
+        "Fri": [
+          "AM",
+          "PM"
+        ],
+        "Sat": [
+          "AM",
+          "PM"
+        ],
+        "Sun": [
+          "AM",
+          "PM"
+        ]
+      }
+    },
+    {
+      "name": "Natalie Reese",
+      "role": "S",
+      "availability": {
+        "Mon": [
+          "PM"
+        ],
+        "Tue": [
+          "PM"
+        ],
+        "Wed": [
+          "PM"
+        ],
+        "Thu": [],
+        "Fri": [],
+        "Sat": [],
+        "Sun": [
+          "AM"
+        ]
+      }
+    },
+    {
+      "name": "Ricky Luangphithack",
+      "role": "S",
+      "availability": {
+        "Mon": [],
+        "Tue": [
+          "PM"
+        ],
+        "Wed": [
+          "PM"
+        ],
+        "Thu": [],
+        "Fri": [
+          "PM"
+        ],
+        "Sat": [
+          "AM"
+        ],
+        "Sun": []
+      }
+    },
+    {
+      "name": "Sheily Zamorano",
+      "role": "S",
+      "availability": {
+        "Mon": [],
+        "Tue": [
+          "PM"
+        ],
+        "Wed": [
+          "PM"
+        ],
+        "Thu": [
+          "PM"
+        ],
+        "Fri": [
+          "AM",
+          "PM"
+        ],
+        "Sat": [
+          "AM",
+          "PM"
+        ],
+        "Sun": []
+      }
+    },
+    {
+      "name": "Tanesha Flowers",
+      "role": "S",
+      "availability": {
+        "Mon": [
+          "AM",
+          "PM"
+        ],
+        "Tue": [
+          "AM",
+          "PM"
+        ],
+        "Wed": [
+          "PM"
+        ],
+        "Thu": [
+          "AM",
+          "PM"
+        ],
+        "Fri": [
+          "AM",
+          "PM"
+        ],
+        "Sat": [
+          "AM",
+          "PM"
+        ],
+        "Sun": [
+          "AM",
+          "PM"
+        ]
+      }
+    },
+    {
+      "name": "Tiara Ford",
+      "role": "S",
+      "availability": {
+        "Mon": [
+          "AM",
+          "PM"
+        ],
+        "Tue": [
+          "AM",
+          "PM"
+        ],
+        "Wed": [
+          "AM",
+          "PM"
+        ],
+        "Thu": [
+          "AM",
+          "PM"
+        ],
+        "Fri": [
+          "AM",
+          "PM"
+        ],
+        "Sat": [
+          "AM",
+          "PM"
+        ],
+        "Sun": [
+          "PM"
+        ]
+      }
+    },
+    {
+      "name": "Tobi Rex",
+      "role": "S",
+      "availability": {
+        "Mon": [],
+        "Tue": [],
+        "Wed": [
+          "PM"
+        ],
+        "Thu": [
+          "PM"
+        ],
+        "Fri": [
+          "AM",
+          "PM"
+        ],
+        "Sat": [
+          "AM",
+          "PM"
+        ],
+        "Sun": []
+      }
+    },
+    {
+      "name": "Travis Houston",
+      "role": "S",
+      "availability": {
+        "Mon": [
+          "AM",
+          "PM"
+        ],
+        "Tue": [
+          "AM",
+          "PM"
+        ],
+        "Wed": [
+          "AM",
+          "PM"
+        ],
+        "Thu": [
+          "AM",
+          "PM"
+        ],
+        "Fri": [
+          "AM",
+          "PM"
+        ],
+        "Sat": [
+          "AM",
+          "PM"
+        ],
+        "Sun": []
+      }
+    },
+    {
+      "name": "TyJah (Echo) Davis",
+      "role": "S",
+      "availability": {
+        "Mon": null,
+        "Tue": null,
+        "Wed": null,
+        "Thu": null,
+        "Fri": null,
+        "Sat": null,
+        "Sun": null
+      }
+    },
+    {
+      "name": "Tyler Soto",
+      "role": "S",
+      "availability": {
+        "Mon": [
+          "AM",
+          "PM"
+        ],
+        "Tue": [
+          "AM",
+          "PM"
+        ],
+        "Wed": [
+          "AM",
+          "PM"
+        ],
+        "Thu": [
+          "AM",
+          "PM"
+        ],
+        "Fri": [
+          "AM",
+          "PM"
+        ],
+        "Sat": [
+          "AM",
+          "PM"
+        ],
+        "Sun": []
+      }
+    },
+    {
+      "name": "Zoey Schaeffer",
+      "role": "S",
+      "availability": {
+        "Mon": [
+          "PM"
+        ],
+        "Tue": [],
+        "Wed": [],
+        "Thu": [],
+        "Fri": [
+          "PM"
+        ],
+        "Sat": [
+          "PM"
+        ],
+        "Sun": []
+      }
+    },
+    {
+      "name": "Alexander Salisbury",
+      "role": "B-S",
+      "availability": {
+        "Mon": [
+          "AM",
+          "PM"
+        ],
+        "Tue": [
+          "AM",
+          "PM"
+        ],
+        "Wed": [
+          "AM",
+          "PM"
+        ],
+        "Thu": [
+          "AM",
+          "PM"
+        ],
+        "Fri": [
+          "AM",
+          "PM"
+        ],
+        "Sat": [
+          "AM",
+          "PM"
+        ],
+        "Sun": [
+          "AM"
+        ]
+      }
+    },
+    {
+      "name": "Brittany Morris",
+      "role": "B-S",
+      "availability": {
+        "Mon": [
+          "PM"
+        ],
+        "Tue": [
+          "PM"
+        ],
+        "Wed": [
+          "PM"
+        ],
+        "Thu": [
+          "PM"
+        ],
+        "Fri": [
+          "PM"
+        ],
+        "Sat": [
+          "AM",
+          "PM"
+        ],
+        "Sun": [
+          "AM",
+          "PM"
+        ]
+      }
+    },
+    {
+      "name": "Cory Hansen",
+      "role": "B-S",
+      "availability": {
+        "Mon": [
+          "AM",
+          "PM"
+        ],
+        "Tue": [
+          "AM",
+          "PM"
+        ],
+        "Wed": [
+          "AM"
+        ],
+        "Thu": [
+          "AM"
+        ],
+        "Fri": [
+          "AM",
+          "PM"
+        ],
+        "Sat": [
+          "AM",
+          "PM"
+        ],
+        "Sun": [
+          "AM",
+          "PM"
+        ]
+      }
+    },
+    {
+      "name": "Dani Wasson",
+      "role": "B-S",
+      "availability": {
+        "Mon": [
+          "AM",
+          "PM"
+        ],
+        "Tue": [
+          "AM",
+          "PM"
+        ],
+        "Wed": [
+          "AM",
+          "PM"
+        ],
+        "Thu": [
+          "AM",
+          "PM"
+        ],
+        "Fri": [
+          "AM",
+          "PM"
+        ],
+        "Sat": [
+          "AM",
+          "PM"
+        ],
+        "Sun": [
+          "AM",
+          "PM"
+        ]
+      }
+    },
+    {
+      "name": "Douglas Ford",
+      "role": "B-S",
+      "availability": {
+        "Mon": [
+          "AM",
+          "PM"
+        ],
+        "Tue": [
+          "AM",
+          "PM"
+        ],
+        "Wed": [
+          "AM",
+          "PM"
+        ],
+        "Thu": [
+          "AM",
+          "PM"
+        ],
+        "Fri": [
+          "AM",
+          "PM"
+        ],
+        "Sat": [
+          "AM",
+          "PM"
+        ],
+        "Sun": []
+      }
+    },
+    {
+      "name": "Gage Strickler",
+      "role": "B-S",
+      "availability": {
+        "Mon": [
+          "AM",
+          "PM"
+        ],
+        "Tue": [
+          "AM",
+          "PM"
+        ],
+        "Wed": [
+          "AM",
+          "PM"
+        ],
+        "Thu": [
+          "AM",
+          "PM"
+        ],
+        "Fri": [
+          "AM",
+          "PM"
+        ],
+        "Sat": [
+          "AM",
+          "PM"
+        ],
+        "Sun": [
+          "AM",
+          "PM"
+        ]
+      }
+    },
+    {
+      "name": "Grahm Wegner",
+      "role": "B-S",
+      "availability": {
+        "Mon": [
+          "AM",
+          "PM"
+        ],
+        "Tue": [],
+        "Wed": [
+          "AM"
+        ],
+        "Thu": [
+          "AM",
+          "PM"
+        ],
+        "Fri": [],
+        "Sat": [
+          "AM",
+          "PM"
+        ],
+        "Sun": [
+          "AM",
+          "PM"
+        ]
+      }
+    },
+    {
+      "name": "Jamie Randall",
+      "role": "B-S",
+      "availability": {
+        "Mon": [
+          "AM",
+          "PM"
+        ],
+        "Tue": [
+          "AM",
+          "PM"
+        ],
+        "Wed": [
+          "AM",
+          "PM"
+        ],
+        "Thu": [
+          "AM",
+          "PM"
+        ],
+        "Fri": [
+          "AM",
+          "PM"
+        ],
+        "Sat": [
+          "AM",
+          "PM"
+        ],
+        "Sun": []
+      }
+    },
+    {
+      "name": "Kyler Hansen",
+      "role": "B-S",
+      "availability": {
+        "Mon": [
+          "AM",
+          "PM"
+        ],
+        "Tue": [
+          "AM",
+          "PM"
+        ],
+        "Wed": [
+          "AM",
+          "PM"
+        ],
+        "Thu": [
+          "AM",
+          "PM"
+        ],
+        "Fri": [
+          "AM",
+          "PM"
+        ],
+        "Sat": [
+          "AM",
+          "PM"
+        ],
+        "Sun": [
+          "AM",
+          "PM"
+        ]
+      }
+    },
+    {
+      "name": "Sawyer Tomlinson",
+      "role": "B-S",
+      "availability": {
+        "Mon": [
+          "AM"
+        ],
+        "Tue": [
+          "AM",
+          "PM"
+        ],
+        "Wed": [
+          "AM",
+          "PM"
+        ],
+        "Thu": [
+          "AM",
+          "PM"
+        ],
+        "Fri": [
+          "AM",
+          "PM"
+        ],
+        "Sat": [
+          "AM",
+          "PM"
+        ],
+        "Sun": [
+          "AM",
+          "PM"
+        ]
+      }
+    },
+    {
+      "name": "Whitney Shotwell",
+      "role": "B-S",
+      "availability": {
+        "Mon": [],
+        "Tue": [
+          "AM",
+          "PM"
+        ],
+        "Wed": [
+          "AM",
+          "PM"
+        ],
+        "Thu": [
+          "AM",
+          "PM"
+        ],
+        "Fri": [
+          "AM",
+          "PM"
+        ],
+        "Sat": [
+          "AM",
+          "PM"
+        ],
+        "Sun": []
+      }
+    }
+  ]
+}

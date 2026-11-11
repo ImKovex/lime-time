@@ -1,32 +1,152 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="robots" content="noindex,nofollow">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#0E2016">
-<title>Floor chart is offline</title>
-<style>
-  body {
-    margin: 0;
-    min-height: 100vh;
-    display: grid;
-    place-items: center;
-    background: #0E2016;
-    color: #ECF8C8;
-    font: 18px/1.45 Georgia, "Iowan Old Style", "Palatino Linotype", Palatino, serif;
-  }
-  main { max-width: 34rem; padding: 32px 20px; }
-  h1 { font-size: 1.8rem; font-weight: 600; margin: 0 0 12px; }
-  p { margin: 0 0 14px; color: #9DB58A; }
-  a { color: #B0E248; }
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0A1A33">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>LLL Floor Chart</title>
+  <meta name="description" content="Local Lime Leawood manager floor chart. Pick a shift, pick servers, and build connected sections.">
+  <link rel="stylesheet" href="style.css?v=1793897060">
 </head>
 <body>
-<main>
-  <h1>Floor chart is offline</h1>
-  <p>The floor chart is temporarily down for maintenance.</p>
-  <p>The bar book is still available at <a href="../bar/">the same bar page</a>.</p>
-</main>
+  <header class="topbar">
+    <div class="brand">
+      <span class="pip" aria-hidden="true"></span>
+      <div>
+        <p class="brand-kicker">Local Lime · Leawood</p>
+        <p class="brand-title">Floor chart</p>
+      </div>
+    </div>
+    <button type="button" class="text-btn" id="lock-btn" hidden>Lock</button>
+  </header>
+
+  <p class="banner" id="load-error" hidden></p>
+  <p class="status" id="toast" role="status" hidden></p>
+
+  <main id="app">
+    <section class="screen" id="screen-loading">
+      <p class="lede">Loading the roster and the room…</p>
+    </section>
+
+    <section class="screen" id="screen-unlock" hidden>
+      <div class="card narrow">
+        <h1>Managers</h1>
+        <p class="lede">This chart is for the floor lead. It uses its own code, separate from the team quiz.</p>
+        <form id="code-form">
+          <label for="code-input">Manager code</label>
+          <input id="code-input" name="code" type="password" autocomplete="off" autocapitalize="characters" spellcheck="false" inputmode="text" enterkeyhint="go" required>
+          <p class="form-error" id="code-error" hidden></p>
+          <button type="submit" class="btn btn-primary">Unlock</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="screen" id="screen-shift" hidden>
+      <div class="nav-row">
+        <button type="button" class="btn btn-ghost nav-btn" id="shift-back" hidden>Back</button>
+      </div>
+      <div class="card">
+        <h1>Which shift?</h1>
+        <p class="lede">Sections are built only from people on this day and shift. Anyone missing from the sheet can still be added, and they’ll be flagged.</p>
+        <div class="days" id="day-row" role="group" aria-label="Day"></div>
+        <div class="shift-row" role="group" aria-label="Shift">
+          <button type="button" class="shift-btn" id="shift-am" data-shift="AM">AM</button>
+          <button type="button" class="shift-btn" id="shift-pm" data-shift="PM">PM</button>
+        </div>
+        <p class="count-line" id="shift-count"></p>
+        <button type="button" class="btn btn-ghost resume" id="resume-btn" hidden>Resume saved chart</button>
+        <button type="button" class="btn btn-primary" id="continue-btn">Choose servers</button>
+      </div>
+    </section>
+
+    <section class="screen" id="screen-roster" hidden>
+      <div class="nav-row">
+        <button type="button" class="btn btn-ghost nav-btn" id="back-to-shift">Back</button>
+        <button type="button" class="btn btn-ghost nav-btn" id="roster-cancel">Cancel</button>
+      </div>
+      <h1 id="roster-heading">Who’s on?</h1>
+      <div class="card">
+        <label class="search-label" for="roster-filter">Find a name</label>
+        <input id="roster-filter" type="search" placeholder="Search servers" autocomplete="off">
+        <p class="count-line" id="selected-count"></p>
+        <div class="row-actions">
+          <button type="button" class="btn btn-primary" id="auto-pick">Auto-pick 15</button>
+          <button type="button" class="btn btn-ghost" id="clear-picks">Clear</button>
+        </div>
+        <p class="hint">Auto-pick takes servers (S) before bar-servers (B-S). It skips anyone off this shift, then fills from unknown availability if the shift is short.</p>
+        <div id="roster-list"></div>
+      </div>
+      <div class="dock">
+        <button type="button" class="btn btn-primary" id="build-btn">Build sections</button>
+      </div>
+    </section>
+
+    <section class="screen" id="screen-chart" hidden>
+      <div class="nav-row no-print">
+        <button type="button" class="btn btn-ghost nav-btn" id="back-to-roster">Back</button>
+        <button type="button" class="btn btn-ghost nav-btn" id="chart-start-over">Start over</button>
+      </div>
+      <h1 id="chart-heading">Floor</h1>
+      <div class="chart-tools no-print">
+        <label class="check-line">
+          <input type="checkbox" id="include-bar">
+          <span>Include bar seats</span>
+        </label>
+        <button type="button" class="btn btn-undo" id="undo-btn" disabled>Undo</button>
+      </div>
+      <p class="summary" id="chart-summary"></p>
+      <div id="chart-notes"></div>
+
+      <div class="chart-layout">
+        <div class="map-card">
+          <div class="map-scroll" id="map-scroll">
+            <div class="map" id="floor-map">
+              <div class="wash wash-patio"></div>
+              <div class="wash wash-kitchen"></div>
+              <div class="wall"></div>
+              <div class="bar-well"></div>
+              <div class="service-block"></div>
+              <p class="mark mark-patio">Patio</p>
+              <p class="mark mark-kitchen">Kitchen exit</p>
+              <p class="mark mark-bar">Bar</p>
+              <p class="mark mark-host">Host</p>
+              <p class="mark mark-wait">Waiting</p>
+              <div id="table-layer"></div>
+            </div>
+          </div>
+          <p class="hint no-print">Tap a table, then choose who takes it. On a laptop or iPad with a mouse, drag a table onto a section.</p>
+        </div>
+        <div>
+          <h2 class="list-heading">Sections</h2>
+          <div id="section-list"></div>
+        </div>
+      </div>
+
+      <div class="dock no-print">
+        <button type="button" class="btn btn-ghost" id="rerun-btn">Re-run auto</button>
+        <button type="button" class="btn btn-primary" id="print-btn">Print</button>
+        <button type="button" class="btn btn-ghost" id="image-btn">Save image</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot no-print">
+    <p>LLL floor chart · v1.0.0 · sections balance by table count</p>
+  </footer>
+
+  <div class="sheet" id="sheet" hidden>
+    <button type="button" class="sheet-scrim" id="sheet-scrim" aria-label="Close"></button>
+    <div class="sheet-card" role="dialog" aria-modal="true" aria-labelledby="sheet-title">
+      <div class="sheet-head">
+        <h3 id="sheet-title">Move table</h3>
+        <button type="button" class="text-btn" id="sheet-close">Close</button>
+      </div>
+      <div id="sheet-list"></div>
+    </div>
+  </div>
+
+  <script src="app.js?v=1793897060"></script>
 </body>
 </html>
